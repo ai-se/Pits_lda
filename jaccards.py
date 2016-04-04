@@ -33,15 +33,15 @@ def recursion(topics=[], index=0, count1=0):
 data = []
 if __name__ == '__main__':
     l = []
-    with open("./dataset/10_jaccard.txt", 'r') as f:
+    with open("./results/101pitsA_2run", 'r') as f:
         for doc in f.readlines():
             l.append(doc.split())
         # print(len(l))
-        for i in range(len(l)-31,-1,-31):
+        for i in range(len(l)-11,-1,-11):
              l.pop(i)
-    for i in range (0,len(l),30):
+    for i in range (0,len(l),10):
         l1=[]
-        for j in range(30):
+        for j in range(10):
             l1.append(l[i+j])
         data.append(l1)
     labels=[5,6,7,8,9]
@@ -78,4 +78,4 @@ if __name__ == '__main__':
     plt.ylabel("J score")
     plt.xlabel("Labels")
     plt.legend(bbox_to_anchor=(1.05, 1.0), loc=2, borderaxespad=0.)
-    plt.savefig("J_score_10"+".png")
+    plt.savefig("A_2"+".png")
