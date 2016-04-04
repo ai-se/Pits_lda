@@ -2,7 +2,6 @@ __author__ = 'amrit'
 
 import csv
 
-<<<<<<< HEAD
 '''/home/amrit/GITHUB/vcl_logs/pitsA.csv
 /home/amrit/GITHUB/vcl_logs/pitsB.csv
 /home/amrit/GITHUB/vcl_logs/pitsC.csv
