@@ -2,6 +2,7 @@ __author__ = 'amrit'
 
 import csv
 
+<<<<<<< HEAD
 '''/home/amrit/GITHUB/vcl_logs/pitsA.csv
 /home/amrit/GITHUB/vcl_logs/pitsB.csv
 /home/amrit/GITHUB/vcl_logs/pitsC.csv
@@ -29,3 +30,4 @@ for i in files:
             if row['Severity'] == '5':
                 f1.write(row['Subject'] + ' ' + row['Description']+'\n' )
 fo.close()
+
