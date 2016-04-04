@@ -9,8 +9,10 @@ import csv
 /home/amrit/GITHUB/vcl_logs/pitsE.csv
 /home/amrit/GITHUB/vcl_logs/pitsF.csv'''
 
-fo=open('pits','w')
-files=['pitsA.csv','pitsB.csv','pitsC.csv','pitsD.csv','pitsE.csv','pitsF.csv']
+fo=open('pitsF_1.txt','w')
+f1=open('pitsF_2.txt','w')
+
+files=['pitsE.csv']#,'pitsB.csv','pitsC.csv','pitsD.csv','pitsE.csv','pitsF.csv']
 for i in files:
     print(i)
     with open('/home/amrit/GITHUB/vcl_logs/'+i,'rU') as csvfile:
@@ -18,4 +20,12 @@ for i in files:
         for row in reader:
             if row['Severity'] == '2':
                 fo.write(row['Subject'] + ' ' + row['Description']+'\n' )
+            if row['Severity'] == '1':
+                fo.write(row['Subject'] + ' ' + row['Description']+'\n' )
+            if row['Severity'] == '3':
+                f1.write(row['Subject'] + ' ' + row['Description']+'\n' )
+            if row['Severity'] == '4':
+                f1.write(row['Subject'] + ' ' + row['Description']+'\n' )
+            if row['Severity'] == '5':
+                f1.write(row['Subject'] + ' ' + row['Description']+'\n' )
 fo.close()

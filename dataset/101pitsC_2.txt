@@ -1,0 +1,323 @@
+file file valu case case case 
+valu 
+file file case case case case use command command command command 
+file file use use use initi initi 
+second file file within use command 
+file file within within use 
+file file file file possibl maximum maximum channel channel channel channel channel channel channel channel use use 
+detail need plan compon compon compon compon note adac referenc glori test test test test test system section section section icd document document tim 
+projectc projectc design design valu valu valu plan plan point point point follow yaw yaw yaw pitch pitch pitch case note note roll roll roll orbit orbit differ control control accuraci accuraci accuraci accuraci accuraci accuraci valid glori glori glori refer refer test test test spacecraft spec spec section rqt specifi specifi tim 
+projectc projectc design design valu valu valu valu valu valu plan plan contain within point point point follow follow follow follow follow follow yaw yaw yaw yaw yaw yaw yaw yaw yaw yaw pitch pitch pitch pitch pitch pitch pitch pitch pitch pitch case case case note note roll roll roll roll roll roll roll roll roll roll differ asec asec asec asec asec asec asec asec asec asec asec asec asec asec asec accuraci accuraci accuraci accuraci accuraci accuraci accuraci accuraci accuraci accuraci accuraci accuraci list valid referenc referenc glori glori refer refer test test test test test smrd smrd smrd smrd rqt rqt document document document document document 
+second differ differ list glori matrix system spacecraft section rqt rqt traceabl icd document tim tim trace trace trace 
+second differ differ list glori matrix system spacecraft section rqt rqt traceabl icd document command tim tim trace trace trace 
+second differ differ list valid glori matrix system spacecraft section rqt rqt traceabl icd document command command tim tim trace trace trace 
+second follow differ differ list glori matrix system spacecraft section rqt rqt traceabl icd document command tim tim trace trace trace 
+possibl configur control scienc data data matrix softwar section rqt traceabl document tim trace trace trace 
+possibl time matrix matrix mode section rqt rqt traceabl traceabl document document tim tim tim tim trace trace trace 
+possibl comm power matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm time matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm time matrix matrix mode section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+safe list initi provid valid valid matrix spacecraft spacecraft mode mode section section smrd rqt traceabl document command tim tim trace trace trace trace trace 
+safe safe power configur list provid valid valid matrix spacecraft spacecraft mode mode section section smrd rqt traceabl document command command tim trace trace trace trace trace 
+safe safe list provid valid oper matrix spacecraft mode mode section section smrd rqt traceabl document command tim tim trace trace trace trace trace 
+second possibl time scienc matrix matrix instrument spacecraft telemetri section rqt rqt traceabl traceabl document document tim tim trace trace trace 
+possibl time matrix matrix section rqt rqt traceabl traceabl document document tim tim trace trace trace 
+point point use satellit capabl control control provid provid provid oper matrix matrix instrument instrument spacecraft spacecraft mode mode mode section smrd smrd rqt rqt traceabl traceabl document document tim tim tim trace trace trace trace trace 
+point use satellit capabl control control control provid provid provid oper matrix matrix instrument instrument spacecraft mode mode mode section smrd smrd rqt rqt traceabl traceabl document document tim tim tim trace trace trace trace trace 
+compon accuraci list provid valid matrix mechan mechan mechan section section smrd smrd rqt traceabl document tim trace trace trace trace trace 
+orbit launch configur list provid valid test matrix system mechan mechan mechan section section smrd smrd rqt traceabl document tim tim tim tim tim tim trace trace trace trace trace 
+list provid valid matrix mechan mechan mechan section section smrd smrd rqt traceabl document tim tim trace trace trace trace trace 
+includ list provid valid matrix system mechan mechan mechan section section smrd smrd rqt traceabl document tim tim trace trace trace trace trace 
+list provid valid matrix section section smrd smrd rqt traceabl document tim tim tim tim trace trace trace trace trace 
+list referenc glori refer refer test matrix system mechan mechan mechan spacecraft section section rqt traceabl icd icd document tim tim tim trace 
+possibl matrix mechan mechan section rqt traceabl document tim tim trace trace 
+possibl matrix matrix mechan mechan section rqt rqt traceabl traceabl document document tim tim trace trace 
+detail possibl note includ provid valid matrix telemetri telemetri section rqt traceabl document tim trace trace trace 
+possibl within scienc matrix matrix instrument spacecraft telemetri section rqt rqt traceabl traceabl document document tim tim trace trace trace 
+possibl comm matrix matrix telemetri telemetri section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm packet matrix matrix telemetri section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl valu comm packet matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm maximum packet packet matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+possibl comm use packet matrix matrix section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+second possibl comm time matrix matrix spacecraft section rqt rqt traceabl traceabl icd document document tim tim trace trace trace 
+need valu commun use packet packet packet glori refer data matrix instrument instrument instrument spacecraft section section rqt traceabl icd document specifi tim 
+launch list provid valid electr electr electr matrix section section rqt traceabl icd document tim trace trace trace trace trace 
+list provid valid electr electr electr matrix section section rqt traceabl icd document tim tim trace trace trace trace trace 
+need valu compon case interfac differ differ ground glori matrix system mechan mechan mechan spacecraft section section rqt traceabl icd icd icd icd icd document document document tim tim tim tim tim tim trace trace trace 
+need valu compon compon maximum case interfac gener gener channel channel differ differ ground verif packet glori glori electr matrix system system instrument instrument mechan mechan mechan spacecraft spacecraft section section section rqt traceabl icd icd icd icd icd icd document document document specifi command command command tim tim tim tim tim tim tim tim trace trace trace trace trace 
+compon list electr electr electr matrix section section section rqt traceabl icd document tim trace trace trace 
+detail need note includ list valid glori refer data data data matrix system spacecraft section rqt traceabl icd icd icd icd document document document command tim tim tim trace trace trace trace 
+detail need note includ list valid glori refer data matrix system spacecraft section rqt traceabl icd icd icd icd document document document command tim tim tim trace trace trace trace 
+detail need safe note configur configur includ valid glori refer oper oper matrix section rqt traceabl icd document document document document tim tim tim trace trace trace 
+detail need safe note configur includ valid glori glori refer oper matrix instrument section rqt traceabl icd document document document document tim trace trace trace 
+second detail need commun within note time includ packet valid glori glori matrix system instrument instrument spacecraft spacecraft telemetri telemetri telemetri telemetri section rqt traceabl icd icd document tim tim trace trace trace 
+detail need safe commun comm subsystem note power configur configur includ valid glori refer oper matrix instrument spacecraft telemetri telemetri telemetri section rqt traceabl icd icd document tim tim trace trace trace 
+detail need commun comm note includ packet packet packet packet valid glori glori refer data data data matrix system instrument spacecraft spacecraft telemetri section rqt traceabl icd icd icd document tim tim trace trace trace 
+detail need commun comm subsystem subsystem subsystem note includ valid glori glori refer data matrix system instrument spacecraft spacecraft section rqt traceabl icd icd icd document tim tim trace trace trace 
+detail need commun comm note time includ valid glori glori refer matrix system instrument spacecraft spacecraft telemetri telemetri telemetri section rqt traceabl icd icd icd document tim tim trace trace trace 
+detail need commun comm note includ rate packet valid glori refer matrix instrument spacecraft telemetri telemetri telemetri rqt traceabl icd icd document tim trace trace trace 
+detail need commun comm note includ packet packet packet valid glori refer matrix instrument spacecraft telemetri telemetri telemetri telemetri section rqt traceabl icd icd document tim trace trace trace 
+second detail need commun collect comm maximum note includ rate rate rate packet valid glori refer matrix instrument spacecraft spacecraft telemetri section rqt traceabl icd icd document tim trace trace trace 
+second second detail need comm note gener includ rate rate rate packet packet packet packet packet matrix telemetri telemetri section rqt traceabl icd document document command tim trace trace trace trace 
+detail need comm note includ rate rate rate packet packet matrix section rqt traceabl icd document specifi command command tim trace trace trace 
+commun comm note power orbit configur provid valid glori glori oper matrix system instrument instrument spacecraft spacecraft section rqt traceabl icd icd icd document tim tim tim trace trace trace 
+safe commun comm note configur configur provid valid glori glori oper matrix system instrument spacecraft spacecraft section rqt traceabl icd icd icd document tim tim tim trace trace 
+need commun provid valid glori glori matrix system instrument spacecraft spacecraft section section rqt traceabl icd icd document document tim tim tim trace trace trace trace 
+possibl list matrix section section rqt traceabl document tim trace trace trace 
+need capabl capabl rate control control control matrix matrix matrix instrument section section section smrd rqt rqt rqt traceabl traceabl traceabl document document specifi tim tim tim tim trace trace trace trace 
+need commun valid matrix matrix section section smrd smrd rqt rqt traceabl traceabl document document document tim tim trace trace trace 
+safe maximum case power power power power power orbit orbit glori glori electr electr oper matrix matrix system system system system spacecraft spacecraft spacecraft mode section rqt rqt traceabl traceabl icd icd icd document document tim tim tim tim tim tim tim trace trace trace 
+within power power use use control glori glori electr electr matrix matrix system system system instrument instrument spacecraft spacecraft section rqt rqt traceabl traceabl icd icd icd document document tim tim tim tim tim tim trace trace trace 
+design power power use control control glori glori electr electr electr matrix matrix system system system instrument spacecraft spacecraft section rqt rqt traceabl traceabl icd icd icd document document tim tim tim tim tim trace trace trace 
+design power glori glori electr electr matrix matrix system system system system spacecraft spacecraft section rqt rqt traceabl traceabl icd icd icd document document tim tim tim tim tim tim trace trace trace 
+interfac interfac orbit orbit use use provid provid glori glori electr electr electr electr matrix matrix system system system spacecraft spacecraft spacecraft spacecraft section section section rqt rqt traceabl traceabl icd icd icd icd document document document tim tim tim tim tim tim tim tim trace trace trace 
+compon includ capabl rate glori glori matrix matrix system system system mechan mechan spacecraft spacecraft section section rqt rqt traceabl traceabl icd icd icd icd document document document tim tim tim tim tim tim tim trace trace trace 
+electr electr electr electr matrix matrix matrix matrix section section section section rqt rqt rqt rqt traceabl traceabl traceabl traceabl icd icd document tim tim tim tim tim tim trace 
+electr electr electr matrix matrix matrix section section section rqt rqt rqt traceabl traceabl traceabl icd icd document tim tim tim tim tim trace 
+commun orbit satellit glori matrix matrix section section smrd smrd smrd rqt rqt traceabl traceabl document document tim tim trace trace 
+electr electr matrix matrix section section rqt rqt traceabl traceabl icd icd document document tim tim tim tim trace trace 
+refer matrix matrix system system system instrument instrument mechan mechan mechan spacecraft section section section section rqt rqt traceabl traceabl icd document document tim tim tim tim tim trace 
+refer matrix matrix system system system mechan mechan mechan spacecraft section section section section rqt rqt traceabl traceabl icd document document tim tim tim tim tim trace 
+compon compon point point refer matrix matrix system mechan mechan mechan spacecraft section section section section rqt rqt traceabl traceabl icd document document tim tim tim tim tim tim tim trace 
+comm comm follow list matrix matrix section section section rqt rqt traceabl traceabl icd icd document document tim tim trace trace 
+contain follow note note control list matrix matrix mechan mechan section section section section section section section rqt traceabl traceabl document document document tim tim trace trace 
+second follow interfac control glori matrix matrix system spacecraft section section rqt traceabl traceabl icd document document tim tim tim trace trace 
+projectc projectc projectc projectc projectc projectc projectc projectc design design design design safehold contain contain within within within follow follow note note note adac includ satellit list list referenc referenc glori glori refer refer pip spacecraft mode mode mode mode mode mode mode mode mode mode section section section section section section section document document document document document document document document document document document document document document document document specifi specifi specifi 
+plan plan within case case time time provid glori glori pip test test test test test system softwar spacecraft document tim 
+plan plan plan point point includ includ list list glori glori pip pip test test test softwar softwar telemetri telemetri document document document document specifi 
+plan plan case case capabl provid glori glori pip test test test test softwar telemetri document document command 
+plan plan case case use initi glori glori pip test test test test softwar document document 
+adac ground softwar specifi specifi command command command 
+compon compon subsystem subsystem use use packet valid valid valid valid softwar specifi 
+use use packet packet valid valid valid valid specifi 
+includ list valid valid valid valid command 
+gener gener includ includ capabl refer refer 
+contain power gener refer command command command command 
+safehold gener gener includ includ ground ground ground refer refer mode command command command 
+contain compon capabl ground refer refer softwar softwar softwar icd parent parent document document document document document command 
+card downlink soh time configur includ list list list refer 
+detail contain channel list list ground telemetri telemetri telemetri specifi 
+design valu maximum maximum maximum specifi 
+need gener includ valid command 
+ground softwar specifi specifi command command 
+contain capabl capabl provid valid softwar 
+subsystem adac initi ground softwar specifi specifi 
+ground ground specifi specifi command command command command 
+ground ground specifi specifi command command command command 
+commun ground softwar specifi command command command command 
+band configur rate initi ground data softwar specifi specifi command command command command 
+band configur rate initi ground data softwar specifi specifi command command command command 
+rout card downlink band interfac channel configur scienc initi ground data softwar instrument specifi specifi command command command command tim 
+rout card downlink band interfac channel configur scienc initi ground data softwar instrument specifi specifi command command command command 
+rout card store downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command tim 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+band configur rate initi ground data softwar specifi specifi command command command command 
+rout card downlink band interfac channel configur scienc initi ground data softwar instrument specifi specifi command command command command tim 
+rout card downlink band interfac channel configur scienc initi ground data softwar instrument specifi specifi command command command command 
+rout card store downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command tim 
+rout card downlink soh band interfac channel configur initi ground data softwar telemetri specifi specifi command command command command 
+band configur rate initi ground data softwar specifi specifi command command command command 
+store initi ground softwar specifi specifi command command command command 
+initi ground softwar specifi specifi command command command command command command 
+initi ground softwar specifi specifi command command command command command command 
+initi ground softwar specifi specifi command command command command command command 
+initi ground softwar specifi specifi command command command command 
+time initi ground softwar softwar specifi specifi command command command command 
+detail store gener initi ground softwar telemetri specifi specifi specifi command command command command 
+detail collect initi ground softwar telemetri specifi specifi command command command command 
+store gener initi ground softwar telemetri specifi specifi specifi command command command command 
+collect initi ground softwar telemetri specifi specifi command command command command 
+collect compon initi ground softwar telemetri specifi specifi command command command command 
+collect subsystem initi ground softwar telemetri specifi specifi command command command command 
+capabl initi ground softwar softwar specifi specifi command command command command 
+capabl initi ground softwar specifi specifi command command command command 
+commun initi ground softwar specifi specifi command command command command 
+commun initi ground softwar specifi specifi command command command command 
+contain follow list glori refer refer refer oper oper oper mode mode mode document specifi 
+within follow adac adac adac list referenc refer refer oper oper mode mode mode document specifi 
+time adac capabl ground softwar spacecraft specifi specifi command command command 
+store adac gener ground softwar telemetri specifi specifi specifi command command command 
+detail store adac gener ground softwar telemetri specifi specifi specifi command command command 
+rout adac ground data softwar telemetri specifi specifi command command command 
+collect adac ground softwar telemetri specifi specifi command command command 
+detail collect adac ground softwar telemetri specifi specifi command command command 
+collect subsystem adac ground softwar telemetri specifi specifi command command command 
+collect compon adac ground softwar telemetri specifi specifi command command command 
+adac capabl ground softwar softwar specifi specifi command command command 
+adac capabl ground softwar specifi specifi command command command 
+safehold adac gener gener includ includ ground ground ground refer refer mode command command command 
+collect collect collect soh soh soh soh adac adac adac adac adac rate rate rate provid spacecraft telemetri telemetri telemetri telemetri specifi specifi 
+contain compon adac capabl ground refer refer softwar softwar softwar icd parent parent document document document document document command 
+safehold gener ground ground ground refer pip mode specifi command command command 
+collect maximum maximum maximum gener gener gener rate rate rate provid packet pip instrument instrument instrument telemetri telemetri specifi specifi command 
+collect maximum maximum maximum gener gener gener rate rate rate provid packet pip instrument instrument instrument instrument telemetri telemetri specifi specifi command 
+point gener includ pip telemetri specifi specifi specifi 
+design valu maximum maximum maximum pip specifi 
+gener gener includ valid pip command 
+differ differ differ list list pip system section traceabl document document document command tim 
+commun commun differ differ differ use list list glori refer pip data system instrument spacecraft section traceabl icd document document document tim 
+ground packet pip telemetri icd parent parent 
+pip telemetri parent parent 
+store capabl pip data system instrument parent parent tim 
+ground pip softwar spacecraft telemetri specifi specifi command command command 
+ground packet pip data system softwar specifi specifi command command command tim 
+ground pip data softwar specifi specifi command command command 
+ground pip data softwar instrument specifi specifi command command command 
+control ground pip softwar spacecraft telemetri specifi specifi command command command 
+control ground packet pip data system softwar specifi specifi command command command tim 
+control ground pip data softwar specifi specifi command command command 
+control ground pip data softwar instrument specifi specifi command command command 
+configur capabl ground provid pip softwar specifi specifi specifi command command command 
+control ground pip softwar spacecraft telemetri specifi specifi command command command 
+control ground packet pip data system softwar specifi specifi command command command tim 
+control ground pip data softwar specifi specifi command command command 
+control ground pip data softwar instrument specifi specifi command command command 
+store ground packet pip system softwar specifi specifi command command command tim 
+store ground pip softwar specifi specifi command command command tim 
+safe ground pip system softwar mode specifi specifi command command command command tim 
+store scienc ground packet pip softwar instrument telemetri specifi specifi command command command 
+store ground pip softwar instrument specifi specifi command command command 
+store ground pip softwar specifi specifi command command command 
+store ground pip softwar telemetri specifi specifi command command command 
+ground pip softwar specifi specifi command command command 
+time time ground pip softwar softwar spacecraft specifi specifi command command command 
+rout compon subsystem ground pip softwar softwar softwar specifi specifi command command command 
+detail store ground pip softwar telemetri specifi specifi specifi command command command 
+store gener ground pip softwar telemetri specifi specifi specifi command command command 
+collect compon ground pip softwar telemetri specifi specifi command command command 
+collect subsystem ground pip softwar telemetri specifi specifi command command command 
+capabl ground pip softwar softwar specifi specifi command command command 
+capabl ground pip softwar specifi specifi command command command 
+second second second contain time time time control control control pip softwar softwar softwar 
+contain pip 
+within follow list referenc refer refer oper oper pip pip pip mode mode mode document specifi 
+second second possibl safe safe subsystem power power initi artifact referenc glori oper softwar spacecraft mode mode mode spec spec icd command tim tim tim 
+satellit artifact referenc glori glori glori softwar mode mode spec spec section document document trace 
+use use use use artifact referenc glori pip pip data softwar spec spec 
+safe orbit artifact referenc glori glori oper pip pip pip pip softwar mode spec spec document trace trace trace 
+contain contain rate artifact referenc glori pip pip softwar spec spec 
+satellit initi artifact verif referenc glori oper oper matrix spec spec smrd smrd child child parent 
+commun band artifact ground verif referenc glori matrix system spec spec smrd smrd child child parent 
+within orbit launch configur capabl artifact ground verif referenc glori oper oper matrix system system spec spec smrd smrd child child parent 
+store store scienc scienc artifact ground verif referenc glori oper data data data matrix telemetri spec spec smrd smrd child child parent 
+rate scienc scienc artifact ground verif provid packet referenc glori data data matrix system spec spec smrd smrd child child parent 
+within downlink scienc artifact ground verif referenc glori data data matrix system spacecraft spec spec smrd smrd child child parent 
+file collect scienc scienc artifact ground verif packet referenc glori oper data data matrix system spec spec smrd smrd child child parent 
+subsystem time includ scienc artifact ground verif referenc glori oper oper data data matrix system spec spec smrd smrd child child parent 
+subsystem time includ scienc artifact ground verif referenc glori oper oper data data matrix system spec spec smrd smrd child child parent tim tim tim tim 
+commun time artifact ground ground verif provid referenc glori matrix system spec spec smrd smrd child child parent 
+scienc scienc artifact ground verif referenc glori oper data data matrix system spacecraft telemetri spec spec smrd smrd child child parent tim 
+scienc scienc artifact ground verif referenc glori oper data data matrix system spacecraft telemetri spec spec smrd smrd child child parent 
+capabl scienc artifact ground verif referenc glori data matrix system spacecraft spec spec smrd smrd child child parent 
+point time orbit satellit artifact ground ground verif referenc glori matrix spec spec smrd smrd child child parent 
+commun satellit artifact ground ground verif referenc glori matrix system spec spec smrd smrd child child parent 
+safe commun downlink scienc artifact ground verif provid referenc glori glori oper data matrix system instrument spacecraft spacecraft spec spec smrd smrd child child parent 
+interfac artifact ground ground verif referenc glori glori matrix spec spec smrd smrd child child icd parent specifi 
+within orbit orbit scienc artifact ground verif referenc glori data matrix spec spec smrd smrd child child parent tim 
+plan within launch artifact verif referenc glori matrix instrument spacecraft spec spec smrd smrd child child parent 
+use capabl artifact verif provid referenc glori glori matrix telemetri spec spec smrd smrd child child parent command 
+satellit artifact verif referenc glori matrix spec spec smrd smrd child child parent 
+time orbit includ capabl artifact verif referenc glori data data matrix spec spec smrd smrd child child parent 
+store artifact ground verif referenc glori data matrix system spec spec smrd smrd child child parent 
+store artifact verif referenc glori data matrix spacecraft spec spec smrd smrd child child parent 
+plan orbit scienc artifact verif referenc glori oper matrix spacecraft spec spec smrd smrd child child parent tim 
+control scienc artifact verif referenc glori oper oper matrix instrument instrument spec spec smrd smrd child child parent command tim tim 
+time artifact verif referenc glori oper matrix telemetri mode spec spec smrd smrd child child parent command 
+contain point artifact verif provid referenc glori data matrix instrument instrument instrument spacecraft spacecraft spacecraft telemetri spec spec smrd smrd child child icd icd icd parent tim 
+satellit artifact verif referenc glori matrix instrument spacecraft telemetri spec spec smrd smrd child child parent 
+capabl control artifact verif referenc glori matrix spec spec smrd child child parent 
+artifact ground verif referenc glori data matrix spec spec smrd smrd child child parent 
+design collect scienc artifact ground verif referenc glori glori data matrix spacecraft telemetri spec spec smrd smrd child child parent command 
+plan subsystem follow time orbit artifact verif referenc glori glori oper oper data matrix instrument spacecraft telemetri spec spec smrd smrd child child parent command command 
+safe satellit artifact verif referenc glori matrix mode spec spec smrd smrd child child parent 
+artifact verif referenc glori matrix spec spec smrd smrd child child parent 
+design scienc artifact verif referenc glori glori matrix instrument spec spec smrd smrd child child parent 
+point maximum time roll roll roll differ satellit capabl capabl glori spacecraft 
+design design subsystem note launch launch launch launch launch launch launch launch launch differ satellit satellit capabl scienc artifact referenc glori glori refer oper spacecraft spec smrd smrd document document document 
+contain differ differ scienc artifact referenc glori spec spec section smrd document 
+orbit differ satellit scienc artifact referenc glori glori spec smrd document 
+subsystem subsystem differ differ includ scienc artifact referenc glori glori matrix mechan smrd traceabl document tim tim tim 
+follow artifact verif referenc glori matrix spacecraft spec spec 
+follow artifact verif referenc glori matrix spacecraft spec spec 
+collect orbit orbit scienc scienc artifact referenc glori data data spec spec smrd child child parent document tim 
+collect scienc scienc artifact referenc glori oper data spacecraft mode spec spec smrd child child parent document tim 
+safe scienc initi artifact ground referenc glori spacecraft spacecraft mode spec spec smrd child child parent document command command tim tim 
+collect orbit capabl scienc artifact referenc glori oper oper data instrument spec spec smrd child child parent document tim tim 
+within note artifact referenc glori glori matrix matrix matrix mechan mechan section section section section traceabl traceabl traceabl document document document tim tim 
+scienc artifact referenc glori spec spec smrd child child parent document tim 
+power control spacecraft spec smrd smrd parent parent 
+follow orbit orbit artifact verif referenc glori matrix spacecraft spec spec smrd smrd parent parent 
+roll orbit artifact verif referenc glori oper matrix spacecraft spec spec smrd smrd parent parent 
+capabl artifact verif referenc glori data matrix spacecraft spec spec smrd parent command 
+collect artifact verif provid referenc glori matrix spacecraft telemetri spec spec smrd smrd parent parent command 
+contain contain control artifact verif referenc glori matrix spacecraft spec spec smrd smrd parent parent 
+contain contain control artifact verif referenc glori matrix spacecraft spec spec smrd smrd parent parent 
+time artifact verif referenc glori matrix spacecraft telemetri spec spec smrd smrd parent parent 
+control artifact verif provid referenc glori matrix spacecraft spec spec smrd smrd parent parent 
+control artifact verif referenc glori matrix spacecraft spec spec smrd smrd parent parent 
+orbit use rate artifact verif referenc glori matrix spacecraft mode spec spec smrd parent 
+second artifact verif referenc glori matrix spacecraft spec spec smrd smrd parent parent command 
+safehold artifact verif referenc glori matrix spacecraft spec spec smrd smrd parent parent 
+safe safehold satellit artifact verif referenc glori matrix spacecraft mode mode spec spec smrd smrd smrd parent parent command command 
+safehold subsystem mode spec spec smrd smrd parent parent command 
+safehold mode spec spec smrd smrd parent parent command 
+safehold mode spec spec smrd smrd parent parent command 
+safehold subsystem configur spec spec smrd smrd parent parent command 
+safehold spec spec smrd smrd parent parent 
+safehold spec spec smrd smrd parent parent 
+safehold within satellit spacecraft mode spec spec smrd smrd parent parent 
+safehold satellit ground mode spec spec smrd smrd parent parent command 
+safehold orbit satellit list mode mode spec spec smrd smrd parent parent 
+safehold within satellit capabl spacecraft mode spec spec smrd smrd parent parent command 
+safehold satellit list oper mode mode spec spec smrd smrd parent parent 
+safehold contain satellit spec spec smrd smrd parent parent command command 
+safehold satellit mode spec spec smrd smrd parent parent 
+safehold satellit mode spec spec smrd smrd parent parent 
+safehold satellit mode spec spec smrd smrd parent parent 
+safehold satellit control oper mode spec spec smrd smrd parent parent 
+safehold adac satellit mode spec spec smrd smrd parent parent 
+safehold adac orbit satellit mode spec spec smrd smrd parent parent 
+spec spec smrd smrd parent parent 
+soh interfac launch instrument telemetri telemetri spec spec smrd smrd parent parent 
+soh power launch instrument instrument telemetri spec spec smrd smrd parent parent command 
+card soh power adac adac launch spec spec smrd smrd parent parent 
+interfac time power launch launch launch launch satellit satellit provid oper data system spacecraft telemetri mode mode spec spec smrd smrd parent parent 
+mode spec spec smrd smrd parent parent 
+power satellit mode spec smrd smrd parent parent 
+power launch use provid spec spec smrd parent 
+safe power satellit satellit capabl control provid spec spec smrd smrd parent parent 
+power power power satellit satellit provid spec spec smrd smrd parent parent 
+adac provid pip test spacecraft spec spec smrd smrd parent parent 
+test test spacecraft spec spec smrd smrd parent parent 
+orbit satellit mode spec spec smrd smrd parent parent command 
+satellit ground oper mode spec spec smrd smrd parent parent command 
+capabl provid oper spec spec smrd smrd parent parent 
+launch satellit initi mode mode spec spec smrd smrd parent parent 
+safe follow orbit launch satellit capabl ground glori oper mode spec spec smrd smrd parent parent 
+orbit launch capabl provid spec spec smrd smrd parent parent 
+point smrd smrd parent parent 
+within store point capabl ground spec spec smrd smrd parent parent command 
+store point capabl ground spec spec smrd smrd parent parent command 
+design subsystem spec spec smrd smrd parent parent 
+subsystem band roll orbit includ spec spec smrd smrd parent 
+store soh band time scienc data spec spec smrd smrd parent parent 
+downlink downlink band band glori spec spec smrd smrd parent parent 
+store soh soh band time spec spec smrd smrd parent parent 
+downlink subsystem band band rate oper oper telemetri spec spec smrd smrd parent parent command 
+card interfac interfac launch satellit provid spec spec smrd smrd parent parent command 
+system spec section smrd smrd trace 
+within ground glori telemetri spec smrd smrd icd command trace 
+follow spec smrd smrd child parent trace 
+projectc safe launch capabl ground ground provid provid glori glori spec spec smrd command command 

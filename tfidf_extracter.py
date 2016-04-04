@@ -2,6 +2,7 @@ __author__ = 'amrit'
 
 import numpy as np
 from collections import Counter
+import os
 
 def tf(corpus):
     mat = [token_freqs(doc) for doc in corpus]
@@ -32,9 +33,9 @@ def tf_idf(mat):
         tfidf[key] = (float(word[key]) / words) * np.log(docs / doc[key])
     return tfidf
 
-def make_feature(corpus, method="tfidf", n_features=1000):
+def make_feature(corpus, method="tfidf", n_features=1000, file=''):
     mat = tf(corpus)
-    f1=open("nasa5.txt",'w')
+    f1=open(file,'w')
     if method == "tfidf":
         tfidf = tf_idf(mat)
         ## TOP 10%
@@ -62,5 +63,14 @@ def readfile(filename=''):
     return corpus
 
 if __name__ == '__main__':
-    data=readfile('/media/amrit/New Volume/wikipedia/pre_dataset_5.txt')
-    make_feature(data, method="tfidf")
+    path = '/home/amrit/GITHUB/Pits_lda/dataset/'
+    for root, dirs, files in os.walk(path, topdown=False):
+        for name in files:
+            a = os.path.join(root, name)
+            ##manual change needed
+            reg = a.split('/')[6]
+            print a
+            if (reg):
+                x=path + "10"+reg
+                data=readfile(a)
+                make_feature(data, method="tfidf",file=x)

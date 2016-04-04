@@ -1,0 +1,963 @@
+switch switch switch spacecraft loop loop implement implement see see see limit limit second fdc main main cpu spec read incorrect enabl enabl specifi specifi specifi sourc task task task check check check comment comment tabl tabl tabl time time shall shall shall pse pse pse pse pse pse pse pse pse pse pse pse fsw fsw fsw fsw fsw fsw fsw defin defin function code code code 
+receiv output spacecraft regard definit ccsd exist channel channel channel channel channel channel channel channel channel channel channel channel channel channel channel channel channel part discrep discrep record record record record record record record record record record record flight flight global design design design cdh type spec sourc inform inform number number number number telemetri set set softwar softwar size tabl tabl time time time shall shall section section data valu valu fsw defin code code code file file file file 
+perform doc doc doc increment warm warm warm warm warm warm warm tim tim tim follow build load restart restart restart restart restart projectb gce error set set set counter section pse document file file file scenario scenario scenario scenario scenario scenario ace 
+doc doc doc cold count count count count miss warm warm warm warm warm tim tim tim one caus restart restart restart restart restart restart projectb set set set set set set counter need need section document file file file scenario scenario scenario scenario scenario scenario verifi verifi command step step 
+doc doc doc true warm warm warm warm tim tim tim flag howev restart projectb reset reset reset telemetri telemetri sbc sbc sbc set set set counter counter counter section use use valu document file file file scenario scenario scenario scenario scenario scenario 
+get doc sub zero send warm warm warm warm warm warm tim tim start mode main enabl initi restart restart restart restart projectb projectb reset execut task set set set counter counter counter counter need section document file scenario scenario scenario scenario verifi verifi command command 
+puls puls doc attitud sub accept cannot send part safehold safehold tim second note mode mode mode ground ground spec case issu current system thruster thruster thruster thruster thruster thruster process address comment set set control control control control shall fsw fsw scenario scenario ace ace ace ace ace ace ace ace command command command command 
+puls get doc sub make match part safehold safehold safehold event case issu system thruster projectb statement comment set control control control control control state file scenario scenario scenario scenario ace ace ace ace ace ace ace ace ace ace 
+doc doc attitud attitud attitud occur occur occur sun sun see dss sinc tim tim tim fdc fdc fdc fdc mode condit two follow issu end verif projectb projectb statement statement statement reset reset reset reset reset appear error error error check sbc set set valu valu file file file file scenario scenario scenario scenario scenario verifi 
+doc doc spacecraft sun sun see dss dss dss dss safehold css css mode mode mode ensur initi initi system projectb projectb interfac interfac comment page set set set control control control control control data data data data data use fsw file file scenario scenario scenario scenario scenario ace ace ace ace ace ace 
+written cold cold miss found caus caus specif restart restart scenario scenario scenario 
+written exist miss found specif projectb projectb scenario scenario scenario 
+perform doc doc doc written appropri date revis power safehold safehold tim tim tim hga hga mode mode mode mode ensur ensur main spec spec enabl system projectb projectb gce gce execut set set set time fsw fsw fsw file file file file scenario scenario scenario scenario scenario scenario command command 
+doc doc doc delta delta delta delta warm warm tim tim tim second second second second second second mode mode chang chang follow valid thruster thruster thruster verif restart restart projectb projectb indic set set set set set use use state file file file file scenario scenario scenario scenario scenario scenario verifi verifi verifi command command command step 
+doc doc written see note note fdc fdc fdc may one one follow thruster thruster thruster thruster projectb statement plan fail fail set set set need time file file scenario scenario scenario scenario scenario scenario scenario scenario scenario 
+explicitli puls puls puls puls doc doc attitud attitud make result result delta delta addit could could could flight note instanc possibl possibl mode event event ensur ensur case thruster thruster thruster thruster thruster thruster thruster thruster thruster thruster thruster thruster projectb statement statement appear set set softwar control control control time use use use use fsw file file scenario scenario scenario scenario scenario scenario scenario ace ace ace 
+doc doc doc accept delta delta power power power sinc sinc tim tim note one chang case correct follow incorrect enabl projectb projectb statement statement statement fail indic indic set set set cmd section use use document file file file scenario scenario scenario scenario scenario scenario scenario verifi ace command 
+doc doc doc see result would could channel channel channel channel sinc tim tim tim fdc fdc mode mode caus axi axi axi axi two disabl disabl follow index index inform inform iru iru iru iru iru iru iru iru projectb projectb statement statement statement appear rate rate rate rate rate set set set set set use use use use file file file file scenario scenario scenario scenario scenario scenario verifi verifi ace ace command 
+puls doc doc part part part safehold safehold safehold safehold mode mode mode complet also system thruster projectb set set file file scenario scenario scenario scenario ace ace ace 
+num num num actual regard could discrep purpos possibl mode type cpu cpu cpu cpu cpu cpu specif log exampl updat array array array array projectb number comment comment indic telemetri sbc counter counter counter counter counter counter counter declar size size size use use valu valu valu line line line sdn fsw fsw defin defin defin defin code code file 
+int get addit cpu cpu exampl initi system statu statu statu statu statu statu statu statu inst fail task task uint uint uint uint uint uint uint uint uint uint uint uint uint uint uint declar cmd cmd cmd cmd cmd cmd cmd cmd cmd cmd cmd cmd cmd cmd time time time time time time time time data data use valu valu line line line fsw fsw fsw function code code file file variabl variabl 
+get switch routin routin actual implement miss copi call call call call call call possibl possibl possibl event messag main main main main cpu exampl updat updat howev process process process inst error task task task task task task time time line list fsw fsw fsw function function function function function state code code code code file file command command 
+refer inst void return fsw fsw code file 
+occur open open except would qcp qcp qcp could could could could null string copi charact charact possibl possibl ground caus overflow overflow overflow overflow log log exampl issu buffer buffer buffer index array system config config config config config config sprintf sprintf sprintf sprintf size size shmptr shmptr shmptr shmptr line line code file file 
+qcp qcp could could string copi possibl possibl condit ground caus overflow overflow exampl buffer buffer index array system config config sprintf sprintf size size shmptr shmptr shmptr shmptr line code 
+argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv argv occur occur occur occur occur occur actual actual actual result exist addit addit addit addit addit addit except except except except except except except would would would qcp qcp qcp qcp qcp memori length length length length length length length length could could could could could could could could could could null null string string copi copi copi copi copi call tlm second instanc instanc instanc instanc instanc instanc instanc charact charact charact charact charact charact charact charact charact charact charact charact charact charact charact possibl possibl possibl refer refer refer condit contain ground may may may may may may may event main main main main one caus caus caus caus caus caus caus caus caus caus caus caus caus caus caus overflow overflow overflow paramet exampl exampl exampl issu issu issu issu issu buffer buffer buffer index index index index index index index index index index index index index index index index index index array array array array array array array array array array also end system system system system howev sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf statement statement error error error error error error number number number check check check check check declar declar size size size size size size size size cmd cmd cmd cmd cmd cmd cmd section section section use use use use use use shmptr shmptr shmptr shmptr valu valu valu valu valu valu valu valu valu valu valu line line line line line line line line line line line line line line line line line function function function function function code code code code code code file 
+occur qcp qcp could null null string string string copi copi instanc instanc instanc charact charact charact charact possibl possibl ground caus caus caus two overflow overflow overflow overflow overflow exampl exampl buffer buffer buffer buffer system sprintf sprintf sprintf sprintf size size size size size cmd cmd shmptr shmptr shmptr shmptr shmptr shmptr line line code code file 
+occur qcp qcp qcp qcp null null null null string string string string string string string string string string copi copi copi copi copi copi instanc instanc instanc instanc instanc instanc instanc charact charact charact charact charact charact charact charact charact charact possibl possibl ground caus caus caus caus caus caus overflow overflow overflow overflow overflow overflow overflow overflow overflow exampl exampl exampl exampl exampl exampl buffer buffer buffer buffer buffer buffer buffer buffer buffer index index index also also system sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf size size size size size size size size size size size size size size size size size shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr line line line line line line code code code code code code file 
+write int path path path path path path path path path path path path path path get get get get get occur addit qcp qcp length length length length length length could null null string string string string string string string string string copi copi copi copi copi copi sinc second instanc instanc instanc instanc instanc instanc instanc instanc charact charact charact charact charact charact possibl possibl possibl possibl possibl possibl possibl possibl possibl possibl possibl possibl contain ground caus caus caus caus caus caus overflow overflow overflow overflow overflow overflow overflow overflow overflow exampl exampl exampl exampl exampl exampl issu buffer buffer buffer buffer buffer buffer buffer buffer buffer array also system sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf appear comment declar size size size size size size size size size size size size size cmd cmd cmd cmd cmd cmd cmd cmd cmd shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr valu line line line line line line line line line code code code code code code file file file file file file file file file file file 
+write open block qcp qcp possibl ground exampl end system statement shmptr shmptr shmptr line code 
+occur cannot qcp qcp qcp qcp qcp null string string string string string string string copi copi copi copi tlm tlm instanc instanc instanc instanc instanc charact charact charact charact possibl possibl ground event caus caus caus caus overflow overflow overflow overflow overflow overflow exampl exampl exampl exampl buffer buffer buffer buffer buffer buffer also system sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf sprintf need size size size size size size size size size cmd cmd cmd cmd shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr line line line line code code code code file file 
+open qcp qcp could null string string string copi copi charact charact charact possibl possibl ground may may caus overflow overflow overflow log exampl buffer buffer buffer system config config config sprintf sprintf sprintf error size size size size shmptr shmptr shmptr shmptr shmptr line line code file 
+point addit qcp qcp length string string copi charact possibl possibl possibl ground caus overflow overflow overflow overflow exampl buffer buffer buffer buffer array system config config sprintf sprintf size size data shmptr shmptr shmptr shmptr shmptr line code 
+int int int occur occur question qcp qcp qcp length string copi sinc instanc instanc instanc instanc instanc instanc instanc possibl possibl possibl ground may may may may may may may may may caus caus overflow overflow overflow overflow overflow exampl exampl exampl exampl exampl exampl buffer buffer buffer buffer buffer buffer buffer index index index index index index index index array array array array array array array array array system config config sprintf sprintf sprintf sprintf declar declar declar declar size size size size size size size size size size size size cmd cmd cmd data use use use use shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr shmptr valu valu valu valu line line line line line line code code code code code code file 
+int qcp qcp length length length string string copi charact charact possibl possibl possibl possibl ground type overflow overflow exampl buffer buffer array array array array array system declar declar line line line code variabl 
+regist inst trace appear procedur procedur procedur req shall list fsw fsw verifi 
+regard implement configur configur design design design design note posit posit possibl mode chang chang chang specif specif read follow updat updat enabl enabl inform inst inst inst inst inst number number indic need need control req req req req shall shall shall shall fsw fsw fsw fsw state state state state command step 
+actual addit configur fulli disabl disabl disabl disabl inst restart restart restart telemetri set req shall valu fsw verifi verifi step 
+cannot found fulli may main issu inst task task task task packet check check check telemetri req shall fsw fsw verifi command command 
+gener occur actual channel fulli design possibl condit condit may event event event messag messag messag main case system req shall list fsw verifi 
+write write write accept accept configur configur fulli move start refer proc load load load load inst appear procedur req shall shall section section fsw fsw fsw fsw fsw fsw state state state state state verifi command command 
+spacecraft implement cdh ensur one icd icd icd icd icd icd detail detail inst inst inst inst inst inst inst projectb projectb interfac interfac interfac interfac interfac rate softwar softwar control req req shall shall shall shall data line fsw fsw fsw fsw document document state state 
+regist regist regist discrep second refer refer cdh contain contain one one icd icd bit bit interfac size section section sdn sdn document 
+regist regist refer enabl interfac control control section section pse document document 
+icd icd array array softwar control control 
+output date revis revis ccsd zero count count count card discrep flight flight flight start start cdh contain descript icd specif spec bit sourc inform projectb projectb projectb projectb interfac interfac packet packet packet packet telemetri telemetri set softwar softwar tabl shall data data data fsw document document state state 
+attitud attitud date revis revis send send delta delta null null null null subsystem flight mode mode contain contain icd icd icd specif spec two disabl disabl specifi thruster thruster thruster thruster thruster thruster projectb projectb projectb projectb softwar softwar control control shall shall fsw fsw fsw fsw defin document command command command command command 
+loop ground one suggest execut time line function 
+true contain ground number number function file 
+point method memori ground load alloc alloc data line file 
+ground may valu valu function file variabl 
+result exist would found true true condit condit ground need return return return valu valu valu valu function function file file 
+int int ground may may two exampl exampl suggest suggest packet packet packet packet packet packet name name name name name name name name function function file variabl variabl variabl variabl variabl variabl 
+method definit ground chang incorrect comment comment name return list function state file 
+open open cannot exist true ground howev statu check check check line function file file file file file 
+result ground current initi initi howev statement time time use line function variabl variabl 
+loop standard open ground exampl provid also end end end end end process trace trace statement statement comment comment comment level level line function code file 
+occur loop loop standard ground messag exampl howev declar declar declar declar declar line line line line line line function function function function function code file variabl variabl variabl variabl variabl variabl variabl variabl variabl 
+spacecraft date implement sun match discrep fdc fdc fdc css spec spec spec spec flag howev trace error check set need control control control use pse line list function function state 
+write write assign base base base word word word call second index index index index statu statu statu statu statu statu statu statu statu statu statu statu statu statu address address statement uint uint uint uint uint uint uint uint uint uint uint uint uint uint declar declar return cmd cmd cmd cmd time time time time time time time time time time time time time time time valu valu function code variabl variabl 
+int path exist purpos cpu config config config statement appear number task line fsw code code file 
+spacecraft memori descript updat updat load name need cmd use sdn fsw function function function function function function file file file 
+sub sub sub sub spacecraft attdet attdet fulli chang complet follow build suggest statu statu process process verif verif pass pass pass fail bac bac indic indic sbc sbc level level 
+spacecraft result result attdet attdet kalman kalman proc proc case updat provid sourc howev howev statu verif verif pass pass bac bac review check check indic indic sbc sbc fsw code verifi 
+spacecraft attdet attdet attdet kalman kalman proc proc proc process bac bac bac sbc sbc sbc 
+differ sub sub sub spacecraft method result attdet attdet base kalman kalman note proc proc complet detail case updat updat provid sourc valid statu verif statement pass pass pass pass pass error error error fail fail bac bac bac check check indic indic indic indic sbc sbc sbc level level level line fsw code verifi verifi 
+make inconsist inconsist configur default node node second start object object object object ensur complet disabl disabl exampl enabl enabl enabl sourc sourc includ dmr dmr dmr dmr dmr dmr address statement interfac interfac cmd cmd cmd cmd cmd shall shall document document state state state command command command command 
+appropri inconsist would word found part child child node node object object object object object object object object complet complet current specifi includ dmr dmr dmr dmr dmr dmr dmr dmr dmr address address address interfac interfac need parent parent shall document state state 
+per ccsd inconsist design node node object object object object ensur specif spec complet dmr dmr dmr dmr address projectb interfac packet packet packet telemetri telemetri need shall data data document state state verifi 
+inconsist word limit sinc node node object object object object object may complet complet dmr dmr dmr dmr dmr address address address projectb statement interfac telemetri telemetri time time shall data document state state verifi 
+inconsist sinc node node node node object object object object object object contain may event complet complet provid statu dmr dmr dmr dmr dmr address address address projectb interfac interfac control cmd time shall document state state verifi 
+per per method inconsist extern extern word node node object object object object ground one two two two complet specifi specifi provid provid provid also dmr dmr dmr dmr address pass pass pass pass number interfac shall shall data data data data data document state state state file 
+perform per inconsist extern extern extern word node node object object object object one one one icd icd two two two two two complet specifi specifi provid provid also dmr dmr dmr dmr address projectb pass pass pass pass pass number interfac interfac control shall shall shall section data data data data data defin document document state state state state 
+inconsist except copi node node object object object object antenna antenna incorrect system system dmr dmr dmr dmr dmr dmr process address projectb projectb appear error interfac shall shall data data document state state 
+properli appropri found found found ensur follow interfac need req req document 
+properli appropri exist exist addit addit found found found found found node node ensur follow updat also also includ plan plan plan interfac interfac interfac interfac interfac interfac interfac interfac need need need tabl tabl tabl section section section data document document verifi 
+inconsist inconsist miss node node identifi object object object dmr dmr interfac interfac need document document 
+receiv receiv per inconsist match result found copi node node note object object object icd includ includ dmr dmr dmr dmr inst inst address address error interfac interfac interfac interfac interfac interfac rate rate rate rate rate rate rate need shall shall data data data data data defin defin document state state state state file file file file file file file file 
+revis exist exist exist found part els node node note ground complet case specifi specifi also system dmr dmr dmr inst inst inst plan plan plan interfac interfac interfac interfac interfac interfac interfac interfac interfac indic tabl section data list document document 
+node node node node start ground type one two complet complet complet current specifi provid also dmr dmr dmr dmr inst inst inst inst inst inst projectb statement interfac interfac interfac interfac interfac interfac interfac shall data document state 
+revis exist exist found els node node ground system dmr dmr plan plan plan interfac interfac interfac tabl section data list document document 
+revis exist exist found els node node ground system dmr dmr plan plan plan interfac interfac interfac tabl section data list document document 
+make inconsist inconsist addit node node node node node node second second object type chang provid inform howev statu dmr dmr dmr inst inst inst inst inst inst verif error interfac interfac interfac interfac interfac interfac indic shall list document document state command 
+inconsist inconsist addit node node node node node node second second object type chang provid provid howev dmr dmr dmr inst inst inst inst inst inst error interfac interfac interfac interfac interfac interfac indic shall list document document state command 
+method method miss node node dmr dmr verif verif interfac document 
+method method method inconsist would would node node object object object incorrect incorrect specifi specifi system system system dmr dmr dmr dmr dmr process verif verif interfac level shall data data document state state verifi 
+receiv receiv inconsist cannot word node node node node identifi identifi ground specifi dmr dmr dmr dmr projectb projectb projectb projectb interfac interfac interfac interfac shall shall data data use use list document state state code code 
+explicitli explicitli result cannot fulli acea acea acea complet complet detail detail need need state file file scenario scenario scenario verifi verifi verifi step step 
+written method cannot send send would acea one complet complet thruster control control req shall fsw fsw state code scenario scenario verifi verifi verifi verifi ace ace command command step 
+send fulli acea disabl incorrect trace verif need list scenario scenario scenario verifi command step step step 
+acea complet incorrect trace verif list scenario scenario verifi verifi step step step step 
+acea follow provid provid valid flag thruster thruster statu trace telemetri req time shall data valu fsw scenario verifi verifi ace step step 
+send acea read enabl valid flag flag thruster thruster thruster telemetri req shall fsw scenario scenario verifi verifi ace command step 
+send acea read enabl valid flag thruster thruster thruster telemetri req shall fsw scenario scenario verifi verifi ace command step 
+send card power acea read valid flag thruster thruster thruster thruster req shall fsw scenario scenario verifi verifi ace command step 
+send acea read enabl valid flag thruster thruster telemetri req shall fsw scenario scenario verifi verifi ace command step 
+send acea read enabl valid flag thruster thruster telemetri req shall fsw scenario scenario verifi verifi ace command step 
+send card power acea read valid flag thruster thruster thruster req shall fsw scenario scenario verifi verifi ace command step 
+send power acea read valid flag thruster thruster req shall fsw scenario scenario verifi verifi ace command step 
+reject reject reject reject acea event event messag messag complet provid thruster req shall fsw fsw document document scenario scenario verifi verifi ace ace command command command step step 
+actual make open cannot acea commandtest complet also verif verif fail fail req shall list fsw scenario scenario verifi verifi verifi ace command step step step step 
+explicitli cannot fulli acea acea commandtest complet complet detail verif need list state file scenario scenario verifi verifi step step step 
+acea commandtest complet incorrect trace verif list scenario scenario verifi verifi step step step step 
+send send acea commandtest ground follow issu system thruster thruster thruster thruster verif req shall fsw state state scenario scenario ace command command command command command step step 
+fulli acea commandtest incorrect trace trace list scenario scenario verifi verifi step step step step 
+receiv make written implement implement implement match zero send null issu build thruster thruster thruster statement req req shall shall fsw fsw fsw code code code code scenario ace ace command command command command 
+receiv method cannot send send fulli invalid true may read read read issu enabl enabl valid valid valid flag flag flag howev thruster thruster thruster thruster thruster thruster thruster thruster verif req req req req shall shall shall shall fsw fsw fsw fsw fsw function code code code code scenario verifi verifi verifi verifi ace ace ace ace command command command command command command 
+perform spacecraft point point hga hga gimbal control req req shall shall fsw scenario command 
+differ spacecraft regard question question hga hga chang restart restart bac bac sbc sbc tabl use scenario scenario scenario step 
+spacecraft hga hga detail detail bac bac sbc sbc need need scenario scenario verifi step step 
+spacecraft exist move hga hga ensur detail detail detail antenna bac bac sbc sbc need need scenario scenario verifi step step step 
+spacecraft addit hga hga one suggest suggest suggest bac bac sbc sbc scenario scenario step step step step 
+spacecraft second hga hga incorrect incorrect bac bac sbc sbc scenario scenario verifi verifi verifi 
+spacecraft base hga hga gimbal detail detail procedur procedur bac bac sbc sbc need need scenario scenario verifi step step 
+spacecraft hga hga ground ground ground ground ground ensur antenna enabl suggest suggest process process statement bac bac check sbc sbc control control req req shall shall fsw fsw scenario scenario command command command step step 
+get spacecraft hga hga may bac bac packet packet packet telemetri telemetri sbc sbc req req req time time shall fsw scenario scenario verifi ace step 
+receiv receiv receiv gener spacecraft question zero fulli invalid invalid invalid tlm tlm note fdc hga hga hga hga hga hga hga hga hga hga hga one gimbal disabl disabl disabl disabl enabl specifi valid flag flag gce gce gce gce gce gce gce gce bac bac packet packet packet packet packet sbc sbc req shall section data data data use fsw fsw scenario scenario command command command command command command step 
+spacecraft fulli fulli tlm tlm hga hga hga hga gimbal gimbal gimbal gimbal axi axi axi axi gce gce gce gce bac bac sbc sbc control control req shall data data use use fsw fsw state scenario scenario step step step 
+spacecraft label hga hga commandtest commandtest incorrect incorrect bac bac sbc sbc scenario scenario verifi step 
+spacecraft count hga hga commandtest commandtest paramet paramet inform inform bac bac sbc sbc scenario scenario command command step step 
+perform perform spacecraft hga hga commandtest commandtest case bac bac rate sbc sbc need scenario scenario scenario verifi verifi command step 
+spacecraft exist exist exist exist hga hga commandtest commandtest may may may bac bac sbc sbc list scenario scenario step step step step 
+spacecraft hga follow process scenario scenario 
+explicitli explicitli spacecraft base fulli acea acea acea iru iru iru rate need control control control control shall data fsw algorithm scenario scenario scenario verifi verifi verifi ace ace ace ace step step 
+puls spacecraft delta delta delta delta count count count fulli fulli invalid invalid invalid acea acea one chang chang spec axi axi case specifi flag flag flag iru iru iru iru iru statement rate rate rate rate set shall data line line fsw scenario verifi command command step step 
+vector vector spacecraft acea acea refer refer may iru iru rate rate rate rate set set shall shall list fsw fsw algorithm algorithm scenario verifi ace step 
+spacecraft acea acea acea descript follow statement statement statement statement statement rate use use use algorithm algorithm scenario verifi step step step 
+spacecraft match acea acea acea may axi follow incorrect index index index index iru iru iru iru iru iru telemetri telemetri set set set set tabl valu valu valu valu list algorithm algorithm scenario verifi ace command command step 
+attitud spacecraft spacecraft safehold acea mode main one provid also initi initi set need control control control use fsw algorithm algorithm scenario ace ace ace command step step 
+method method method method correct correct follow incorrect current rvtm rvtm number req list fsw ace 
+subsystem subsystem incorrect cdhmp cdhmp list list 
+rwa rwa rwa point inconsist inconsist inconsist inconsist inconsist see tim detail follow packet packet rate rate telemetri telemetri telemetri telemetri telemetri tabl time time use line line line line line line scenario step 
+rwa accept see tim detail specifi need line line fsw scenario verifi step 
+rwa configur configur detail fail need return scenario ace step step step 
+fdc ensur detail issu enabl enabl enabl scenario command step 
+int int int int int int int int int int doubl doubl doubl doubl doubl doubl result except mode two two bit bit bit enabl sourc sourc sdn sdn fsw defin defin file file 
+copi copi copi copi copi copi copi system system system includ void void void void void void void void void declar declar tabl tabl tabl tabl tabl tabl fsw fsw function file file file 
+get definit main cpu follow void gce gce task declar line fsw function file 
+definit extern extern extern extern extern extern extern extern extern card card card card gic gic gic gic move start gimbal antenna inform statu statu statu process address gce task packet uint uint declar declar declar file file variabl command 
+int int routin point exist except except except except except except except except except except call call start instanc condit type instruct void void address error error error error check check uint uint uint uint return return return return return return return return return return return return return return return return return return return return return valu valu line line line fsw fsw function function function function code code code code code code code code code code code code code code code code code code file file file 
+path see qcp els sinc true true contain contain ground exampl system howev statement execut check comment need size size data valu line line code code code code code code file file file verifi 
+path qcp sinc call true true contain contain ground exampl system howev statement execut check comment need data shmptr shmptr line line function code code code code code file 
+get get regist regist loop point result configur assign card card card card card card card card card card card could gic gic gic gic gic gic gic gic gic gic gic gic gic gic gic gic gic gic els call true true second instanc condit condit may cpu one one gimbal gimbal gimbal gimbal two two read issu initi howev void gce execut pass review task check indic telemetri telemetri uint uint uint uint uint uint uint uint valu valu valu valu line line line line line fsw function function state file file 
+actual open open open cannot cannot qcp could null ground dump event messag messag exampl follow incorrect incorrect system config config sprintf statement shmptr shmptr line state code code code code file file file 
+output open open open open open open open cannot cannot cannot cannot cannot cannot qcp qcp qcp els second ground event event messag messag messag messag messag two exampl correct correct incorrect incorrect incorrect system statement statement line line function state state code code code file file file file file file file 
+cannot cannot ground event event event messag messag exampl incorrect system statement line code code file file file 
+path path definit definit found found design instanc instanc main cpu cpu two void void void void task task name name declar declar declar line line fsw fsw function function function code code file file file file 
+definit sinc main main main main cpu two read void void void void void void task task task task task declar declar declar declar declar line line fsw defin defin defin function function function function code file 
+extern extern instanc main main main main main main main main main main follow void void void void void void void void void void void void void void void void void void void void void void void void void void void void task task task task task task task task task task declar declar time use line file ace ace ace ace 
+rwa rwa rwa rwa extern extern css instanc instanc detail paramet paramet follow task task task task declar declar tabl data data data line file ace ace ace ace ace ace ace ace ace ace ace ace ace ace ace variabl command command command command command command 
+write note cpu paramet paramet thruster review uint uint return time valu function function code file file ace ace command command 
+ccsd ccsd ccsd ccsd ccsd count length els invalid call true may event caus end initi initi void counter function function 
+path path make label label definit definit definit eeprom eeprom eeprom eeprom eeprom assign assign base base base base default default could subsystem refer type type cpu cpu cpu cpu one proc proc specif paramet paramet incorrect build build sourc system includ includ config config config config gce execut number uint uint uint uint tabl data data valu sdn state file file ace ace ace 
+differ definit definit inconsist inconsist eeprom eeprom eeprom eeprom eeprom eeprom word word refer may cpu cpu caus chang load load initi includ includ config config projectb projectb softwar softwar tabl tabl tabl tabl tabl tabl tabl tabl tabl tabl use valu valu valu fsw fsw code code file file ace ace variabl variabl 
+cpu two two sourc address task task task comment indic need line line defin defin defin state file file ace ace ace ace ace command command 
+int num open reject reject card found els els els els invalid invalid invalid true type read current statu statu statu statu address error error error error task task task task task task check uint uint uint uint uint uint uint return size line fsw function file file ace ace ace ace ace command command command 
+explicitli explicitli assign assign word word word word word start cdh cdh dump dump type main main cpu cpu number number packet packet valu valu valu line line fsw fsw file file variabl 
+int explicitli explicitli assign main cpu bit uint valu valu valu line fsw code file 
+global issu uint uint uint declar declar time time time time time time time time time data sdn fsw fsw code file file variabl 
+ccsd channel channel tlm tlm tlm tlm tlm tlm cdh cdh main main cpu cpu initi declar declar pse pse pse pse pse pse line line line line fsw fsw defin file file variabl 
+tlm tlm tlm tlm tlm cdh cdh event messag main main cpu cpu spec spec read read read array telemetri line line line line fsw fsw defin defin file file 
+tlm tlm tlm tlm tlm cdh cdh main main cpu cpu spec spec read read array inst inst inst inst inst inst inst line line line line fsw fsw defin defin file file 
+occur spacecraft els event event messag chang chang current load load valid error task task time time time line function 
+spacecraft implement implement zero true true condit correct updat process appear task set set need line line algorithm algorithm algorithm algorithm document code code 
+vector per spacecraft implement implement zero els true true second note refer condit condit correct updat process appear task set set need line line algorithm algorithm algorithm algorithm document code code code 
+per flight second second second cdh icd chang spec spec bit incorrect specifi also howev rate rate rate softwar need level level shall shall cdhmp section data use list fsw state state command 
+per cold revis revis configur configur default default power cdh icd specif spec disabl follow initi howev reset interfac rate indic softwar control tabl shall sdn fsw document document document state 
+accept contain detail detail detail also inst inst inst inst inst plan plan plan plan plan softwar section section section state 
+accept accept accept result result type inform inform inst inst inst plan plan softwar document document 
+accept contain detail detail detail also inst inst plan plan plan plan plan softwar section section section fsw state 
+accept accept accept result result flight type inform inform inst plan plan softwar document document 
+qcp found instanc main one paramet exampl exampl exampl build number number number number number review use use use shmptr line line defin defin defin function function code code code 
+open open open open open cannot could could null els possibl main case follow config process sprintf execut execut cmd cmd cmd cmd shmptr shmptr shmptr line line line line function code code code file file file file file file 
+open open open open open cannot qcp could could could null els event event event messag messag messag messag follow specifi config config config config config config config sprintf sprintf shmptr shmptr shmptr line state state code code file file file file file file file file file file 
+output open open open open cannot cannot cannot qcp qcp els contain event event messag messag incorrect incorrect inform return line line function function file file file file file file file 
+would contain contain exampl exampl follow procedur number number number number number comment comment declar time use defin code code file file file 
+num loop loop base could second start start possibl contain contain complet end includ howev check name name name name time time time data use shmptr shmptr shmptr shmptr shmptr shmptr shmptr line line line code code code code code code code file 
+differ differ actual contain includ review packet packet comment code file file file file file 
+question would would string string contain contain one chang chang chang case case case correct number comment use line code code code file file 
+occur open null mode dump event messag messag config config config config config sprintf error declar shmptr shmptr line state code file file file file 
+gener gener addit would would would qcp qcp main exampl follow issu provid also number number number number number comment comment comment declar time use use shmptr valu defin defin function code code code code 
+gener gener actual make qcp contain read issu sourc comment comment code code code file 
+actual question default design design hga contain gimbal antenna correct current index initi flag gce fail comment name indic indic cmd tabl tabl valu variabl 
+num definit definit hga hga gimbal gimbal array array initi tabl tabl line 
+per per hga hga gimbal correct gce gce gce gce comment comment rate cmd line function step step step 
+output loop loop increment sun true css css css css css css css css css css css css css css css css css css css css css css css css css complet array array end flag flag flag howev void void number number number number number name uint uint declar data data data use use sdn function ace 
+local void name set set declar return return return return return line function function code code code variabl variabl 
+int vector make point zero see result except except except except except except except except except except except assign default call call call call instruct case initi statu void void address reset error error error check uint uint uint set return return return return return return return return return return return return return return return return return return return use use line line line function function function code code code code code code code code code code code code code code code code code variabl 
+appropri would instanc number number name use use 
+block incorrect end end end comment comment use line function 
+rwa zero result cannot cannot delta delta delta assign sinc overflow overflow provid execut review check use line file verifi verifi 
+int num num num num num num num num output output doubl method accept see global global global global call call second second second second second second second purpos purpos note chang paramet paramet incorrect specifi specifi provid system system system system system statu statu statu execut execut error error number number fail task task task task task name name uint uint uint uint uint uint softwar need return return return return return return time time shall use use valu valu valu valu valu list function function function function state code code 
+question question exist miss miss could ground type one complet end system section verifi verifi 
+miss miss miss flight ground valid valid system system system system howev procedur number section section document state verifi verifi 
+inconsist match part ground descript descript descript one detail inform inform inform inform inform inform system includ includ includ procedur plan section section section section section section data function state state state scenario 
+inconsist descript descript descript plan plan interfac interfac interfac interfac interfac interfac page tabl tabl tabl data data data 
+differ inconsist exist ground descript descript follow sourc inform inform system howev plan plan interfac interfac page page page page tabl tabl tabl data data 
+accept contain detail detail detail also inst inst plan plan plan plan plan softwar section section section fsw state 
+accept accept accept result result flight type inform inform inst plan plan softwar document document 
+puls switch open count could found posit icd icd icd icd icd icd icd icd icd icd spec spec spec spec spec spec spec axi axi read read read read read follow flag statu statu indic indic telemetri sdn command command command command command command command command command command command command command command command 
+switch regist found ground icd icd spec howev gce gce gce execut interfac telemetri control shall section section sdn sdn fsw fsw fsw state state command command command command command command 
+switch regist found ground icd icd spec howev gce gce gce execut interfac telemetri control shall section section sdn sdn fsw fsw fsw state state command command command command command command 
+puls puls puls regist found ground icd icd spec also howev gce gce gce execut telemetri set set time time time shall section section valu valu sdn sdn fsw fsw fsw state state command command command command command 
+power power ground icd icd spec disabl disabl disabl disabl enabl enabl enabl current current gce gce execut execut telemetri shall section sdn sdn fsw fsw fsw fsw document state state command command command command command command 
+power limit limit limit ground icd icd spec disabl enabl enabl current current current flag flag flag flag gce gce execut execut telemetri set shall section sdn sdn fsw fsw fsw fsw document state state command command command command command command 
+write output regist regist regist regist regist regist see configur configur configur configur configur configur configur configur gic gic gic contain ground gimbal gimbal icd icd spec bit bit bit bit bit bit correct also gce gce execut telemetri set need control control control tabl shall section section sdn sdn fsw fsw fsw fsw document state state command command command command command 
+write regist regist regist configur configur configur gic ground icd icd spec bit gce gce gce execut control shall section sdn sdn fsw fsw fsw state state command command command command 
+spec gce gce gce execut telemetri shall sdn sdn fsw fsw fsw fsw document state command command command command 
+regist ground icd icd spec read read howev statu gce gce gce execut shall section sdn sdn fsw fsw fsw state state state state state verifi command command command command 
+explicitli could found power power mode mode telemetri telemetri telemetri set set sdn document document state state command command command command command command 
+second second second contain projectb projectb projectb gce gce packet packet packet packet packet packet rate rate rate indic telemetri telemetri telemetri telemetri telemetri telemetri data sdn sdn sdn sdn fsw 
+inconsist local cdh icd icd icd icd spec sdn fsw command command command command 
+puls puls puls puls puls puls puls output output regist regist regist revis card start cdh icd icd icd spec spec bit bit level level level level sdn fsw fsw state state command command command command command command 
+attitud attitud rwa revis card card card card card card could found found flight design partial partial contain icd icd icd specif two trace trace interfac interfac interfac telemetri telemetri softwar softwar control control control shall sdn sdn fsw fsw fsw fsw fsw function document document document document document verifi ace ace ace ace ace command command 
+attitud attitud revis miss miss card card could flight design ensur icd icd icd trace trace interfac interfac interfac interfac telemetri telemetri softwar softwar control control control shall shall fsw fsw fsw fsw fsw fsw fsw document document document document document ace ace ace ace ace ace ace ace command command 
+attitud attitud revis card card could found flight event event messag messag icd icd icd provid initi trace trace interfac interfac interfac interfac telemetri telemetri softwar softwar control control control shall fsw fsw fsw fsw fsw document document document document document document ace ace ace ace ace command command 
+fulli enabl also verif pse pse state scenario scenario verifi 
+switch fulli disabl also verif pse pse state scenario scenario verifi verifi 
+switch fulli disabl also verif pse pse state scenario scenario verifi verifi 
+pse list list scenario verifi step step step step 
+commandtest refer specif also pse scenario verifi step 
+section pse list scenario scenario verifi 
+section pse list scenario scenario verifi 
+section pse list scenario scenario verifi 
+section pse list scenario scenario verifi 
+loop chang correct current also error need control pse pse list state scenario scenario verifi command command step step step step step step 
+properli increment fulli fulli may case also valid verif execut counter pse scenario scenario verifi command command step step 
+send one case case enabl array pse scenario scenario verifi command step 
+also also also pse pse pse scenario scenario scenario scenario verifi verifi verifi verifi verifi verifi verifi step step step 
+copi commandtest antenna incorrect current verif verif statement appear error telemetri use pse state scenario scenario verifi verifi step step 
+zero fulli invalid invalid commandtest howev reset reset reset reset counter counter counter pse valu scenario scenario verifi verifi verifi command command step 
+commandtest incorrect trace trace pse scenario scenario step step step 
+commandtest section pse list scenario scenario verifi 
+section pse list scenario scenario verifi 
+explicitli statement pse scenario scenario verifi verifi step 
+section pse list scenario scenario verifi 
+one trace need pse scenario scenario verifi verifi verifi step step step step 
+section pse list scenario scenario verifi 
+section pse list scenario scenario verifi 
+increment increment fulli commandtest incorrect also valid valid trace counter counter pse pse pse list list scenario scenario scenario scenario scenario scenario verifi verifi verifi command command step step step step step 
+fulli ground ground specifi array control control control control control req shall pse pse pse pse pse pse pse sdn sdn fsw fsw scenario scenario verifi verifi verifi command command command step step 
+fulli limit limit condit one caus current load also verif tabl tabl pse scenario scenario verifi step 
+see default fulli limit limit limit limit fdc condit one caus chang enabl current current specifi specifi specifi also verif set tabl tabl tabl tabl tabl req shall pse pse pse valu fsw state scenario scenario step 
+see partial disabl disabl disabl enabl enabl provid control control req shall pse fsw state scenario verifi command step 
+accept accept accept accept accept definit cannot exist part sinc contain ensur ensur complet complet follow follow updat updat updat issu issu build also valid valid valid valid initi system system system system system system system system system system includ howev process process process trace trace verif verif verif rvtm rvtm rvtm rvtm rvtm rvtm rvtm rvtm execut plan plan plan plan plan plan plan plan plan set softwar softwar softwar softwar softwar need section section list list fsw fsw fsw fsw fsw fsw document document document state verifi verifi 
+actual complet follow specifi provid provid inform valid system procedur procedur procedur plan plan plan section fsw fsw fsw fsw function state state verifi 
+base possibl refer refer contain specif complet complet complet inform inform includ address execut plan plan plan plan plan plan plan plan section section section section section use use fsw fsw fsw fsw fsw fsw document document state code code 
+configur move fdc fdc contain contain complet complet follow inform inform inform inform inform inform inst gce plan plan plan task softwar softwar section section section section section section section section section use pse list sdn sdn sdn sdn fsw fsw fsw fsw fsw fsw fsw state code verifi verifi verifi verifi verifi verifi verifi ace 
+switch switch ccsd ccsd ccsd ccsd ccsd ccsd count length length els invalid end statu process process error error error task packet packet packet packet packet packet counter counter counter counter cmd cmd cmd cmd cmd cmd cmd use use use use line file verifi command command command command command command command command 
+per per loop match word word els index index index index index end flag flag review comment comment comment data line line code 
+implement implement extern extern sinc call type type void void packet packet packet packet declar declar declar cmd cmd line line defin function function function function function function function file file 
+perform descript number review check comment indic use use valu valu valu line line function function 
+null charact descript array array number review comment name indic declar use use valu valu line line line defin 
+word part descript array number review comment indic declar use use valu valu line line line defin 
+cold start specifi initi initi initi process restart rate rate rate set set tabl section line function function state 
+match memori base default default default default found found found record record record record global design design true descript incorrect enabl end end end initi void void rate rate rate rate rate uint uint uint return section defin document state code code code variabl 
+paramet paramet error section line 
+contain descript paramet paramet paramet current error return return level level section valu valu line line 
+see word word call purpos contain read disabl disabl disabl enabl enabl specifi also comment comment section use use use line line line 
+see messag messag messag also error error error return section line line line line 
+doubl contain uint uint uint uint uint uint uint uint declar declar section line defin function 
+doubl event event overflow overflow overflow buffer buffer buffer buffer buffer comment indic size size size size line state 
+implement implement match match zero void void statement reset execut comment comment set counter function function function state variabl 
+doubl doubl number comment rate use valu line line 
+receiv receiv make event event messag messag messag type detail detail verif verif pass fail fail need shall fsw state state scenario verifi ace command 
+incorrect howev trace section list list scenario verifi step step step step 
+card fulli statu verif verif execut indic scenario verifi verifi verifi verifi command command command command 
+trace trace need need section list scenario scenario verifi step step step step 
+fulli may provid thruster thruster statu statu statu shall fsw state scenario scenario verifi verifi ace step 
+detail detail incorrect trace trace appear list scenario step step step step step 
+gener increment reject invalid invalid event messag complet valid execut execut execut execut counter shall shall fsw fsw fsw state state scenario scenario verifi verifi verifi verifi ace ace ace command command command command command 
+actual method method appropri appropri null instanc may thruster process process verif execut plan bac bac sbc sbc use line line line line state code code code scenario scenario verifi verifi verifi verifi command step step step 
+occur occur cold cold cold cold eeprom default chang specif complet paramet paramet paramet restart restart restart restart reset reset bac sbc tabl shall data valu valu valu valu line scenario scenario verifi verifi verifi variabl variabl variabl step 
+send limit contain chang paramet bac sbc time line scenario scenario command command command step step step 
+except process statement bac sbc line list scenario scenario verifi verifi verifi step step step 
+occur rwa fulli limit specif complet verif bac sbc cmd shall line fsw state state scenario scenario verifi verifi step step 
+exist refer refer case case case incorrect process bac sbc line scenario scenario step step step 
+actual actual complet disabl disabl disabl disabl thruster thruster thruster thruster process process bac bac sbc sbc line line line line fsw state scenario scenario verifi verifi verifi command command command step step 
+method updat iru iru comment name name use line function function state ace 
+true read paramet paramet incorrect incorrect flag flag comment comment comment name set set use valu valu line line function function ace 
+true condit follow initi initi initi set need use use line line line line line line line function ace variabl variabl variabl 
+point implement base miss miss second event event event event issu issu issu section section section line list function code ace 
+explicitli vector sun specif verif rate telemetri telemetri need req scenario verifi verifi step step 
+vector vector sun rate rate telemetri need req valu scenario verifi verifi verifi step step 
+regard configur flight flight contain type specif detail detail inform inst inst inst plan plan plan softwar softwar fsw 
+actual label date accept accept accept accept accept accept accept accept inconsist flight flight flight flight flight flight flight flight contain contain ground ground type type one detail correct also inform system includ howev process process inst inst inst inst appear plan plan plan plan plan plan plan plan plan softwar softwar softwar softwar softwar softwar softwar softwar softwar softwar softwar softwar softwar softwar need need section data data list list fsw document document 
+perform fulli flight flight possibl may complet complet inform includ plan plan plan plan plan softwar softwar softwar softwar softwar section section fsw state state code code code code code code code code code verifi verifi 
+differ method method method method method method method accept flight flight sinc descript descript descript inst verif plan plan plan plan softwar softwar use list fsw document 
+regard would flight flight flight flight flight design object refer contain contain ensur specif specif specif specif complet case case inform inform inform system inst inst inst inst inst inst inst inst trace plan plan plan plan plan softwar softwar softwar softwar softwar need section section list list fsw document document document document verifi 
+path true true true true cdh cdh main cpu end end end void void void void void execut appear uint return return return line fsw defin defin function function function code code file file 
+gener occur method see assign assign base call call execut pass return valu list function code code variabl 
+int path extern global start start start object cdh main cpu declar line line fsw file file 
+path comp output output output doubl doubl make standard note refer cdh cdh condit may main cpu build initi initi void error error error error error error comment comment set declar return use use use valu valu valu line line line line line line fsw fsw fsw code code file file variabl 
+path assign assign assign default cdh cdh paramet paramet paramet paramet paramet build void level line line line sdn fsw fsw fsw file file file variabl variabl 
+int int int int path num num num block assign els els els sinc true cdh cdh condit condit type type main cpu specifi build end valid valid void execut execut error error error task task task check check return cmd cmd cmd valu line line line fsw fsw fsw defin code file variabl variabl variabl command 
+path block cannot assign els els els copi sinc note start possibl cdh cdh condit type main cpu two two build end end end void execut execut valu valu line line line line line fsw fsw fsw file variabl variabl 
+path method definit definit block ast ast ast ast ast ast datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr addit attdet reject configur configur configur configur configur assign default els els sinc invalid true true true instanc possibl cdh cdh condit condit messag type type main cpu two two build end end end sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc sourc valid config config config config config config config config config config config config config config void statement execut execut execut error check rate rate rate rate rate rate rate rate rate rate rate rate rate rate rate uint set declar return return cmd cmd cmd cmd cmd cmd cmd cmd cmd valu valu valu line line line line fsw fsw fsw code code code file file ace ace ace ace ace ace variabl variabl 
+path definit definit block ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast ast datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr datamgr attdet reject configur configur configur configur configur assign els els sinc invalid true instanc possibl cdh cdh condit condit messag type type main cpu two two build end end end valid config config config config config config config config config config config config config config void statement execut execut execut error check uint declar return cmd cmd cmd cmd cmd cmd cmd cmd cmd valu line line line line fsw fsw fsw code code code file file variabl 
+write ram ram ram ram path memori memori memori assign cdh cdh cdh event main cpu read build error error error alloc uint uint uint data data use use use use use use valu valu line line fsw fsw fsw code file variabl 
+path loop loop cannot start cdh cdh detail case case case follow build statement execut error return return return return line line line line fsw fsw fsw file 
+path path cannot els els els els els els els record record invalid true true true true true true true start possibl possibl cdh cdh cdh event event type type type main cpu enabl enabl build end void execut task task task return return return return return return return return return cmd line line line line fsw fsw fsw file 
+path cannot cdh cdh cdh messag main cpu case follow build statement statement return return return line line line line fsw fsw fsw file 
+path cannot cdh cdh cdh main cpu case case case follow build statement statement statement return return return return return line line line fsw fsw fsw file 
+path get per per per per per make definit block block cannot true true true start cdh cdh cdh condit condit condit condit main cpu chang follow build process execut execut number comment indic set time time time time time data data data data valu valu valu valu line line line fsw fsw fsw defin code code file 
+path standard standard assign assign channel flight cdh cdh cdh condit condit main cpu build page softwar section use use line fsw fsw fsw code code file file variabl 
+path get standard standard assign assign word flight cdh cdh cdh condit condit main cpu build page softwar section use use line fsw fsw fsw code code file file 
+path output standard standard assign assign flight cdh cdh cdh condit condit condit main cpu build build page softwar time section use use line line fsw fsw fsw code code file file variabl 
+safehold safehold safehold acea acea one chang paramet paramet tabl tabl section section list scenario scenario 
+safehold acea acea tlm follow packet control section list list scenario scenario scenario scenario 
+safehold acea acea contain complet follow control control section section scenario scenario scenario 
+word safehold safehold acea acea incorrect error rate control control state scenario ace step step 
+safehold safehold acea acea commandtest commandtest mode chang list scenario step step step step step 
+match match reject length safehold safehold invalid acea purpos commandtest mode chang verif comment comment rate set counter need line state scenario verifi verifi command command command command command command step step step step step 
+receiv increment match send send reject safehold safehold safehold safehold invalid invalid acea acea commandtest commandtest mode mode mode event event messag chang chang chang two paramet verif error error check rate rate rate set set counter counter use line document state code scenario scenario scenario verifi verifi verifi verifi verifi command command command command command step step step 
+safehold acea acea restart restart tabl tabl list list scenario scenario scenario 
+safehold acea acea control control tabl tabl list list scenario scenario verifi step 
+safehold acea acea tlm tlm follow packet packet tabl tabl list list scenario scenario 
+explicitli safehold process shall fsw state scenario scenario verifi verifi ace ace command 
+increment increment increment send miss part safehold safehold safehold safehold safehold safehold safehold acea acea second commandtest commandtest mode mode mode mode mode mode mode mode disabl disabl disabl incorrect enabl appear appear error error error rate indic indic telemetri telemetri telemetri sbc set counter counter counter counter counter counter counter control tabl shall use use use valu list fsw state state state state scenario scenario verifi verifi verifi verifi verifi verifi verifi ace ace ace ace command command command command command command command command command command step step step step step step 
+explicitli vector attitud spacecraft point point sun sun safehold axi shall state scenario scenario verifi verifi 
+perform perform safehold safehold safehold acea acea mode one incorrect appear control control control shall list fsw state state scenario verifi ace step step step step 
+explicitli vector vector sub sun sun base safehold specif current valid verif error rate shall fsw state scenario scenario verifi verifi verifi ace 
+receiv increment send reject reject safehold safehold acea acea commandtest commandtest mode mode event messag chang spec spec incorrect current appear error error rate rate rate counter counter shall use list fsw fsw document state state scenario verifi verifi verifi verifi ace command command command command step step step step 
+get attitud safehold safehold safehold safehold safehold acea acea tlm tlm second incorrect execut appear packet packet packet packet rate control time shall use list fsw state state scenario verifi ace step step step step 
+cold result word word fulli fulli fulli safehold acea ensur specif detail current initi process restart restart need shall data fsw state state scenario verifi verifi ace step step 
+explicitli appropri cold safehold start ensur paramet initi process restart softwar shall fsw state state scenario scenario verifi verifi ace ace ace 
+follow build declar declar declar declar use use line line line code ace ace variabl variabl 
+increment increment reject reject reject miss miss current build statement packet telemetri counter counter line fsw command 
+incorrect build end end end comment comment line function ace ace 
+extern build declar declar section section line line code 
+inconsist block case build statement statement need level level line 
+written cannot default sinc case follow build end end statement statement statement execut need return return return return line line function code 
+increment increment reject count call may build execut execut counter counter counter line line function function ace command command command 
+see contain type type type follow issu build howev name name size data line defin function ace ace ace ace ace variabl variabl variabl variabl command command command command 
+differ differ increment zero assign start one case build howev reset reset reset reset task set counter valu valu line line line line function ace ace variabl variabl variabl variabl 
+increment increment reject reject move inform inform execut execut execut execut task counter counter counter counter counter line line function function function command command command command command command 
+block case correct task check check comment comment need level line line command command 
+increment increment zero zero assign start case statement task set valu line code variabl 
+written cannot default sinc case follow end end statement statement statement execut task need return return return return line line function code 
+follow end task declar declar declar use line line code ace variabl variabl 
+attitud cannot attdet kalman verif verif pass pass fail fail bac sbc need valu list scenario scenario verifi step step step 
+attitud attdet process appear bac sbc req list list list scenario verifi verifi step 
+attitud attdet kalman reset appear bac sbc req list list list scenario verifi verifi step 
+attitud trace rate shall use fsw state scenario scenario verifi verifi step 
+differ attitud written implement implement cannot cannot base base trace rate rate rate need shall use use fsw state scenario scenario scenario verifi verifi step 
+attitud attitud attitud attitud attitud cannot attdet configur kalman kalman kalman kalman disabl disabl enabl enabl valid process trace trace bac sbc set shall use fsw state scenario scenario verifi verifi step step step step 
+attitud attitud kalman part fdc updat enabl specifi process rate shall fsw state scenario scenario verifi verifi 
+attitud attitud attitud occur occur word kalman kalman kalman detail follow updat enabl enabl process process process process rate rate rate rate shall shall fsw fsw state scenario scenario verifi verifi 
+attitud attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet attdet kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman kalman refer refer contain specif follow incorrect incorrect enabl also also trace trace trace reset alloc bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac bac check name sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc sbc tabl section list list list scenario scenario scenario scenario scenario scenario scenario scenario scenario scenario scenario verifi step step step step step step 
+comp comp comp comp comp comp doc vector vector occur sun sun block block block discrep els els design move correct end end sourc sourc sourc sourc projectb review review set set set control valu line line algorithm algorithm algorithm algorithm algorithm document code code code code code code 
+comp comp comp comp doc vector vector vector sun sun sun would base discrep design design follow sourc sourc sourc projectb error error review review check set set line list algorithm algorithm algorithm algorithm document code code code code step 
+attitud revis sun match match dss dss dss dss dss dss dss dss dss dss flight follow index index build build system projectb appear appear error error review softwar control req use line list list algorithm algorithm algorithm document document code code 
+output output output attitud implement revis sun dss dss dss dss dss could found found flight build build system howev projectb number number number review set softwar control req use valu algorithm algorithm algorithm document document state code code code 
+definit sun cannot dss dss exampl build includ statement review comment comment valu valu valu valu valu valu valu defin defin defin defin file verifi verifi verifi verifi verifi verifi verifi 
+fulli mode contain ensur detail detail scenario verifi verifi verifi step step 
+mode chang line line scenario verifi variabl step 
+could mode one verif scenario scenario verifi verifi step 
+gener gener gener mode specif also verif pass fail time valu valu line state scenario verifi variabl 
+method method method one one plan plan review review list list fsw code code scenario verifi verifi verifi 
+receiv receiv occur delta delta delta mode complet disabl enabl enabl also valid valid state scenario verifi verifi verifi verifi step 
+point sun mode contain trace verif line line state scenario scenario verifi verifi 
+explicitli mode ensur detail case verif verif list state scenario scenario verifi verifi step step 
+mode specif howev verif number section list list scenario scenario scenario verifi step 
+fulli mode contain ensur detail detail scenario verifi verifi verifi step step 
+gener gener gener mode specif also verif pass number fail time line line state scenario verifi variabl 
+method method method mode one one plan plan review review list list fsw code code scenario verifi verifi verifi 
+receiv receiv delta delta delta mode complet disabl enabl enabl also valid valid use line state scenario verifi verifi verifi step 
+point sun mode contain trace verif line line state scenario scenario verifi verifi 
+explicitli mode ensur detail case verif verif list state scenario scenario verifi verifi step step 
+perform mode specif howev verif number shall section list list state scenario scenario scenario verifi step 
+attitud mode mode specif current howev verif number control shall section list list fsw state scenario scenario scenario verifi step 
+attitud spacecraft mode mode specif howev verif number rate control shall section list list fsw state scenario scenario scenario verifi step 
+mode mode specif howev verif number shall section list list fsw state scenario scenario scenario verifi step 
+gener ccsd ccsd ccsd ccsd ccsd count assign paramet updat updat load pass packet tabl time use valu line function function variabl 
+doc updat build load load void void projectb projectb review review review page tabl tabl tabl section section line fsw document document code code code code command 
+switch switch match send default true messag messag caus case case case case case buffer load load end howev error task packet comment comment tabl tabl line line line state code code ace command command 
+tlm telemetri section list list scenario scenario verifi ace 
+make tlm descript specif specifi howev verif projectb number rate telemetri telemetri shall section section data list list list fsw fsw document state scenario scenario scenario ace ace ace ace command step 
+make tlm specif howev verif number telemetri shall section section data list list list fsw state scenario scenario scenario ace ace step 
+rwa actual miss miss miss card card card card restart comment comment comment state scenario scenario verifi verifi step step 
+specif load howev verif restart restart number tabl shall section section list list list sdn fsw fsw state scenario scenario scenario ace ace step 
+specif paramet howev verif restart restart number tabl shall section section data list list list fsw state scenario scenario scenario ace ace step 
+make revis els warm current current process restart restart need shall list list fsw fsw state state scenario scenario ace ace 
+specif valid howev verif execut number cmd shall section section list list list fsw fsw state scenario scenario scenario ace ace ace command command step 
+specif howev process verif number cmd shall section section list list list fsw state scenario scenario scenario ace ace ace command command step 
+build declar declar declar line line defin defin defin function function function code 
+occur delta count axi follow valid iru iru process rate shall data fsw scenario scenario verifi step step 
+valid iru shall section data list list list fsw scenario verifi step step step step 
+puls per increment second second refer specifi iru iru number line line state scenario ace 
+occur reject reject reject reject invalid case valid includ iru execut execut execut execut execut req req shall shall fsw fsw fsw state state scenario verifi verifi ace ace ace command command command command command command command step 
+occur occur delta count count sinc chang axi axi correct follow specifi iru iru iru rate rate rate time shall data fsw state scenario scenario ace step 
+cannot invalid invalid invalid iru iru iru iru process trace execut execut execut indic indic set set shall shall data use fsw fsw fsw state state scenario verifi verifi verifi verifi ace ace command command command command command command command step step step 
+differ differ point accept zero zero zero result recommend instruct one one specifi appear data valu valu valu line state scenario verifi step 
+vector vector vector cold sun tbd tbd recommend start css condit condit condit main axi case case specifi valid state scenario scenario step step 
+path properli date base sinc may may case build build build valid valid inst inst inst inst inst number indic indic need need fsw fsw fsw function function function function function function function code code code code code code code code code verifi verifi 
+occur recommend sinc specifi includ statement indic indic scenario scenario verifi verifi verifi step step step step step step 
+recommend condit condit condit condit condit case specifi verif verif need need line line state scenario scenario verifi verifi step step step step 
+sun sun sun recommend mode mode mode system system includ procedur scenario verifi verifi verifi step 
+recommend condit condit condit condit complet procedur procedur use use line document document state scenario scenario 
+comp comp comp comp comp comp vector vector vector vector vector per label sun sun sun sun sun block block block block block block block block discrep els els design design two two follow follow end end sourc sourc sourc sourc appear check set set set set set set control control section valu valu valu line line line line algorithm algorithm algorithm algorithm algorithm document code code code code code 
+comp comp comp comp comp vector vector vector vector vector sun sun sun would base discrep design possibl axi correct follow build sourc sourc error error check set set line list algorithm algorithm algorithm code code code code step 
+fdc fdc fdc fdc possibl event event event event case follow build sourc error indic indic line algorithm code code code 
+zero zero delta delta fdc fdc event event build error packet packet packet indic time time data function function code 
+switch switch default default invalid fdc fdc event event case case build statu indic function function code 
+standard local local flight ensur softwar use use use line defin defin function function function code code 
+definit local local global global identifi build number use use defin defin code file 
+definit local local global global identifi build number number use use defin defin code file 
+comp comp comp comp zero exist instanc bit build end valid appear error number number name name name rate rate rate rate uint use use valu line code code code 
+vector vector differ spacecraft sun sun match css css css refer read valid set set shall data valu valu fsw scenario scenario ace step 
+base css css read current current set shall valu valu fsw scenario scenario ace step 
+make identifi identifi read set need shall data data data data valu fsw scenario scenario verifi ace step 
+differ make inconsist css one one read read process set tabl req shall data data use valu valu valu valu list fsw algorithm document scenario scenario scenario ace ace step 
+perform num num output output output attitud revis dss dss dss dss dss dss dss could found flight build build build system projectb projectb number number number number number number review set softwar control req use algorithm document state code code code code 
+receiv receiv switch loop loop ccsd dss dss dss dss dss dss els invalid invalid call true case build build statu process projectb procedur error review task packet packet packet check softwar data line function function code code 
+limit note fdc fdc axi axi enabl specifi specifi build iru iru iru check rate rate rate rate shall fsw code code code code 
+num standard standard local build array iru comment indic declar declar declar data code file file ace variabl variabl variabl variabl 
+comp comp comp comp doc make standard condit condit read read build build suggest iru projectb statement statement statement review document code code 
+standard standard type type case build iru name name name name declar line function code code code file 
+loop loop loop loop standard exist addit miss miss note build end end iru comment comment indic line line function function code code file 
+perform perform get get get occur spacecraft result assign sinc move fdc start possibl may caus axi axi axi overflow overflow follow issu buffer buffer incorrect incorrect incorrect index index index build inform iru iru iru iru check check check rate rate valu line function function function code file ace ace ace variabl variabl variabl variabl 
+make refer cdh cdh cdh main main main cpu cpu cpu follow build use file file file file 
+cpu cpu cpu build config task task task task declar data data line line defin defin function function function file file file ace ace ace ace ace ace 
+call call cpu cpu build build task task task declar declar time time line line defin defin function function file file ace ace ace ace ace ace 
+cpu chang incorrect incorrect build end end end end task task comment comment comment line function function file ace ace command 
+send send messag messag messag messag messag cpu caus case case buffer build error error comment comment function function file 
+type type type cpu build howev gce task uint declar declar return return return data data data data function function function file variabl 
+main cpu use function function code file 
+definit definit identifi posit caus number code 
+block block block cdh main cpu cpu cpu cpu return return cmd cmd use valu line function function function code file variabl command command command 
+els cdh condit main cpu caus case case enabl enabl index index array array array array array statu statu pass pass error valu valu function code file 
+block null null null null cdh main cpu also valid execut execut execut execut error task line line function code file command 
+loop implement block zero zero count count count count word channel null null null call call true cdh condit condit main cpu spec specifi build error fail fail uint use line function function code file verifi command 
+count count count count cdh main cpu array array end error number uint uint uint return valu valu function function code file variabl 
+occur ccsd word cdh main cpu two follow fsw fsw file 
+differ eeprom eeprom two valu fsw fsw defin 
+part part flight cdh main cpu specifi build build softwar fsw 
+occur rwa rwa rwa rwa loop loop loop make date inconsist assign assign base found found power power local local local part part part call call call acea acea tim tim second note fdc fdc condit condit one specif two follow issu enabl current build build array also also end howev howev howev howev statu statu process process process process verif verif rvtm rvtm statement pass pass pass pass pass appear appear appear appear procedur procedur procedur procedur procedur procedur procedur procedur procedur procedur fail fail fail alloc alloc alloc review review review check check check check check indic set time time shall section section use valu list list fsw defin defin defin scenario scenario verifi verifi ace variabl variabl variabl step step step step step step step step 
+doubl doubl doubl doubl doubl doubl doubl word word word word sinc css contain contain contain ensur type type type two bit bit bit bit size size line defin variabl variabl variabl 
+doubl doubl doubl doubl doubl doubl doubl word word word word sinc css contain contain contain ensur type type two bit bit size size line defin variabl variabl 
+date inconsist inconsist found bxb bxb descript provid howev statu verif restart restart procedur procedur sbc sbc req list defin scenario variabl step 
+date inconsist inconsist bxb bxb descript verif procedur procedur procedur procedur sbc sbc need req list list defin variabl 
+date inconsist inconsist except assign assign assign assign assign bxb bxb descript descript statu statu verif procedur procedur interfac interfac sbc sbc req req req req req list list list list list defin defin scenario scenario variabl variabl variabl variabl step step step 
+date inconsist inconsist assign assign bxb bxb descript proc proc two updat issu end end valid verif appear procedur procedur sbc sbc req req req req req req req section list list list defin scenario variabl variabl variabl step step step 
+date date definit inconsist inconsist see tbd assign assign assign local bxb bxb descript updat updat also also inform statu verif pass procedur procedur check check comment comment sbc sbc set declar req req req req req req req req req req use list list list list list list defin defin defin code scenario variabl variabl variabl variabl variabl variabl variabl command step step step step step 
+date date bxb bxb tim note two two follow updat updat issu build howev verif projectb rvtm rvtm rvtm procedur procedur procedur alloc alloc alloc review review sbc sbc req req req req list fsw scenario scenario 
+receiv write write write differ properli date send bxb bxb call tim note commandtest commandtest may descript read read read bit paramet follow issu valid address execut execut appear procedur procedur review review indic sbc sbc sbc set cmd cmd cmd cmd req line list scenario verifi command command command step step step step step 
+occur date increment except local bxb bxb bxb bxb true tim note commandtest commandtest identifi two follow updat issu verif execut appear procedur procedur procedur procedur procedur procedur procedur error review review sbc sbc sbc sbc counter counter counter counter counter need req use valu list state scenario verifi verifi variabl variabl command command command command step 
+receiv write write write write explicitli get get per date date date date see send miss card card channel channel channel channel gic gic gic fulli els sinc tim tim tim note partial may instruct gimbal proc proc proc proc proc proc specif read correct updat updat issu build also howev bgi bgi bgi bgi bgi statu statu statu statu verif address projectb projectb projectb projectb rvtm rvtm gce gce gce pass pass appear appear appear fail review task interfac data data valu valu valu list list list list document document state state scenario scenario scenario command step step step step step 
+receiv write write write write explicitli get get per date date date date see send miss card card channel channel channel channel gic gic gic fulli els sinc tim tim tim note partial may instruct gimbal proc proc proc proc proc proc specif read correct updat updat issu build also howev bgi bgi bgi bgi bgi statu statu statu verif address projectb projectb projectb projectb rvtm rvtm gce gce gce pass pass appear appear appear fail review task interfac data data valu valu valu list list list list document document state state scenario scenario scenario command step step step step step 
+explicitli date date recommend tim tim tim note main gimbal gimbal gimbal gimbal gimbal gimbal proc proc proc detail updat updat issu build build howev howev bgi bgi verif verif projectb projectb projectb rvtm gce gce pass fail review interfac interfac tabl tabl tabl tabl line list list list document document state scenario scenario scenario scenario scenario verifi step step step 
+differ differ differ differ make date date date date date date except move note note instruct proc proc proc proc proc proc proc proc proc chang antenna antenna antenna follow current also also howev bgi bgi rvtm rvtm rvtm rvtm rvtm rvtm gce review need section list list document document document document state state state scenario scenario scenario scenario scenario command step step step step step 
+per per date revis result cannot send send send send send would reject reject miss miss fulli fulli part part part part part part part part sinc call tim move move move move move note ground ground ground ground ground ground ground instruct proc proc proc proc proc proc antenna antenna antenna antenna antenna follow issu build build build build sourc sourc sourc howev bgi bgi bgi verif projectb appear number comment comment control control control control control control control control control control control fsw command command command command command command command command command step step step step step step step step 
+differ properli per per per make label date date see call call tim move move move partial instruct descript proc proc proc proc proc proc proc proc proc proc two antenna antenna disabl disabl follow updat updat enabl enabl howev bgi bgi bgi rvtm statement gce gce appear appear number need list list list list state state scenario scenario step step step step step step step step step step step step step step step step step 
+write actual label label date see reject miss miss length length length recommend part part part part part invalid identifi identifi event descript proc proc chang axi axi axi axi axi axi axi follow incorrect current current current current end end valid valid valid valid bgi bgi bgi statu cmd cmd cmd cmd state state state state state command command command command step step step step step step step step 
+per date date send miss tim move commandtest commandtest gimbal antenna current build bgi bgi bgi process verif projectb projectb gce appear appear appear procedur interfac use scenario verifi command step step step 
+write write properli increment would count count default limit limit limit limit limit tim commandtest commandtest commandtest posit posit posit posit partial possibl proc axi axi axi case follow incorrect bgi bgi bgi bgi statu projectb statement gce appear appear procedur error error name set time valu verifi command command command command step step step step step step step step step 
+copi read incorrect incorrect array array array initi initi initi initi iru iru iru iru iru iru iru iru iru iru iru iru valu valu valu line function code file file file ace ace ace ace ace ace ace ace ace 
+word purpos start paramet iru iru error line file file ace 
+doubl local global global true iru iru uint uint declar declar declar line line line function function ace variabl variabl variabl 
+occur definit definit definit tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm tlm build includ task task task task packet packet packet packet packet telemetri telemetri telemetri telemetri uint uint uint uint uint uint size size size size size size size size size size size size size size size defin defin defin defin defin defin defin code 
+regard revis eeprom eeprom eeprom found power power power flight design design design design design ensur ensur chang complet updat updat updat issu issu current also inform inform includ softwar softwar softwar need need need need need need use fsw fsw function document document document document document state 
+regard revis memori memori memori memori memori memori memori memori found record record record design design design design design start start ensur ensur chang complet updat updat updat issu issu current also inform inform initi initi initi includ task need need need need need need use fsw fsw fsw function document document document document document state 
+regard revis memori memori memori memori memori found design design design design design ensur ensur chang complet updat updat updat issu issu current also inform inform initi initi initi initi includ task task need need need need need need use fsw fsw function document document document document document state 
+regard point point point point point point revis found design design design design design design refer ensur ensur chang specif complet updat updat updat updat issu issu also inform inform number task task telemetri telemetri need need need need need section use fsw fsw fsw document document document document document document state 
+receiv receiv regard revis found design design design design second second refer refer ensur ensur chang chang specif complet updat updat updat issu issu also sourc inform inform inform initi initi initi initi projectb need need need need control control use use fsw fsw fsw fsw fsw document document document document document state 
+block block count count els els true start start main build statement review task packet comment comment need pse pse line line function code code code 
+revis found sinc sinc design refer ensur ensur chang chang chang complet bit bit bit bit bit bit updat updat updat issu issu also inform howev need need need need use use use use fsw fsw algorithm algorithm algorithm algorithm algorithm algorithm document document document document document state 
+block block block block block block base base base true true projectb sbc set set time time time use line code code 
+record record record record record record record record condit may may overflow buffer index index array array sourc projectb task telemetri sbc declar size use valu line 
+int int output match count channel channel record record record record record record true purpos note may may ensur type overflow buffer index index index array array provid sourc sourc sourc sourc sourc sourc sourc sourc flag flag projectb number check name telemetri telemetri telemetri telemetri telemetri telemetri telemetri telemetri sbc declar return size time data data data data use use valu line line defin 
+get get match null record record record record record record purpos note may may ensur one overflow buffer index index index array array provid sourc sourc sourc sourc sourc sourc sourc sourc projectb number check name telemetri telemetri telemetri telemetri telemetri sbc declar size time data use use valu line line defin 
+int tbd second second initi time time time line defin code code 
+zero memori memori memori configur configur configur base base base length els els els condit type type type case enabl enabl initi address address address address address execut indic set need cmd cmd line line code code command command 
+card card card card card condit may may overflow disabl disabl buffer enabl enabl index index array array projectb number number sbc uint softwar declar size cmd cmd cmd cmd cmd use valu line line defin defin state state state 
+int zero zero tbd assign assign invalid second second updat initi initi projectb projectb projectb gce reset check check sbc counter time time time time time time time time line line line line defin code code ace 
+int tbd invalid second second updat initi initi reset counter time time time time time time line defin code code 
+perform perform cold cold cold warm start type type disabl disabl also initi initi initi void restart reset reset uint declar level level data use use line function variabl variabl 
+get output global global purpos note specif paramet current initi name uint uint uint set set set return return level level level level level level level level level level level level data use valu line function 
+get output global global purpos note paramet current current initi void name uint uint return return return level level level level level level level data use valu line function 
+output accept revis memori base flight flight note dump dump dump dump dump event one one spec two complet complet issu number number rate page telemetri telemetri softwar softwar tabl req req time shall shall cdhmp cdhmp section line fsw fsw fsw document document document command 
+global main cpu build number task task uint pse pse pse fsw file 
+extern extern extern main cpu paramet build task task control tabl pse pse pse pse pse fsw function file 
+output output copi copi start start start start main cpu index index build task task packet packet packet packet declar size size tabl tabl pse pse pse pse pse line fsw defin defin defin defin defin file 
+regist regist regist regist per cpu bit bit build includ statu statu task set pse pse pse pse pse pse pse pse pse valu fsw defin defin defin defin defin defin defin defin defin defin defin file file command command command 
+standard posit posit posit posit posit posit posit posit posit posit posit posit posit posit posit posit cpu bit bit bit bit bit bit bit bit bit bit bit bit bit bit bit bit build sourc task pse line line line fsw defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin code file 
+result could found tim note cdh cdh chang spec spec spec log specifi provid howev procedur procedur procedur rate rate indic set softwar tabl shall section section document state file verifi verifi verifi verifi command 
+gener regard standard see result result found tim second note descript descript descript log log log log log log log issu provid inform inform inform inform inform inform inform howev verif verif verif execut check set set need need document state file file file file file file verifi verifi verifi verifi verifi step step step step step step step step step 
+write switch switch see result eeprom found tim note descript descript descript descript descript descript log log log enabl verif verif verif execut appear appear document file file command step step step step 
+write perform perform perform properli make see result eeprom found tim purpos note dump dump dump dump log log log disabl enabl specifi indic need need function document file file verifi step step step step step 
+write write perform perform perform perform properli see result eeprom eeprom eeprom eeprom found tim note dump dump dump log log log log log disabl enabl howev verif address procedur indic indic indic indic function document state file file file file verifi verifi step step step step step step step 
+write write switch switch see result eeprom eeprom found tim note descript descript descript descript descript descript log log log disabl enabl verif verif verif execut appear appear document file file verifi command step step step step 
+explicitli output output see result result found tim note start descript descript descript descript log log log log log issu inform inform verif check check indic indic data fsw defin document state file file file file verifi verifi step step step step step step 
+perform perform perform ram ram ram ram ram output differ see result result result eeprom eeprom eeprom base base default found power power power power part copi copi sinc tim note start start start start start start start start start start start condit may type type type spec spec two two log log log log log load load load address address address address address address address address statement reset reset reset reset reset reset reset reset reset reset reset reset reset reset reset reset execut execut execut appear indic softwar softwar softwar softwar softwar req req shall shall shall fsw fsw fsw fsw fsw fsw function document state state state state file file file step step step step step 
+differ match see result result result result found sinc tim note instanc descript descript descript complet log log log log log log log correct issu howev verif verif verif verif procedur indic indic document document file file file file file file step step step 
+perform ram ram ram ram ram ram output see result base found power copi copi tim note start type spec log log log log log log log log load also howev reset reset reset reset reset check indic indic indic indic shall fsw fsw function document state state state state file file file file file file file step step 
+explicitli date date accept match see result result found tim note may descript complet log log log log log log log issu build build build build build build build howev howev verif verif verif projectb projectb execut procedur indic indic indic indic indic document document file file file file file step step step step 
+result found note log issu indic indic document document document file verifi verifi step step step step 
+gener see tim provid provid projectb projectb procedur procedur procedur procedur document document document document document scenario 
+see tim pbbl descript one exampl provid howev procedur procedur procedur procedur procedur procedur procedur tabl section section list sdn sdn document document document document 
+see tim descript descript descript descript exampl specifi specifi specifi provid procedur procedur tabl tabl tabl section section section document verifi verifi verifi step 
+see tim provid provid provid inform inform procedur tabl tabl tabl tabl section list document 
+regard see tim issu provid provid statement number number tabl section 
+match refer refer refer spec exampl provid provid system howev projectb projectb procedur procedur procedur procedur procedur number number number number name section sdn fsw document document document document document document document document document document 
+actual regard point result memori base recommend recommend recommend call tim note refer refer dump pbbl pbbl pbbl pbbl pbbl main chang specif spec read case follow follow provid provid also initi system includ projectb projectb procedur number number number review review review task packet page page page section section section use fsw document document document 
+ram actual regard regard question result addit word recommend call tim note commandtest condit pbbl pbbl pbbl case load system procedur procedur error number review review review task sbc use document step 
+occur actual regard result addit would memori base could call tim note contain pbbl pbbl pbbl main specif spec read case updat also system projectb projectb appear procedur procedur procedur review review review task sbc use fsw document step step step 
+actual spacecraft spacecraft subsystem subsystem sinc sinc fdc may case correct issu howev alloc alloc indic indic level level level level cdhmp cdhmp cdhmp cdhmp use use fsw document document command command command command command 
+actual spacecraft spacecraft subsystem subsystem sinc sinc may case issu howev alloc alloc indic indic level level level level cdhmp cdhmp cdhmp cdhmp use use fsw document document command command command command command 
+actual spacecraft spacecraft subsystem subsystem sinc sinc may case issu howev thruster alloc alloc indic indic level level level level cdhmp cdhmp cdhmp cdhmp use use fsw document document command command command command command 
+implement implement revis cannot subsystem child spec howev trace alloc req level level level level cdhmp cdhmp fsw fsw fsw fsw function document document document command command 
+int differ doubl doubl doubl true true true true condit initi counter counter counter counter declar data use use line line line line line line function variabl 
+int true true true true condit initi counter counter counter counter declar data use use line line line line line line function variabl 
+condit end initi declar return data use use line line function variabl 
+subsystem subsystem subsystem refer specif updat includ howev alloc alloc alloc req level level level cdhmp cdhmp cdhmp cdhmp fsw fsw fsw document document 
+implement implement cannot subsystem child spec howev trace alloc req level level level cdhmp cdhmp cdhmp fsw fsw fsw fsw function document document document 
+implement implement cannot subsystem child spec howev trace alloc req level level level cdhmp cdhmp cdhmp fsw fsw fsw fsw function document document document 
+implement implement cannot subsystem child spec howev trace alloc req level level level cdhmp cdhmp cdhmp fsw fsw fsw fsw function document document document 
+implement implement cannot subsystem child spec howev trace alloc req level level level cdhmp cdhmp cdhmp fsw fsw fsw fsw function document document document 
+implement implement cannot subsystem child spec howev trace alloc req level level level cdhmp cdhmp cdhmp fsw fsw fsw fsw function document document document 
+implement implement cannot subsystem child spec howev trace alloc req level level level cdhmp cdhmp cdhmp fsw fsw fsw fsw function document document document 
+make regard subsystem subsystem identifi spec suggest alloc alloc alloc alloc req level level level fsw fsw fsw fsw document document document document document 
+written implement revis exist exist miss refer refer ensur issu issu includ howev howev req req level level level level level parent parent parent cdhmp cdhmp cdhmp cdhmp cdhmp cdhmp cdhmp list fsw fsw fsw fsw document document document document document verifi 
+ccsd ccsd ccsd incorrect end end comment comment function function 
+ram ram differ routin start refer descript descript descript descript descript follow incorrect incorrect incorrect incorrect incorrect incorrect incorrect incorrect incorrect incorrect load load initi void void appear comment comment comment comment comment comment comment comment name name softwar line line line line function function function function function function function function function file file file file 
+ccsd pbbl incorrect build end comment comment comment comment comment comment comment file file file file file file file 
+definit incorrect end comment defin 
+could end end list defin defin file file 
+ram ram ram differ eeprom eeprom eeprom start start start pbbl pbbl load load load address address address valu fsw fsw fsw defin defin defin defin defin file 
+length length length length start pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl pbbl complet follow number number line list defin file 
+match send would miss purpos purpos note ground ground messag messag pbbl pbbl pbbl case follow address address address error error set tabl tabl use valu sdn sdn function function function function 
+int regist written block start pbbl pbbl caus caus caus caus caus caus complet follow statu statu reset reset reset reset reset reset number number cmd line list sdn sdn sdn sdn sdn sdn sdn sdn defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin defin file command 
+spec complet issu projectb gce indic level level parent parent sdn fsw fsw fsw fsw document document 
+would spec complet complet issu howev trace projectb gce indic level level sdn sdn sdn sdn fsw fsw fsw fsw document document 
+invalid start refer refer contain icd icd specif updat sourc sourc suggest inst page indic softwar section 
+pbbl descript descript incorrect comment comment function function function function function file 
+definit definit base base pbbl pbbl pbbl pbbl incorrect incorrect end comment name name file file file file file file file 
+perform call pbbl updat name return use line defin function function function function file file 
+write ram written point increment zero miss found tim note instanc ensur pbbl pbbl pbbl pbbl read exampl initi error error error error packet packet counter need use use use line line line line defin function function function function code file file file file variabl variabl variabl variabl variabl variabl command 
+standard standard miss pbbl pbbl line defin code code 
+extern pbbl pbbl bit specifi name need line line defin defin defin file file file file 
+write word pbbl pbbl pbbl log log log follow incorrect incorrect end end end end comment comment function function file 
+incorrect index array comment comment line file 
+standard pbbl pbbl pbbl pbbl main main main follow incorrect projectb name name name line function function file 
+receiv receiv clarif attitud loop open base flight child child sinc mode specif spec spec two correct issu current specifi provid provid suggest valid projectb execut execut execut execut review softwar softwar control control req req level level level level level level parent parent parent parent parent parent parent parent shall shall shall list sdn fsw fsw fsw fsw fsw document document document state state state ace ace ace ace ace ace ace ace ace ace command command command command command command 
+clarif attitud gener loop open base flight child child sinc mode specif spec spec two correct issu specifi provid provid suggest projectb execut review softwar softwar control control req req level level level level level level parent parent parent parent parent parent parent parent shall shall shall list sdn fsw fsw fsw fsw fsw fsw document document document state state state ace ace ace ace ace ace ace ace ace ace ace command command command command command 
+clarif attitud gener loop open base safehold flight child child sinc mode specif spec spec two correct issu specifi provid provid suggest projectb execut review softwar softwar control control control req req level level level level level level parent parent parent parent parent parent parent parent shall shall shall list sdn fsw fsw fsw fsw fsw document document document state state state ace ace ace ace ace ace ace ace ace ace ace command command command command command 
+clarif attitud appropri send base flight child child sinc identifi specif spec spec two correct issu specifi provid suggest projectb review softwar softwar control req req level level level level level level parent parent parent parent parent parent parent parent shall shall list sdn fsw fsw fsw fsw fsw document document document state state ace ace ace ace ace ace ace ace ace command command command 
+clarif attitud appropri send base flight child child sinc identifi specif spec spec two correct issu specifi provid suggest projectb review softwar softwar control control req req level level level level level level parent parent parent parent parent parent parent parent shall shall list sdn fsw fsw fsw fsw fsw fsw document document document state state ace ace ace ace ace ace ace ace ace ace command command 
+question base spec complet updat updat updat updat also also inform process appear section section section document 
+word object object cpu end end config tabl tabl line fsw defin 
+except type line sdn fsw 
+vector vector vector use line sdn fsw fsw defin 
+type config config config name use line sdn fsw defin 
+paramet paramet flag task name use line fsw function function file 
+paramet paramet initi name valu line fsw function function file variabl variabl variabl 
+paramet flag name use line fsw function function file variabl 
+paramet line fsw function function file 
+paramet task task task use line sdn fsw function variabl variabl 
+copi may cpu two issu issu build build config sdn fsw fsw defin code file 
+receiv differ definit definit zero see see miss null null null null null null null null null null null null type caus two build build system system system system system includ void reset check check line line fsw fsw defin defin defin defin defin defin defin defin defin defin defin defin file file 
+receiv see miss caus build build includ check line line sdn sdn fsw fsw defin defin defin defin defin defin defin file file 
+cpu cpu cpu caus bit bit bit bit bit bit bit config task task set set set set set line line line fsw fsw fsw defin defin defin defin defin defin defin defin 
+ccsd cpu cpu cpu caus bit bit bit bit bit bit bit config task task fsw fsw fsw fsw defin defin defin defin defin defin defin defin defin 
+num num block block start type index array array array return time line line fsw function code 
+statement return return line sdn fsw function function function function code file 
+num num block block extern may type index array array array return data line fsw function code file file file 
+inconsist assign recommend instruct proc follow statu pass fail fail data line document scenario step step 
+result invalid proc read valid valid includ iru iru pass fail shall data data data line list fsw scenario verifi step step step step 
+possibl proc incorrect data line list list scenario step step 
+properli point assign proc also statu pass fail data line scenario verifi step step 
+properli point assign proc also statu pass fail data line scenario verifi step step 
+properli point assign proc also statu pass fail data line scenario verifi step step 
+properli point assign proc also statu pass fail data line scenario verifi step step 
+see assign assign proc valid valid flag howev statu statu pass pass appear fail fail fail indic section data data line line line scenario step step step step step step step 
+receiv invalid partial partial proc valid flag iru iru appear appear packet rate shall data data fsw state scenario verifi ace ace step step step step 
+get tbd tbd proc paramet inform valid iru iru data line scenario variabl 
+get tbd tbd proc inform valid data line scenario 
+get tbd tbd inform data line scenario step step 
+get tbd tbd inform data line line scenario step step step 
+tbd tbd caus correct iru iru statu procedur error error data scenario step step 
+get tbd tbd inform data line scenario step step 
+occur question point point point count miss miss sinc one exampl follow updat updat updat current current includ iru appear procedur fail fail fail fail fail fail fail fail fail telemetri telemetri telemetri data use line line line line line line line line line line line function function state state scenario verifi verifi verifi ace ace ace ace step step step step step step 
+get tbd tbd inform data line scenario step step 
+gener base found possibl follow process statement fail bac check set section line list list scenario scenario scenario verifi 
+gener exist discrep discrep discrep suggest process process rvtm rvtm rvtm bac bac list sdn scenario scenario scenario scenario verifi 
+base process appear bac indic control shall data state scenario verifi verifi verifi ace step step step step step 
+exist exist identifi suggest process bac indic line scenario verifi verifi step step step 
+properli fulli fdc fdc howev process appear bac check softwar shall state scenario verifi step step step step 
+perform word recommend one two read incorrect incorrect process appear bac set shall shall use use fsw fsw scenario step 
+properli properli sub sinc also also process appear fail fail fail fail fail bac line list scenario step step 
+invalid invalid ensur caus current current process error bac valu line scenario step step 
+puls local limit partial partial chang read case exampl specifi also also also valid valid howev process appear bac need valu valu valu line line line line state state scenario verifi verifi verifi verifi variabl step step step 
+occur occur would would limit event caus current process bac tabl scenario scenario step step step 
+make question question written written power power power power part fdc fdc partial partial partial condit ensur type two two case current current specifi also suggest suggest valid flag includ process bac check check check telemetri data data line line line line scenario scenario verifi step step 
+miss current also process bac section line list scenario step step 
+reject reject assign note ground issu incorrect incorrect specifi specifi valid flag statu process execut execut fail fail bac check set time time shall shall valu valu valu line line line fsw fsw state state state scenario ace ace command command command command command command command step step 
+miss recommend fdc fdc instruct complet process bac check line scenario verifi step step 
+miss miss part provid howev process verif appear bac check check check telemetri valu line line state scenario step step 
+miss miss part howev process verif appear bac check check check valu valu line line state scenario step step 
+would one chang exampl also suggest includ howev process process statement pass pass appear fail fail fail fail fail bac indic need shall data valu line list fsw state scenario ace ace step step step step 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child suggest howev address appear alloc alloc req parent cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child suggest howev address appear alloc alloc req parent cdhmp cdhmp fsw fsw document 
+appropri subsystem child suggest howev address appear alloc alloc req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child suggest howev address appear alloc alloc req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+explicitli implement increment reject reject reject word could discrep refer refer may caus chang follow incorrect current specifi also suggest suggest valid valid appear error number number fail softwar counter counter counter shall valu state command command command command command command 
+receiv send length word could call event descript current current suggest reset interfac packet packet softwar time time time shall state 
+ram properli regist cold memori power refer refer refer follow follow specifi initi includ howev reset interfac softwar counter shall valu 
+regard written open see exist identifi specif issu issu current process line scenario command 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn fsw fsw document 
+appropri child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp fsw fsw document 
+appropri child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent cdhmp cdhmp cdhmp fsw fsw fsw document 
+discrep subsystem subsystem identifi identifi identifi correct correct incorrect current suggest howev projectb alloc alloc parent parent parent parent cdhmp sdn sdn sdn fsw fsw 
+per written word flight second second second two current provid suggest process statement reset execut task check softwar shall state 
+clarif implement cold result would flight warm identifi event event event messag messag messag provid provid howev reset reset appear alloc softwar softwar softwar softwar softwar parent parent parent time shall shall shall shall cdhmp cdhmp sdn state state command 
+see second second detail suggest howev task task task check check check indic indic indic tabl tabl tabl list defin 
+discrep child identifi identifi identifi correct correct correct incorrect current suggest suggest address parent parent parent parent parent parent cdhmp sdn sdn sdn 
+discrep child identifi identifi identifi correct correct correct incorrect current suggest suggest address parent parent parent parent parent parent cdhmp sdn sdn sdn 
+discrep child identifi identifi identifi correct correct correct incorrect current suggest suggest address parent parent parent parent parent parent cdhmp sdn sdn sdn 
+receiv clarif get accept reject part move move move move move note note hga hga hga ground ground ground ground may may one two antenna antenna enabl enabl also end sourc sourc sourc bgi process gce appear appear set need control control control time shall fsw fsw state state scenario scenario scenario verifi verifi command command command command command command command command step step step step step step 
+puls puls regist regard see addit count count part limit posit posit partial instruct read antenna updat bgi appear error check counter need valu line scenario verifi step step step 
+puls regist regard see addit count part limit posit posit posit partial instruct read antenna updat bgi appear error check counter need valu valu line line scenario verifi step step step step 
+regard question increment increment accept addit reject reject reject reject limit move ensur instruct one specif antenna antenna current also suggest bgi process statement check check counter counter counter counter need line list scenario scenario verifi verifi verifi command command command command command command step step 
+regard discrep includ bgi rvtm rvtm rvtm section line list list scenario scenario scenario scenario 
+explicitli gimbal bgi tabl section section list list list scenario scenario verifi step step 
+differ regard discrep gimbal gimbal bgi bgi rvtm rvtm rvtm gce tabl tabl section line list list list list scenario scenario scenario verifi 
+open send limit partial antenna bgi appear scenario verifi command command step step 
+clarif regard limit posit instruct gimbal axi axi axi complet antenna initi initi initi initi flag flag flag flag howev bgi gce reset reset reset execut appear check set set need shall line fsw state scenario scenario verifi verifi verifi verifi command command command step step step 
+clarif occur regard question limit posit instruct chang antenna updat suggest bgi set need scenario scenario command command step step step step 
+sub regard would limit hga posit posit partial one detail antenna exampl exampl correct correct end suggest includ bgi process statement pass pass pass appear fail fail indic indic indic telemetri counter need valu valu list scenario scenario verifi verifi command command step step step step step step step step step 
+actual question question question accept addit reject word word limit limit limit limit limit limit limit limit invalid hga posit posit posit posit partial contain contain contain instruct chang axi antenna also valid bgi appear check check check indic telemetri set set need valu valu scenario scenario scenario verifi verifi command command command command command step step step 
+puls differ actual regard discrep limit posit antenna flag flag includ includ includ bgi rvtm rvtm rvtm rvtm rvtm indic indic section section section line list list list list list list scenario scenario scenario scenario scenario scenario scenario scenario scenario scenario scenario verifi verifi step step step step 
+clarif sub regard method send move may axi complet antenna case disabl also bgi pass pass pass appear indic need need scenario scenario command command step step step step step 
+antenna disabl enabl current bgi gce indic control control control list scenario command command command step step step 
+sub point assign base part detail detail detail detail antenna exampl provid inform howev bgi statement pass pass pass procedur fail fail fail indic softwar need need need scenario scenario scenario verifi verifi verifi command step step step step step step 
+clarif recommend ground ground antenna build build build bgi indic need control control scenario scenario scenario command command step step step 
+clarif differ differ make would part may gimbal gimbal gimbal gimbal gimbal specif axi axi axi axi axi axi axi two antenna disabl disabl disabl disabl disabl enabl enabl enabl enabl enabl also howev bgi gce execut need shall fsw state state scenario command command command command command command command step step step step step 
+miss miss antenna bgi appear scenario scenario scenario step step 
+write assign base contain type instruct axi detail detail detail antenna antenna exampl exampl provid inform inform suggest initi includ includ bgi pass pass pass pass pass pass pass procedur fail fail fail fail fail fail comment indic need need need need use state scenario scenario step step step step step step step 
+clarif regard purpos axi antenna antenna includ bgi comment need function scenario verifi command command step step step step step 
+receiv clarif sub question would reject default part sinc move move move move move note note note note may gimbal gimbal gimbal axi axi axi axi antenna antenna antenna antenna antenna antenna antenna enabl enabl current initi initi initi initi initi initi initi flag flag flag flag howev bgi statu process process gce execut execut appear appear telemetri set set need shall fsw state state state scenario verifi command command command command command command command command command command step step step step step step step step 
+explicitli differ regard exist discrep antenna also includ includ bgi rvtm rvtm rvtm rvtm indic section line list list list list list scenario scenario scenario scenario scenario scenario scenario scenario verifi step 
+regard discrep includ bgi rvtm rvtm rvtm section line list list scenario scenario scenario scenario 
+exist discrep discrep call hga hga hga hga refer suggest bgi bgi bgi bgi rvtm rvtm rvtm gce gce gce review packet packet name name indic scenario scenario scenario scenario 
+differ regard point inconsist exist delta delta delta move move move move antenna antenna antenna correct howev bgi bgi bgi gce gce indic indic scenario scenario step step step step 
+actual delta move move hga instruct instruct detail antenna specifi suggest bgi execut fail fail indic need fsw scenario verifi command step step step 
+write delta assign base move posit posit contain type instruct detail detail detail antenna exampl exampl correct provid end inform inform suggest includ includ bgi pass pass pass pass pass procedur fail fail fail fail fail fail fail comment indic set need need need need use state scenario scenario step step step step step step step 
+perform delta part move posit gimbal detail detail detail detail antenna case exampl provid inform howev bgi statement pass pass procedur fail fail need need need list list scenario scenario scenario verifi verifi verifi verifi step step step step step 
+written delta base move posit posit posit posit instruct descript specif detail antenna paramet correct correct correct end end end end inform inform suggest suggest includ includ bgi procedur check check check telemetri need scenario scenario verifi verifi command step 
+point delta delta would count count fulli move move note partial partial partial type antenna antenna exampl specifi inform bgi bgi address gce indic need list list scenario scenario scenario scenario scenario command command step step step 
+perform delta move instruct gimbal gimbal specif antenna specifi suggest bgi verif check telemetri need scenario verifi verifi 
+regard written written delta addit base part move may instruct complet complet detail detail antenna current suggest includ bgi verif verif gce procedur check comment indic telemetri need need time time time line scenario scenario verifi verifi verifi verifi verifi command command step step step step step step step step 
+exist delta move antenna suggest bgi indic section scenario scenario step 
+differ regard exist delta delta delta delta recommend discrep call move move antenna antenna updat also includ includ bgi bgi bgi bgi rvtm rvtm rvtm rvtm rvtm rvtm gce gce gce name indic section section line list list list list list list scenario scenario scenario scenario scenario scenario scenario scenario scenario scenario verifi verifi verifi step 
+actual regard move identifi instruct instruct specif antenna suggest bgi fail fail line scenario verifi step step step 
+perform part move posit gimbal detail detail detail detail antenna case exampl provid inform howev bgi statement pass pass procedur fail fail need need need list list scenario scenario scenario verifi verifi verifi verifi step step step step step 
+differ doubl doubl regard question question see exist move posit type gimbal chang read antenna paramet paramet follow issu issu issu issu suggest suggest suggest initi includ bgi appear check check check time line list list scenario scenario verifi verifi verifi step step step step step step step step step step step step 
+write assign base move identifi posit posit contain instruct detail detail antenna exampl exampl correct provid end inform inform suggest includ includ bgi pass pass pass pass pass procedur fail fail fail fail fail fail fail comment indic set need need need need use state scenario scenario step step step step step step 
+regard written base move posit posit posit instruct descript detail antenna paramet correct correct end end end inform suggest suggest includ includ bgi procedur check need scenario scenario verifi verifi command step 
+regard point delta delta would count count fulli move move note partial partial partial type antenna antenna exampl specifi inform bgi bgi address gce indic need list list scenario scenario scenario scenario scenario command command step step step step 
+regard move instruct gimbal gimbal specif antenna specifi suggest bgi telemetri need scenario verifi verifi verifi step 
+written written addit base part move may instruct complet complet detail detail antenna current suggest includ bgi verif verif gce procedur check comment indic telemetri need need time time time line scenario scenario verifi verifi verifi verifi verifi command command step step step step step step step 
+differ regard exist recommend discrep call move move antenna antenna updat also includ includ bgi bgi bgi bgi rvtm rvtm rvtm rvtm rvtm rvtm gce gce gce name indic section section line list list list list list scenario scenario scenario scenario scenario scenario scenario scenario verifi verifi verifi step 
+clarif assign found move move identifi gimbal gimbal gimbal axi axi axi complet antenna antenna also initi initi bgi bgi rvtm rvtm gce gce execut check shall list list list fsw state scenario scenario scenario command command command command command command 
+regard addit part move partial instruct gimbal gimbal gimbal axi axi axi antenna disabl disabl disabl enabl enabl enabl bgi gce execut check check need shall line fsw state scenario scenario scenario command command command command step 
+regard addit part move partial instruct antenna disabl disabl disabl enabl enabl enabl current current bgi gce execut check check need shall valu line fsw state scenario scenario scenario command command command command step 
+regard addit move partial instruct gimbal gimbal axi antenna specifi also bgi gce gce gce gce gce execut check need control control control control control control control control control shall line fsw fsw state scenario scenario scenario command step 
+actual regard exist discrep call move move refer antenna antenna antenna bgi bgi bgi bgi rvtm rvtm rvtm gce gce gce line state scenario scenario scenario scenario scenario 
+make regard exist addit discrep move instruct gimbal gimbal gimbal axi axi antenna initi initi flag flag includ howev bgi rvtm rvtm rvtm gce indic indic need shall section valu line list fsw state scenario scenario scenario scenario verifi verifi verifi step 
+differ could recommend css refer refer refer one follow bac name name name name use use scenario scenario scenario scenario scenario scenario 
+exist recommend refer chang bac review line list document scenario scenario 
+per per per addit addit addit addit addit recommend fdc fdc fdc fdc css ensur instruct instruct complet updat appear bac need req valu valu valu valu line line line scenario verifi verifi verifi 
+exist recommend css refer contain chang bac line scenario scenario step step step 
+perform clarif implement would recommend limit limit sinc css instruct instruct instruct chang process process process verif verif fail bac comment telemetri telemetri valu valu line code scenario step 
+sub recommend recommend part invalid invalid note css css css instruct instruct instruct instruct follow follow specifi also flag flag verif fail fail bac need data data line line scenario step step 
+sub addit recommend recommend part invalid note css instruct instruct instruct instruct follow current specifi also also flag verif fail fail bac need data line line scenario step 
+see partial follow provid valid valid flag flag statu statu statu appear appear bac telemetri shall data fsw state scenario scenario verifi verifi verifi verifi ace 
+discrep discrep identifi one updat suggest rvtm rvtm rvtm rvtm bac bac sbc section list scenario scenario scenario scenario verifi 
+make regard fulli part partial may statu statu statu statu appear bac packet packet shall data data line fsw fsw state scenario verifi verifi ace step 
+regard addit invalid invalid invalid css css css instruct read case also also flag flag flag howev appear fail fail bac check need data data data line fsw scenario verifi step step step 
+make fulli part css css css partial may statu statu statu statu appear bac packet packet shall data data line fsw fsw state scenario verifi verifi ace step 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent time sdn sdn fsw fsw document code 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur updat updat suggest includ howev address appear alloc alloc review need req parent sdn sdn sdn fsw fsw fsw document document 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent sdn sdn sdn fsw fsw fsw document 
+explicitli base subsystem child suggest howev address appear appear alloc alloc review req parent parent sdn sdn sdn sdn fsw fsw fsw document 
+explicitli base subsystem child suggest howev address appear appear alloc alloc review req parent parent sdn sdn sdn fsw fsw fsw document 
+explicitli base subsystem child child suggest howev address appear appear alloc alloc review req parent parent list sdn sdn sdn sdn fsw fsw fsw document 
+explicitli base subsystem child suggest howev address appear appear alloc alloc review req parent parent sdn sdn sdn sdn fsw fsw fsw document 
+appropri subsystem child ensur chang updat suggest includ howev address appear alloc alloc alloc review need req level parent time cdhmp cdhmp fsw fsw document document code 
+appropri subsystem child ensur suggest includ howev address appear alloc alloc review req parent time cdhmp cdhmp fsw fsw document code 
+make discrep child identifi identifi identifi correct correct incorrect incorrect current provid suggest suggest valid address packet set softwar softwar req parent parent parent parent parent parent time time time shall shall cdhmp cdhmp cdhmp cdhmp data sdn command 
+appropri identifi identifi suggest suggest parent parent parent parent cdhmp 
+instanc follow follow suggest process process address address number need list document state 
+regard addit invalid invalid invalid css css instruct read case also also flag flag flag howev appear fail fail bac check need data data data line fsw scenario step step 
+discrep discrep css css identifi one updat suggest rvtm rvtm rvtm rvtm bac bac sbc section line list scenario scenario scenario scenario verifi 
+actual start css refer refer correct appear number bac need scenario scenario step step step step step step step 
+actual partial suggest includ howev verif appear appear rate rate indic indic section data list scenario scenario verifi verifi verifi verifi verifi verifi verifi step step step step step step step step step 
+fulli partial specif appear appear tabl data data data data data data state scenario scenario verifi ace ace ace 
+regard tbd tbd tbd descript specif inform statu data line scenario 
+actual suggest includ howev verif appear appear rate rate indic indic section data list scenario scenario verifi verifi verifi verifi verifi verifi verifi step step step step step step step step step 
+miss card two correct suggest line scenario scenario verifi step step step 
+sinc warm warm warm warm start start start may specif suggest includ restart scenario scenario scenario scenario scenario ace 
+question fulli call partial suggest howev verif tabl section section list list list state scenario scenario scenario scenario scenario scenario verifi verifi verifi step step step step 
+gener question would tbd tbd invalid contain event messag inform restart code scenario step step 
+question fulli call partial event messag suggest howev verif tabl section section line list list list state scenario scenario scenario scenario scenario scenario verifi verifi verifi step step step step 
+question fulli call partial suggest howev process verif tabl section section line list list list state scenario scenario scenario scenario scenario scenario verifi verifi verifi command step step step step 
+regard tbd tbd process address time line line scenario command step step 
+regard tbd tbd tbd tbd contain inform process process process address projectb projectb need time scenario ace ace command command command 
+cold zero zero zero would word call restart reset reset number number number packet packet check check indic counter counter scenario verifi step 
+regard written cold open see exist identifi specif issu issu current restart line scenario 
+written would warm partial incorrect restart indic data data line line scenario scenario verifi step step 
+exist discrep warm warm updat suggest includ howev restart restart rvtm rvtm rvtm rvtm indic indic line list list scenario scenario scenario scenario scenario verifi ace 
+receiv addit recommend invalid warm css instruct instruct follow current flag process verif restart fail bac packet need data scenario verifi step 
+question would recommend note identifi instruct suggest bgi review packet need time time line scenario step 
+gic gic recommend recommend partial partial ground ensur one chang specifi specifi also also includ appear packet indic data data data data data line list list sdn state scenario scenario verifi verifi verifi verifi step step step 
+puls get get get properli per per written point point count count posit gimbal gimbal gimbal read read follow updat current current current statu verif address gce gce packet packet packet packet packet packet packet packet packet rate rate rate rate indic need need need need shall data data data data data use scenario scenario step 
+actual make accept addit addit reject reject length length recommend recommend invalid invalid charact contain ensur instruct instruct caus chang chang paramet paramet paramet end sourc sourc sourc valid valid valid bgi number name softwar control control control use scenario verifi verifi verifi command command command command step step 
+occur word recommend limit limit instruct instruct chang chang axi axi read end bgi softwar softwar line scenario verifi verifi step 
+switch switch switch doubl doubl written written could recommend contain contain instruct instruct caus chang chang chang current bgi telemetri telemetri telemetri valu valu valu line state scenario verifi verifi verifi step step 
+question point point cold inconsist exist would call one issu statu restart restart telemetri telemetri req line code scenario 
+explicitli question cold fulli call identifi identifi partial specif follow suggest howev verif verif restart tabl section line list list state scenario scenario scenario scenario scenario scenario scenario verifi verifi verifi step step step 
+written result word word gic recommend instruct instruct instruct gimbal chang chang chang chang chang chang axi read read read read read read read read antenna current current suggest initi initi flag bgi control time line line line line line line list state state state state scenario verifi verifi verifi verifi verifi verifi step step step step step step 
+actual make accept addit addit reject reject length length recommend recommend invalid invalid charact contain ensur instruct instruct caus chang disabl disabl paramet paramet paramet end valid valid valid flag bgi number name softwar need control control control use state scenario verifi verifi command command command command command step 
+actual make accept addit addit reject reject length length recommend recommend invalid invalid charact contain ensur instruct instruct caus paramet paramet paramet current current current end valid valid valid bgi number name softwar need use state scenario verifi verifi command command command command command step 
+actual make accept addit addit reject reject length length gic gic gic recommend recommend invalid invalid charact contain ensur instruct instruct caus chang paramet paramet paramet end valid valid valid bgi number name softwar use state scenario verifi verifi command command command command command step 
+actual make accept addit addit reject reject length length recommend recommend invalid invalid charact contain ensur instruct instruct gimbal gimbal gimbal caus chang axi axi disabl disabl disabl paramet paramet paramet enabl end valid valid valid bgi number name softwar use state scenario verifi verifi command command command command command step 
+sub sub exist recommend part commandtest refer one correct provid valid bgi review line list document scenario command step 
+gic recommend commandtest partial partial partial one correct bgi reset appear indic control line list scenario command step 
+regist regist regist regist default default word gic gic commandtest instruct instruct instruct specif read updat current current bgi verif reset reset reset review control valu valu valu valu line scenario verifi verifi command step 
+perform clarif regist actual make cannot cannot gic recommend commandtest possibl may may instruct read read follow follow bgi verif reset reset review use line scenario step step 
+get would move move commandtest antenna antenna enabl build build build initi bgi process process execut appear review need need time scenario scenario command step step step step step step step step 
+sub sub sub actual gic recommend recommend commandtest posit partial partial gimbal exampl correct specifi bgi appear set line list list document scenario command step step 
+puls sub sub sub actual count recommend recommend commandtest partial partial exampl correct specifi bgi appear set line list list scenario scenario command step step 
+count count gic recommend commandtest identifi posit posit instruct instruct gimbal gimbal specifi bgi number set set need valu valu valu scenario command step 
+switch sub sub sub actual recommend recommend commandtest partial partial exampl specifi bgi appear set line list list state scenario scenario command step step 
+sub sub sub actual recommend recommend commandtest partial partial gimbal antenna exampl specifi bgi appear line list list scenario scenario command step step 
+receiv differ occur actual label reject found move move second purpos one gimbal gimbal gimbal gimbal spec spec axi axi axi two two antenna antenna antenna correct correct inform initi initi flag flag bgi bgi gce gce gce gce number number set need shall shall section section section section line list list fsw fsw state state scenario scenario scenario scenario command command command command command command command command step step 
+sub sub sub actual open recommend recommend commandtest exampl correct specifi bgi appear line list list scenario scenario command step step 
+clarif point accept ccsd ccsd ccsd ccsd ccsd send send recommend commandtest instruct instruct instruct one one one read read read specifi also end system howev execut execut review need shall data use use use use use use line list fsw state scenario ace command command command command command command step step step step 
+appropri base warm identifi identifi identifi one spec spec correct follow follow specifi suggest reset execut execut fail review task task softwar softwar softwar req parent parent parent parent parent parent shall shall sdn sdn sdn sdn fsw fsw fsw document state state 
+perform output spacecraft warm identifi ground one chang spec spec correct correct follow follow specifi suggest reset execut execut fail task task packet telemetri softwar softwar softwar req parent parent parent parent parent shall shall shall data sdn sdn sdn sdn sdn fsw fsw fsw state state state 
+increment increment addit addit recommend commandtest instruct instruct follow bgi process process number counter counter scenario verifi verifi command command step step 
+implement open result tbd tbd tbd default default found issu issu load load load load provid inform system system statu appear review sbc sbc need tabl tabl tabl tabl valu valu line scenario scenario step 
+clarif result exist found call purpos contain load execut execut execut sbc sbc counter counter counter counter counter tabl use line line line fsw defin scenario scenario verifi variabl step step step 
+clarif num routin routin loop loop loop label count local local discrep purpos complet correct correct index index array name page page page counter declar declar declar declar section section use algorithm algorithm algorithm defin defin variabl variabl variabl variabl variabl variabl 
+num routin local global identifi ground correct issu page page page need declar declar section section use algorithm algorithm defin variabl variabl variabl 
+num routin routin routin local global note identifi ground correct issu page page page page need declar declar declar section section use algorithm algorithm algorithm defin defin function variabl variabl variabl 
+clarif num routin routin loop loop loop label count local local discrep purpos complet correct index name page page page counter declar declar declar declar section section use algorithm algorithm algorithm defin defin variabl variabl variabl variabl variabl variabl 
+num routin local global identifi exampl correct issu appear page page page need declar declar section section use algorithm algorithm defin variabl variabl variabl 
+num routin written sun sun global one correct issu current page page page need declar section use use use use list algorithm algorithm defin defin variabl variabl variabl 
+clarif num routin routin spacecraft loop loop loop label count local local discrep purpos complet correct index name page page page counter declar declar declar declar section section use algorithm algorithm algorithm defin defin variabl variabl variabl variabl variabl variabl 
+clarif num routin loop loop label label match local local discrep sinc purpos correct specifi index name name page page page counter declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num routin label label match discrep global global sinc purpos two two correct specifi name page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num routin label label match local local discrep sinc purpos correct specifi name page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num per per per routin match discrep global global sinc second second second purpos correct specifi name page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl variabl 
+clarif num routin label label match local local discrep sinc purpos correct specifi name page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num routin label label match local local discrep sinc purpos correct specifi name page page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num routin label label match local local discrep sinc purpos correct specifi name page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num routin loop loop label label match local local discrep sinc purpos correct specifi index name name page page page counter declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num routin label label match local local discrep sinc purpos correct specifi name page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl 
+clarif num per per per routin match discrep global global sinc second second second purpos correct specifi name page page page declar declar section section use algorithm algorithm defin variabl variabl variabl variabl variabl 
+num gener routin local global identifi correct issu page page need declar declar section section use algorithm algorithm defin variabl variabl 
+switch switch written fulli refer ensur current provid inform suggest includ reset telemetri telemetri telemetri telemetri softwar counter counter counter counter shall pse pse list fsw state command 
+array array initi initi line 
+extern extern extern extern declar declar line function 
+match instruct instruct incorrect comment comment line 
+refer descript descript incorrect number comment line function function function function 
+written base base miss follow current shall pse pse fsw state 
+perform delta miss fulli subsystem limit hga partial ground complet current array provid provid provid inform suggest system includ includ statu trace trace trace trace trace telemetri telemetri telemetri softwar softwar req req req parent time time shall shall pse sdn sdn sdn sdn sdn sdn sdn fsw fsw fsw state state verifi 
+written written see cannot cannot addit would found sinc note contain exampl current current specifi inform indic telemetri telemetri telemetri telemetri shall pse pse pse pse pse pse fsw state state state 
+receiv receiv miss child partial specif current array array array provid provid suggest includ trace trace trace trace execut execut set softwar softwar control level parent parent shall shall shall shall pse pse pse pse pse pse pse pse pse pse pse pse pse sdn sdn fsw fsw fsw fsw fsw fsw function state state state state command command command command 
+receiv switch cold cold cold cold would default default default default could power power power power start specif specif complet disabl paramet follow follow follow specifi specifi provid provid provid initi howev trace trace trace trace trace restart reset reset execut softwar softwar softwar req req req req req level shall shall shall shall shall shall use pse pse pse pse pse pse pse pse pse pse pse pse pse valu valu sdn sdn sdn sdn sdn sdn fsw fsw fsw fsw fsw fsw fsw fsw function state state state state state state command command command 
+written written point point follow current current provid reset reset telemetri telemetri pse pse list fsw state command 
+receiv puls loop make specif complet current current provid provid also also includ trace trace trace trace trace trace trace execut set softwar control control req req req req req level parent shall shall shall use pse pse pse pse pse pse pse pse pse pse pse pse pse sdn fsw fsw fsw fsw fsw fsw fsw fsw function state state state command command command command command command 
+receiv accept open exist word contain specif specif complet current provid also suggest trace trace trace trace execut softwar req req req req req req level level shall shall pse pse pse pse pse pse pse pse pse list sdn fsw fsw fsw fsw fsw fsw function state state command command 
+receiv routin make make increment increment increment inconsist inconsist reject length invalid invalid event messag complet updat current specifi provid provid also inform suggest valid valid valid valid valid valid valid includ includ statu trace trace trace trace execut execut appear fail telemetri telemetri telemetri softwar counter counter counter counter counter req req req level parent parent parent parent shall shall shall shall pse pse pse pse pse pse pse list list sdn sdn sdn sdn sdn sdn sdn fsw fsw fsw fsw fsw fsw fsw function function state state state state code verifi command command command command command command command command command command command command 
+cold miss power call warm warm includ restart restart restart comment code file file 
+standard label label label label definit extern incorrect section section section line line function file file 
+write standard standard standard written written definit sun sun inconsist would sinc fdc fdc instanc instanc refer specif specif complet exampl follow follow howev process process process process process restart restart restart restart restart restart projectb projectb projectb projectb projectb projectb bac bac bac bac bac bac bac bac bac review review sbc sbc sbc sbc sbc sbc sbc sbc sbc tabl time time data use line fsw fsw fsw defin defin defin document document document document scenario scenario scenario scenario scenario scenario scenario scenario scenario scenario ace step 
+would recommend fdc fdc possibl possibl ensur read exampl current specifi includ restart restart number plan bac bac check check indic sbc sbc need need tabl tabl data data data data valu list defin defin state scenario scenario scenario scenario verifi step 
+sub sub question sun zero zero zero see result except fulli note note identifi mode specif specif specif two follow specifi initi initi howev process process address address restart restart appear bac bac check sbc sbc set shall data valu valu fsw state scenario scenario verifi step step step step 
+tbd tbd tbd paramet paramet inform statu restart restart bac bac sbc sbc scenario scenario step 
+output output output differ sub actual question question point point cold cold cold cold zero zero eeprom eeprom would base sinc warm warm warm warm warm note contain main caus specif specif specif spec spec two two complet paramet paramet exampl issu buffer buffer buffer specifi also inform initi restart restart restart restart restart restart restart restart restart reset reset packet packet telemetri telemetri telemetri set shall shall shall shall shall data data valu valu fsw fsw fsw fsw fsw fsw fsw state state state state state variabl command command command 
+spacecraft cold cold cold cold cold except power power power power power power sinc note note main spec spec two follow issu initi howev restart restart restart restart restart shall list fsw fsw fsw fsw fsw function function function state state state scenario 
+output output vector vector vector properli spacecraft written point point sun sun sun fulli invalid partial condit condit condit condit specif specif two detail detail detail case exampl current also also also also valid valid valid valid valid flag flag flag flag process process pass appear appear appear appear appear procedur procedur error error fail bac bac check check check check check check check check check rate rate indic sbc sbc need need need need data data data data data list scenario scenario scenario scenario scenario verifi verifi verifi verifi verifi step step step step step step step 
+spacecraft point identifi specif specif detail paramet paramet suggest flag process process error bac bac check rate indic sbc sbc need data valu scenario scenario verifi step step step step 
+fulli partial complet current process process process bac bac bac sbc sbc sbc need scenario scenario verifi verifi verifi verifi 
+explicitli clarif question question would part sinc design possibl refer may descript specif specif case valid initi process process statement reset procedur bac bac telemetri telemetri sbc sbc softwar counter counter counter counter counter valu fsw fsw defin function scenario scenario step step step 
+see two process process bac bac sbc sbc set set softwar control control control state scenario scenario command 
+method discrep updat suggest howev restart rvtm rvtm rvtm bac indic indic sbc state scenario scenario verifi 
+differ child one two updat suggest trace number need req req cdhmp cdhmp fsw 
+written tbd tbd flight child current provid provid suggest trace trace trace packet rate telemetri telemetri telemetri softwar softwar req req parent shall shall cdhmp cdhmp cdhmp data use fsw fsw state state 
+output output gener gener actual actual written send second note partial contain ground event one two complet complet current current current provid provid provid suggest includ includ trace trace trace trace trace statement statement statement number packet packet rate rate rate telemetri telemetri softwar softwar req req req req time time time time shall shall shall shall shall shall cdhmp cdhmp cdhmp cdhmp cdhmp cdhmp data data sdn fsw fsw fsw fsw state state state 
+tbd tbd current suggest includ trace 
+make question ccsd send word flight complet complet bit current provid also includ trace trace trace trace appear packet packet telemetri telemetri set softwar softwar softwar req req req shall shall cdhmp cdhmp cdhmp cdhmp cdhmp cdhmp data valu fsw fsw fsw state state state 
+gener make question implement ccsd ccsd ccsd ccsd zero channel channel channel recommend flight complet complet current also includ trace trace trace trace projectb appear plan telemetri telemetri telemetri softwar softwar softwar req req req shall shall shall cdhmp cdhmp cdhmp cdhmp cdhmp cdhmp use fsw fsw fsw defin state state state 
+output spacecraft flight design ground current provid system trace trace trace packet telemetri telemetri softwar softwar req req level level parent shall shall cdhmp cdhmp data fsw fsw state state 
+receiv output output written definit flight flight flight flight flight limit limit note note note partial refer refer ground two complet complet paramet current current specifi specifi specifi provid provid provid provid provid system includ trace trace trace trace execut packet rate rate telemetri telemetri telemetri telemetri set softwar softwar softwar softwar softwar softwar need tabl tabl tabl tabl req req req level parent parent shall shall shall shall shall shall cdhmp cdhmp cdhmp cdhmp cdhmp valu sdn fsw fsw fsw fsw state state state state state state command command command command command command command command command command command command command 
+differ written cold cold cold default default could power power flight warm warm warm start start identifi dump dump paramet paramet follow current provid initi trace trace trace address restart restart reset reset appear softwar softwar softwar req level parent shall shall shall cdhmp cdhmp cdhmp cdhmp cdhmp cdhmp valu valu valu fsw state state state state 
+definit definit miss miss purpos purpos paramet paramet comment comment line function function function function file file 
+rwa rwa rwa rwa refer refer refer end end end end process comment comment comment comment file file file file file file file 
+eeprom except incorrect incorrect error comment comment comment return return return line code code code file 
+write standard standard standard label eeprom except global ensur follow follow comment section section function code file file file 
+standard standard eeprom except type name line 
+see except base null null null tim type paramet paramet review check check check check uint use line function function function function code variabl 
+perform cold except power warm warm type chang restart restart projectb review name name name line code variabl variabl 
+exampl updat updat updat build includ includ verif projectb procedur procedur review comment name name name telemetri list list fsw scenario scenario 
+question review telemetri telemetri line scenario verifi verifi step step 
+identifi updat suggest address address review indic indic line scenario scenario scenario step step step step 
+make appropri increment increment increment increment increment exist count count power power power power local local local local discrep discrep one one one chang suggest howev execut execut review check indic telemetri counter cmd cmd valu line line line line line scenario scenario scenario verifi command command command 
+puls puls inconsist word recommend chang chang read disabl disabl disabl enabl enabl enabl howev review cmd cmd use use use use use line state scenario step step step step 
+puls puls actual send read read disabl disabl enabl enabl review indic cmd cmd use line line scenario command step 
+gener gener configur configur default default word found sourc sourc inform review indic cmd cmd line document scenario step step 
+gener gener configur configur default default word refer sourc sourc inform inform suggest includ review check indic need cmd cmd line document scenario step 
+clarif get gener gener would configur part contain contain contain may specif specif read read paramet issu enabl enabl enabl review rate cmd cmd tabl tabl valu line scenario scenario variabl command command command command command step 
+puls gener gener increment accept local recommend identifi condit type exampl exampl follow includ verif statement statement pass pass pass pass pass fail fail fail fail fail review check indic indic indic indic counter need need cmd cmd cmd cmd line scenario scenario scenario verifi command command step step step step 
+explicitli suggest includ address address statement review scenario scenario scenario step 
+rwa rwa rwa rwa rwa rwa rwa rwa rwa miss fdc fdc type type process review review packet packet time time time time time time time time section list code code ace ace ace ace ace ace ace ace 
+question definit block would global global sinc caus case follow incorrect initi initi initi error number number review review packet comment indic indic uint uint declar declar declar declar use valu valu valu line line function code code code code ace ace variabl variabl variabl variabl variabl variabl variabl variabl command 
+per standard call instanc refer refer refer refer paramet build void void void task task cmd cmd use use use use line line line line line line function code code code ace variabl variabl command command 
+rwa eeprom eeprom els start ground type type one chang chang load process declar tabl tabl tabl data line defin defin file file 
+rwa written see limit limit limit limit call purpos purpos purpos two provid process check check time data line function function function function function code 
+rwa standard label local review task section line code file file variabl variabl 
+get get get cold cold cold cold power sinc warm warm warm warm event ensur type case initi restart restart restart restart statement statement statement reset execut execut execut execut task task task task line code file ace ace ace 
+per standard standard label label label label definit definit definit ground type case also task name cmd cmd section line line line sdn function code code file file ace ace ace command command 
+definit open read incorrect incorrect review task packet comment comment comment section line state code ace 
+call incorrect review review task interfac interfac packet name name line code code file file file ace ace ace 
+standard standard label label label definit definit local global tim tim start type type type also comment set softwar section section section section line line sdn defin function code code file 
+match would miss local els els start start correct also end valid process statement statement statement statement comment comment comment line line sdn fsw function function function command 
+standard inconsist miss design may messag messag icd case case case case case also process projectb statement comment comment comment comment comment softwar return use use line fsw function function function document state code code code 
+switch would miss default default default default invalid case case statement statement statement statement gce execut review task packet packet check check comment comment comment use line function state code code code 
+switch switch switch switch standard standard default default default instanc instanc may event type statement statement statement statement gce task set need data valu code code code code 
+recommend review task check check check check check return return return return data data use use valu valu valu valu valu line line function function function function code code code code file ace ace variabl 
+make standard miss part read read paramet paramet paramet follow process need declar data use line list list code file ace ace variabl variabl variabl 
+switch switch accept except except power subsystem subsystem call provid provid address execut alloc softwar req req req req parent shall shall pse pse sdn sdn sdn sdn fsw fsw state state command command 
+explicitli explicitli explicitli explicitli explicitli word subsystem subsystem child call identifi identifi identifi identifi specif specif complet specifi provid also inform suggest trace address address address address execut alloc alloc alloc alloc alloc comment indic telemetri need req level level parent parent parent parent parent parent section sdn sdn sdn sdn sdn sdn fsw fsw fsw fsw fsw document state verifi command command 
+explicitli switch switch eeprom addit default power power child child specifi specifi provid initi howev req req req req req parent parent parent parent shall shall shall valu fsw defin state state state state state state 
+point label design design design refer refer refer icd icd complet complet case case exampl follow provid provid provid provid provid provid suggest includ includ includ howev howev trace address address projectb projectb level level level level level level fsw fsw document state state state state 
+date date increment see send would would extern fulli bxb bxb invalid type one one spec spec exampl exampl updat current valid includ howev howev projectb execut error error error error fail review review name softwar counter counter counter counter need control control time time shall valu line line fsw fsw fsw state state scenario scenario scenario scenario scenario scenario verifi verifi verifi verifi verifi verifi verifi command command command command command command command command step step step step 
+gener send tbd tbd extern bxb complet issu issu address procedur procedur review review name need control line scenario scenario scenario command command 
+explicitli cold zero extern power bxb call specifi initi initi initi statu address restart restart restart execut procedur fail review review name telemetri counter counter counter counter counter control req shall line fsw scenario scenario command command 
+explicitli extern bxb call warm specifi statu address restart restart execut procedur fail review review name telemetri softwar counter counter counter counter counter control req shall line scenario scenario command command 
+extern bxb bxb start start chang read follow issu issu reset reset reset reset procedur procedur procedur error review review name control line line scenario scenario verifi verifi command command 
+extern bxb bxb chang issu reset reset procedur procedur error review review name control line line scenario scenario 
+explicitli properli default default extern bxb identifi ensur verif reset review review name control req use valu valu valu valu line scenario scenario 
+extern bxb identifi refer incorrect procedur procedur review review interfac name control line line sdn state scenario scenario scenario step step step 
+explicitli properli ccsd ccsd see result send extern part part bxb bxb messag specif complet read specifi procedur procedur review review interfac interfac packet packet check name indic softwar control req shall data line fsw state state code scenario scenario scenario scenario verifi verifi verifi command 
+actual extern bxb bxb identifi identifi procedur procedur review review interfac interfac check name indic indic control req line line document document scenario scenario scenario verifi 
+date date increment see send would would extern fulli bxb bxb invalid identifi type one one spec spec exampl exampl updat current valid includ howev howev projectb execut error error error fail review review name softwar counter counter counter control control time time shall valu line line fsw fsw fsw state state scenario scenario scenario scenario scenario scenario verifi verifi verifi verifi verifi verifi verifi verifi command command command command command command command step step step step 
+extern bxb bxb commandtest commandtest includ procedur review review check check name need control req line line line list scenario scenario scenario verifi step 
+extern bxb bxb commandtest commandtest includ procedur review review name control req line scenario scenario scenario verifi verifi 
+properli regist regist see reject count extern fulli part bxb bxb tim commandtest commandtest ground updat updat statu appear procedur error review review name telemetri counter control control control req use valu valu line scenario scenario scenario scenario verifi verifi verifi command command 
+properli occur question method extern length bxb bxb commandtest commandtest event messag detail also suggest includ verif error review review packet check name indic indic control req use line line line line line scenario scenario verifi verifi ace ace step step step step step 
+properli question method extern length channel bxb bxb commandtest commandtest partial event messag disabl enabl enabl also verif error review review packet check check name control req line line list scenario scenario scenario verifi verifi step step 
+perform perform properli properli properli gener gener appropri see send send would extern could could could bxb bxb commandtest commandtest event event event event event messag messag messag messag messag read read exampl correct follow updat current also verif statement procedur error number number number number number number fail review review packet packet name indic need need control req data data data data valu line line scenario scenario scenario verifi verifi verifi verifi command command command command step step 
+write gener make question method cannot extern channel channel bxb bxb sinc commandtest commandtest partial partial event messag two read disabl disabl disabl enabl also verif reset review review name telemetri counter control req line line scenario scenario verifi verifi verifi verifi verifi command command command step step 
+properli gener sub question question method method ccsd ccsd see would extern length length bxb commandtest event messag messag specif specif read updat specifi provid also also inform verif verif address appear error error review review packet packet packet packet name indic indic control return return shall data data data line line fsw state scenario scenario scenario verifi verifi verifi command step step 
+write gener sub sub question question written method method extern length length bxb commandtest commandtest event messag messag specifi specifi specifi specifi provid verif verif address address error error review review packet packet name indic indic control shall data data line line fsw state scenario scenario scenario scenario verifi command step step 
+written written send configur configur configur extern fulli bxb bxb commandtest commandtest partial ensur descript one one read current current suggest reset reset appear review review name need control control req level use line scenario scenario scenario command command command command step step step 
+properli properli extern channel bxb bxb commandtest commandtest identifi disabl enabl procedur review review name control req line scenario scenario verifi verifi command command step step 
+actual make make make written increment increment increment increment zero zero zero zero zero zero zero send would extern bxb commandtest contain one one chang two inform valid statement reset reset reset reset reset reset reset execut execut execut execut appear procedur review review check check name indic indic counter counter counter counter counter counter counter control time time line line scenario scenario scenario command command command command command command command command step 
+properli properli extern channel bxb bxb commandtest commandtest identifi disabl enabl procedur review review name control req line scenario scenario verifi verifi command command step step 
+extern build includ includ void void softwar line function function file file command 
+routin memori provid review use use line code file 
+make match match match descript chang chang end valid statement statement statement comment comment comment softwar line line function 
+standard label local follow softwar section data line line function code file file 
+explicitli label flight specifi trace softwar softwar need level level sdn document document document state 
+standard standard label definit definit type type case follow also packet comment section section section section use sdn defin defin code code code code file 
+point els els els contain end end statement statement comment comment line 
+switch switch switch appropri would miss identifi possibl may ensur case case case case sourc statement statement statement statement statement statement error review review comment comment need code code code 
+switch output standard standard default default default default default case case case also statement statement error check comment comment line code code 
+clarif notebox notebox implement revis discrep call purpos purpos purpos purpos fdc fdc identifi two correct correct incorrect specifi valid iru process gce gce check page page req section data data data algorithm algorithm algorithm document document 
+notebox routin routin revis local global purpos note fdc ensur issu inform howev process address pass pass appear appear page page need req section data data data data algorithm algorithm algorithm algorithm algorithm algorithm algorithm defin defin function document document variabl variabl 
+clarif notebox routin revis match local local discrep sinc purpos identifi identifi correct specifi flag flag name name page page declar declar req section section use algorithm algorithm algorithm document document variabl variabl variabl variabl variabl 
+clarif notebox notebox implement revis discrep call purpos purpos purpos purpos fdc fdc two correct incorrect incorrect specifi valid iru appear check page page req section data data data algorithm algorithm algorithm document document 
+notebox revis local global identifi correct issu page page need declar declar declar req section section use list algorithm algorithm algorithm defin defin document document variabl variabl variabl variabl variabl 
+notebox revis local global identifi correct issu page page need declar declar declar req section section use list algorithm algorithm algorithm defin defin document document variabl variabl variabl variabl variabl 
+notebox make revis local local global call correct issu appear error error page page page need declar declar req section section use use list algorithm algorithm algorithm algorithm defin defin defin document document variabl variabl variabl variabl variabl variabl variabl variabl 
+notebox revis revis note note issu address address address address page page page need need need need req req req section algorithm algorithm algorithm algorithm algorithm algorithm algorithm document document document 
+clarif notebox routin routin revis match match match purpos two two correct process process process procedur name name name name name page page page req section data data data use use use algorithm algorithm algorithm document document 
+clarif notebox notebox implement revis sun dss discrep sinc call purpos purpos purpos purpos fdc fdc identifi two correct correct incorrect incorrect specifi valid iru process check page page req section data data data data algorithm algorithm algorithm document document document 
+puls puls clarif notebox routin revis match discrep global global sinc purpos correct specifi name name page page declar declar req time time section section use algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl 
+clarif notebox notebox routin revis match discrep global global sinc purpos correct specifi flag flag name name page page declar declar req section section use algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl 
+clarif notebox notebox routin revis match discrep global global sinc purpos correct specifi name name page page declar declar req section section use algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl 
+clarif notebox notebox routin revis match discrep global global sinc purpos correct specifi name name page page declar declar req section section use algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl 
+clarif notebox notebox routin revis match exist local discrep global global global sinc second purpos possibl descript correct enabl enabl specifi flag flag howev statement name name name page page declar declar req section section use list list algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl variabl variabl variabl variabl 
+clarif notebox notebox routin make revis match discrep global global sinc purpos correct specifi flag flag name name page page declar declar req section section use algorithm algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl 
+puls puls clarif notebox routin revis match discrep global global sinc purpos correct specifi name name page page declar declar req time time section section use algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl 
+clarif notebox notebox rwa sub implement revis discrep call purpos purpos purpos purpos fdc fdc two correct correct incorrect incorrect specifi valid iru process check page page req section data data data algorithm algorithm algorithm document document 
+gener notebox notebox notebox revis limit limit note note issu address page page page need need need need need req req section fsw algorithm algorithm document document document 
+puls notebox notebox notebox notebox rwa rwa appropri revis block block block block delta would could could els els global sinc invalid call true true true purpos purpos purpos fdc fdc start instanc ground exampl exampl correct issu issu issu suggest valid valid flag flag flag flag flag howev appear appear page page telemetri telemetri set set set set control req section algorithm algorithm document document state state code code variabl variabl variabl variabl variabl variabl variabl variabl variabl 
+notebox rwa rwa routin revis match exist local discrep global global global sinc possibl descript correct specifi howev name name name name rate rate page page page declar req section section use use list list algorithm algorithm algorithm defin document document variabl variabl variabl variabl variabl variabl variabl variabl variabl variabl 
+clarif notebox rwa implement revis discrep call purpos purpos purpos purpos fdc fdc two correct correct incorrect incorrect specifi valid iru process check page page req section data data data algorithm algorithm algorithm document document 
+clarif notebox routin revis match match discrep global global purpos note two correct correct specifi flag flag flag flag flag howev iru iru name name name name name name name page page declar req section use list algorithm algorithm algorithm document document code variabl variabl variabl variabl variabl variabl variabl variabl 
+clarif notebox routin revis match match discrep global global purpos note two correct correct specifi flag flag flag flag flag howev iru iru name name name name name name name page page declar req section use list algorithm algorithm algorithm document document code variabl variabl variabl variabl variabl variabl variabl variabl 
+gener notebox regard revis note note note chang chang chang issu issu address page page page indic need need need req req req section fsw fsw algorithm algorithm algorithm algorithm document document 
+clarif notebox routin routin revis match match purpos two correct iru iru iru process process process procedur procedur name name name name page page page req section data data data use use algorithm algorithm algorithm document document 
+gener notebox routin revis zero zero zero fulli fulli null null part els els posit posit posit mode may specif issu array array flag howev address address address error error error rate rate rate rate page page indic indic req req shall section fsw algorithm algorithm algorithm algorithm algorithm algorithm algorithm algorithm algorithm algorithm document document document document 
+gener notebox notebox routin routin revis sun call purpos note fdc correct incorrect specifi specifi array array howev page page req section data line algorithm algorithm algorithm document document document 
+pass pass indic indic indic indic line line line sdn step 
+tbd tbd need line sdn scenario scenario 
+actual discrep discrep suggest verif rvtm indic sdn scenario scenario scenario 
+partial partial specif also statement appear indic telemetri tabl tabl line sdn step step 
+differ exist sinc condit verif statement pass pass pass pass fail fail comment comment indic indic indic tabl tabl use line sdn scenario verifi 
+discrep discrep limit limit suggest howev verif rvtm rate rate indic indic list sdn scenario scenario scenario 
+assign limit limit contain inform suggest includ verif appear rate rate line line line sdn variabl 
+tbd tbd tbd limit limit contain howev check rate rate need need req line sdn scenario variabl step step 
+exist condit condit statement pass pass pass fail fail comment comment indic indic tabl tabl use sdn scenario 
+partial partial specif also statement appear indic telemetri tabl tabl line sdn step step 
+question question contain suggest tabl tabl line sdn function scenario 
+discrep ensur inform suggest verif review list list list scenario scenario scenario verifi verifi 
+bsm bsm load load suggest verif sdn scenario scenario 
+ram gener memori memori miss bsm bsm bsm bsm bsm bsm bsm dump dump dump dump log load load load load load system system system statu statu statement statement pass pass pass pass pass fail fail fail fail indic indic indic indic set set tabl tabl tabl use use valu sdn sdn sdn sdn sdn sdn sdn file scenario scenario scenario scenario 
+memori memori bsm bsm load load indic line sdn scenario verifi verifi 
+perform ram eeprom memori memori memori flight bsm bsm enabl specifi load load load load verif fail softwar shall data line sdn verifi verifi step 
+properli increment would memori memori fulli bsm bsm partial load load also howev error indic indic counter need line sdn scenario scenario verifi verifi verifi verifi verifi step step 
+memori memori sinc bsm bsm dump load load tabl line sdn verifi verifi verifi command 
+perform properli properli written memori memori bsm bsm dump dump issu current load load line sdn file scenario verifi verifi verifi command step step step 
+ram ram differ differ question implement eeprom eeprom memori memori memori bsm bsm call dump dump dump dump dump one one one specif two two two load load load load address address appear appear need line line sdn sdn scenario scenario command command 
+ram ram differ differ question implement eeprom eeprom memori memori memori bsm bsm call dump dump dump dump dump one one one specif two two two load load load load address address appear appear need line line sdn sdn scenario scenario command command 
+ram ram bsm bsm bsm call call dump dump detail load load system system need tabl tabl line sdn sdn scenario 
+ram ram bsm bsm identifi partial partial one system system tabl tabl tabl line sdn scenario scenario verifi verifi verifi command 
+ram ram properli properli make bsm bsm system system check indic tabl tabl tabl tabl line sdn scenario verifi verifi 
+perform ram written written bsm bsm bsm refer dump dump paramet paramet current load load sourc sourc system system system verif indic tabl tabl tabl use use use line sdn sdn scenario scenario verifi step step 
+bsm bsm identifi partial partial dump dump one load load system system tabl tabl tabl line sdn scenario scenario verifi verifi verifi command 
+properli properli make bsm bsm dump dump load load system system check indic tabl tabl tabl tabl line sdn scenario verifi verifi 
+zero fulli fulli bsm bsm tlm partial dump dump load load system system check need tabl tabl valu line sdn verifi verifi verifi 
+zero fulli bsm bsm tlm partial partial dump dump load load system system check need tabl tabl valu line sdn verifi verifi verifi 
+increment exist part part bsm bsm call partial partial dump dump one load load system system execut fail counter tabl tabl time line sdn scenario verifi verifi verifi verifi command 
+increment exist part part bsm bsm call partial partial dump dump one load load system system execut counter tabl tabl time line sdn scenario verifi verifi verifi verifi command 
+properli properli fulli bsm bsm dump dump buffer load load indic tabl tabl tabl line sdn verifi verifi 
+properli properli written word fulli fulli copi copi copi bsm bsm start dump dump dump ensur buffer buffer current specifi load load also inform number number check tabl tabl tabl data line sdn scenario verifi verifi verifi command 
+make bsm bsm dump dump load load need line line sdn scenario verifi step step 
+properli properli bsm bsm partial dump dump current load load includ need tabl tabl line scenario scenario verifi verifi verifi verifi 
+count word bsm bsm dump dump load load inform address address need need tabl section use line list sdn scenario scenario scenario scenario verifi verifi command 
