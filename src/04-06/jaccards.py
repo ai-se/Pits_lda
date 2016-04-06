@@ -33,7 +33,7 @@ def recursion(topics=[], index=0, count1=0):
 data = []
 if __name__ == '__main__':
     l = []
-    with open("./results/101pitsA_2run", 'r') as f:
+    with open("../../results/101pitsA_2run", 'r') as f:
         for doc in f.readlines():
             l.append(doc.split())
         # print(len(l))
