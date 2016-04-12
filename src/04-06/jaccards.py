@@ -20,13 +20,14 @@ def recursion(topics=[], index=0, count1=0):
     global data
     #print(data)
     #print(topics)
-    for l,m in enumerate(data[index+1:]):
+    d=copy.deepcopy(data)
+    d.pop(index)
+    for l,m in enumerate(d):
         #print(m)
         for x,y in enumerate(m):
             if calculate(topics=topics,lis=y,count1=count1) !=0 :
                 count+=1
                 #data[index+l+1].pop(x)
-                break
     return count
 
 
@@ -49,8 +50,6 @@ if __name__ == '__main__':
     for x in labels:
         j_score=[]
         for i,j in enumerate(data):
-            d=copy.deepcopy(data)
-            d.pop(i)
             for l,m in enumerate(j):
                 sum=recursion(topics=m, index=i,count1=x)
                 if sum !=0:
