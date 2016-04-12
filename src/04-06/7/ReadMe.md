@@ -3,12 +3,6 @@
 ## Algorithms
 * Differential Evolution
 
-## Models
-* Schaffer
-* Osyczka2
-* Kursawe
-* Golinski
-
 ## Legend
 * **?** represents a mutant with a better global solution.
 * **+** represents a mutant with a better solution than its parent.
