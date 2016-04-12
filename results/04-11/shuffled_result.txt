@@ -1,240 +1,120 @@
 Run 0 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode text point issu transit target sun indic sroac submod 
+Topic 1: pressur plenum tabl voltag current second set miss neutral valu 
+Topic 2: checksum calcul text progress bootload check oper process receiv idl 
+Topic 3: state obc projecta initi specif issu function flight link perform 
+Topic 4: subaddress telemetri packet data word buffer statu fsw defin address 
+Topic 5: vml sequenc execut flight state verifi task set wait initi 
+Topic 6: data text interrupt use error flight indic number verifi fsw 
+Topic 7: miss paramet set valv oper valid error check use indic 
+Topic 8: oper memori enabl disabl error scrub protect fault control interrupt 
+Topic 9: srup uplink vcdu fsw hlp scr rate follow verifi dump 
 
 Run 1 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point transit target sun submod request control allow tabl 
+Topic 1: vml sequenc tabl voltag flight neutral verifi execut error set 
+Topic 2: text issu flight indic configur number project execut rate state 
+Topic 3: projecta specif issu state link perform spacecraft obc sub verifi 
+Topic 4: data subaddress telemetri word address packet buffer fsw text bootload 
+Topic 5: pressur oper initi plenum state set fsw thruster bootload correct 
+Topic 6: messag file use code flexelint function fals mode line issu 
+Topic 7: miss paramet set oper valid error check indic number valu 
+Topic 8: checksum interrupt calcul error text oper memori progress check valv 
+Topic 9: srup uplink fsw eeprom address hlp function scr verif memori 
 
 Run 2 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point transit specif issu perform sub target sun request 
+Topic 1: tabl voltag set current neutral wait int vml verifi miss 
+Topic 2: checksum calcul text process progress bootload enabl idl discuss check 
+Topic 3: projecta obc initi messag issu note code function control use 
+Topic 4: telemetri data address buffer packet word subaddress bootload text write 
+Topic 5: fault plenum spacecraft respons address monitor state pressur use second 
+Topic 6: text flight issu indic execut configur subaddress project verifi number 
+Topic 7: miss set paramet oper error valid check valu indic use 
+Topic 8: memori oper interrupt error valv scrub state step text bootload 
+Topic 9: srup uplink fsw scr hlp verif follow dump error verifi 
 
 Run 3 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point transit submod sun target sroac control allow acquisit 
+Topic 1: respons spacecraft fault flight sequenc address state link execut time 
+Topic 2: text checksum calcul indic number bootload progress check process issu 
+Topic 3: issu specif obc perform messag verifi file sub function projecta 
+Topic 4: data telemetri address write buffer specifi text monitor valu verifi 
+Topic 5: state initi pressur vml verifi tabl plenum fsw set wait 
+Topic 6: subaddress voltag text flight indic address neutral fals execut telemetri 
+Topic 7: miss set paramet projecta oper tabl error valu valid control 
+Topic 8: interrupt memori valv error oper scrub sourc step latch function 
+Topic 9: srup uplink vcdu fsw hlp scr follow verifi verif rate 
 
 Run 4 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point transit target text issu sun submod attitud control 
+Topic 1: interrupt error illeg sourc flight tabl edac initi follow disabl 
+Topic 2: text checksum calcul progress check bootload number indic oper fsw 
+Topic 3: state issu projecta specif obc initi messag flight perform verifi 
+Topic 4: srup uplink vcdu fsw hlp follow telemetri scr rate default 
+Topic 5: telemetri vml sequenc buffer tabl initi packet plenum pressur verifi 
+Topic 6: data text flight use number voltag issu indic configur execut 
+Topic 7: miss paramet set oper error tabl valid valu check control 
+Topic 8: oper valv step switch mode enabl case latch disabl function 
+Topic 9: address bootload data verifi type specifi valid verif spacecraft error 
 
 Run 5 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point transit sun target submod text allow issu tabl 
+Topic 1: vml sequenc execut flight verifi respons task tabl configur time 
+Topic 2: text checksum calcul indic number bootload check oper error progress 
+Topic 3: projecta specif issu state obc perform flight spacecraft design link 
+Topic 4: data subaddress telemetri write word address packet specifi valu number 
+Topic 5: state oper initi telemetri fsw bootload set read verifi tabl 
+Topic 6: messag use file code type flexelint mode switch function line 
+Topic 7: miss set paramet oper error valid check valu number tabl 
+Topic 8: valv step latch close control mode text fsw checksum submod 
+Topic 9: interrupt error srup fault uplink sourc illeg fsw address oper 
 
 Run 6 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point transit sun submod target allow specif perform projecta 
+Topic 1: current miss error set mode voltag neutral tabl valu oper 
+Topic 2: text checksum calcul number idl oper bootload process progress check 
+Topic 3: state initi messag code function file variabl flexelint oper line 
+Topic 4: telemetri data buffer packet statu text report initi word valu 
+Topic 5: verifi vml flight issu execut link specif sequenc plenum follow 
+Topic 6: data address use subaddress text fsw indic bootload number write 
+Topic 7: miss paramet set projecta oper control valu error valid tabl 
+Topic 8: interrupt memori error scrub oper illeg enabl disabl check sourc 
+Topic 9: valv srup uplink latch close fsw step hlp scr follow 
 
 Run 7 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode text issu point transit target sun indic submod project 
+Topic 1: current pressur voltag miss error tabl set plenum neutral valu 
+Topic 2: checksum oper calcul text check bootload process idl memori progress 
+Topic 3: state initi projecta obc specif issu function messag flight link 
+Topic 4: srup uplink fsw hlp scr follow telemetri verifi function monitor 
+Topic 5: telemetri vml sequenc wait set subaddress packet buffer sub verifi 
+Topic 6: interrupt data error text address sourc use illeg write number 
+Topic 7: miss paramet set oper valid error control valu valv number 
+Topic 8: mode switch case default code type file use flexelint messag 
+Topic 9: address power statu protect link spacecraft respons miss use function 
 
 Run 8 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
+Topic 0: mode point issu transit text sun target perform submod sroac 
+Topic 1: vml sequenc execut tabl flight wait verifi set int issu 
+Topic 2: text checksum calcul bootload oper number check process indic idl 
+Topic 3: initi messag fals file sram code function flexelint variabl line 
+Topic 4: data write address eeprom number specifi word text paramet use 
+Topic 5: state specif projecta verifi issu fault obc link fsw procedur 
+Topic 6: data address telemetri flight interrupt error use subaddress text buffer 
+Topic 7: miss paramet set oper error valu valid tabl check projecta 
+Topic 8: valv step oper latch close interrupt memori protect write enabl 
+Topic 9: srup uplink hlp fsw vcdu follow code rate statu function 
 
 Run 9 :
-Topic 0: mode point target transit submod sun text issu control attitud 
-Topic 1: vml set wait int sequenc tabl verifi respons variabl task 
-Topic 2: checksum calcul text oper progress process idl bootload check discuss 
-Topic 3: issu state text flight specif initi spacecraft projecta use link 
-Topic 4: data telemetri text address number specifi bootload write packet statu 
-Topic 5: plenum set pressur miss enabl tabl disabl text control use 
-Topic 6: subaddress file voltag messag code fals error use flexelint line 
-Topic 7: miss paramet set oper error execut valid check indic projecta 
-Topic 8: interrupt valv error oper illeg latch close sourc step edac 
-Topic 9: uplink srup fsw hlp load follow scr monitor function verifi 
-
-Run 0 :
-Topic 0: mode point transit submod target sun control tabl attitud sroac 
-Topic 1: vml sequenc verifi execut flight wait tabl task set link 
-Topic 2: text checksum calcul issu indic number flight receiv check configur 
-Topic 3: projecta issu specif obc messag use initi perform code flight 
-Topic 4: data subaddress telemetri address word text packet fsw bootload ppu 
-Topic 5: plenum pressur initi buffer second fault fsw text number thruster 
-Topic 6: interrupt error voltag illeg flight sourc neutral tabl indic text 
-Topic 7: miss set paramet oper valid valv error check indic number 
-Topic 8: oper state memori fault respons disabl address enabl spacecraft scrub 
-Topic 9: srup uplink fsw eeprom vcdu verif hlp scr verifi error 
-
-Run 1 :
-Topic 0: mode point transit perform target sun specif issu attitud sroac 
-Topic 1: vml sequenc wait set verifi flight int execut tabl link 
-Topic 2: text issu indic number flight configur project data use disabl 
-Topic 3: srup memori address fsw initi write uplink data function bootload 
-Topic 4: type data valid miss ignor invalid oper paramet verifi indic 
-Topic 5: state subaddress specif telemetri projecta verifi data issu fsw sub 
-Topic 6: interrupt error sourc voltag messag illeg file use code flexelint 
-Topic 7: miss paramet set oper valid projecta tabl valu error check 
-Topic 8: checksum calcul oper progress check text process idl valv bootload 
-Topic 9: use miss spacecraft function scrub oper text file statu set 
-
-Run 2 :
-Topic 0: mode text point issu transit target sun indic control submod 
-Topic 1: respons miss report disabl fault verifi set flight default configur 
-Topic 2: checksum calcul text idl process bootload progress oper check receiv 
-Topic 3: state projecta specif spacecraft obc flight perform issu initi verifi 
-Topic 4: data text telemetri specifi write number bootload word packet address 
-Topic 5: vml execut tabl pressur set sequenc flight verifi plenum telemetri 
-Topic 6: interrupt use error subaddress data voltag messag file text sourc 
-Topic 7: miss paramet set error oper valu valid check tabl number 
-Topic 8: oper valv latch step close memori control error enabl protect 
-Topic 9: srup uplink scr hlp fsw follow telemetri function dump vcdu 
-
-Run 3 :
-Topic 0: mode point text transit issu target sun submod request indic 
-Topic 1: respons miss fault disabl report set verifi flight configur error 
-Topic 2: text checksum calcul progress process number bootload idl indic check 
-Topic 3: state issu verifi initi vml specif link flight obc function 
-Topic 4: data use ppu miss power chang text point number valu 
-Topic 5: miss set oper tabl pressur valid current use plenum valu 
-Topic 6: data interrupt address text error subaddress bootload telemetri indic fsw 
-Topic 7: paramet projecta miss spacecraft error rate number control set indic 
-Topic 8: valv switch oper case mode messag code file flexelint latch 
-Topic 9: srup uplink hlp fsw eeprom verif function verifi follow memori 
-
-Run 4 :
-Topic 0: mode point target submod transit sun control attitud tabl allow 
-Topic 1: vml sequenc wait execut set verifi flight int tabl respons 
-Topic 2: text checksum calcul number issu indic progress check process memori 
-Topic 3: issu specif obc initi function projecta messag perform sub file 
-Topic 4: data telemetri subaddress buffer word address text packet write mode 
-Topic 5: pressur plenum state oper second initi fault correct tabl text 
-Topic 6: data interrupt error subaddress text telemetri address bootload verifi fsw 
-Topic 7: miss paramet set oper projecta use error valid spacecraft tabl 
-Topic 8: valv enabl oper latch step use close disabl switch task 
-Topic 9: srup uplink fsw scr monitor hlp fault follow memori telemetri 
-
-Run 5 :
-Topic 0: mode point projecta specif interrupt perform submod sun transit issu 
-Topic 1: vml verifi sequenc flight execut link respons request procedur sub 
-Topic 2: text checksum calcul number indic progress process check idl issu 
-Topic 3: state initi fault monitor sram memori oper function obc bootload 
-Topic 4: address data subaddress telemetri write bootload word buffer text fsw 
-Topic 5: pressur tabl set int wait plenum vml variabl fsw verifi 
-Topic 6: issu data flight use messag file obc function verifi code 
-Topic 7: miss paramet set oper error valid projecta check valu spacecraft 
-Topic 8: valv oper latch scrub close step memori eeprom text check 
-Topic 9: srup uplink fsw scr hlp follow vcdu specif verif telemetri 
-
-Run 6 :
-Topic 0: mode text issu point transit allow indic target flight configur 
-Topic 1: tabl miss error point set verifi current vml result sequenc 
-Topic 2: checksum oper calcul text bootload check progress process idl memori 
-Topic 3: state issu specif function obc initi projecta perform messag link 
-Topic 4: data address bootload write specifi text eeprom number verifi valid 
-Topic 5: vml telemetri set plenum sequenc flight execut verifi initi pressur 
-Topic 6: interrupt error subaddress data illeg use flight fals memori mode 
-Topic 7: miss paramet set oper error valid valu tabl check projecta 
-Topic 8: valv mode step latch projecta close control submod sun allow 
-Topic 9: srup uplink hlp fsw vcdu scr follow function memori verif 
-
-Run 7 :
-Topic 0: mode point transit target text submod sun request issu allow 
-Topic 1: interrupt vml sequenc flight error illeg verifi execut tabl wait 
-Topic 2: oper checksum text calcul check bootload progress idl process error 
-Topic 3: specif state issu perform projecta link flight verifi obc sub 
-Topic 4: telemetri data address packet buffer word subaddress respons fsw statu 
-Topic 5: pressur plenum fault second tabl correct voltag initi oper thruster 
-Topic 6: text issu use initi subaddress indic flight messag file data 
-Topic 7: miss set paramet oper error tabl valid valu projecta control 
-Topic 8: valv latch close step plenum control error number miss fsw 
-Topic 9: srup uplink hlp vcdu fsw verif default write specifi verifi 
-
-Run 8 :
-Topic 0: mode point text issu transit target indic specif sun perform 
-Topic 1: vml tabl sequenc verifi set execut flight wait current link 
-Topic 2: checksum calcul check text progress idl bootload receiv oper subaddress 
-Topic 3: state initi function messag file code variabl obc line use 
-Topic 4: data telemetri address uplink fsw srup bootload text specifi verifi 
-Topic 5: miss set oper plenum fault pressur use execut tabl valid 
-Topic 6: interrupt error flight text issu data use indic messag illeg 
-Topic 7: paramet miss projecta valv spacecraft set specif error control check 
-Topic 8: memori oper enabl text scrub error use function task fsw 
-Topic 9: hlp srup sourc note write uplink follow fsw code monitor 
-
-Run 9 :
-Topic 0: mode text issu point indic flight transit configur project sun 
-Topic 1: flight verifi sequenc vml tabl respons miss set execut current 
-Topic 2: checksum calcul text process progress idl oper check bootload discuss 
-Topic 3: initi function state messag file code obc flexelint line use 
-Topic 4: data address bootload text specifi telemetri number use verifi write 
-Topic 5: specif issu verifi projecta flight vml link procedur sub execut 
-Topic 6: subaddress fals buffer telemetri word data defin packet fdc initi 
-Topic 7: miss set paramet oper error tabl valu projecta valid control 
-Topic 8: interrupt error fault oper valv enabl disabl illeg memori respons 
-Topic 9: uplink srup fsw scr hlp follow monitor verifi contain pressur 
+Topic 0: mode point issu specif transit perform sub projecta target sroac 
+Topic 1: current voltag plenum neutral error tabl valu set pressur miss 
+Topic 2: text checksum calcul indic number issu bootload process idl flight 
+Topic 3: initi function fault state verifi memori perform flight fsw projecta 
+Topic 4: data telemetri address buffer respons write packet text fsw word 
+Topic 5: vml state execut flight verifi sequenc task issu second tabl 
+Topic 6: subaddress messag file use type code flexelint line case switch 
+Topic 7: miss paramet set oper projecta error valid check valu control 
+Topic 8: oper valv step latch control disabl close enabl procedur text 
+Topic 9: interrupt srup uplink error illeg fsw sourc follow scr hlp 
 

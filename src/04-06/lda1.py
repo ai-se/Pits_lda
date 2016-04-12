@@ -15,7 +15,7 @@ import numpy as np
 
 
 def get_top_words(model, feature_names, n_top_words, i=0):
-    filepath = "../../results/04-11/result.txt"
+    filepath = "../../results/04-11/result1.txt"
     with open(filepath,"a+") as f:
         f.write("Run "+str(i)+" :\n")
         for topic_idx, topic in enumerate(model.components_):
@@ -78,8 +78,6 @@ def readfile2(filename=''):
 def _test_LDA(file='cs'):
     n_topics = 10
     n_top_words = 10
-    n_samples = 2000
-    n_features = 4000
 
     fileB = [
         '101pitsA_1.txt']
@@ -92,10 +90,9 @@ def _test_LDA(file='cs'):
             data_samples = readfile1(filepath + str(file1))
 
             # shuffling the list
-            #shuffle(data_samples)
+            shuffle(data_samples)
 
-            tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=n_features,
-                                            stop_words='english')
+            tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
             tf = tf_vectorizer.fit_transform(data_samples)
 
             lda = LatentDirichletAllocation(n_topics=n_topics, max_iter=5,
