@@ -33,7 +33,7 @@ def recursion(topics=[], index=0, count1=0):
 data = []
 if __name__ == '__main__':
     l = []
-    with open("../../results/101pitsA_2run", 'r') as f:
+    with open("../../results/04-11/shuffled_result.txt", 'r') as f:
         for doc in f.readlines():
             l.append(doc.split())
         # print(len(l))
@@ -78,4 +78,4 @@ if __name__ == '__main__':
     plt.ylabel("J score")
     plt.xlabel("Labels")
     plt.legend(bbox_to_anchor=(1.05, 1.0), loc=2, borderaxespad=0.)
-    plt.savefig("A_2"+".png")
+    plt.savefig("A_1_shuffle"+".png")
