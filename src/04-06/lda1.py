@@ -14,8 +14,8 @@ from collections import Counter
 import numpy as np
 
 
-def get_top_words(model, feature_names, n_top_words, i=0):
-    filepath = "../../results/04-11/result1.txt"
+def get_top_words(model, feature_names, n_top_words, i=0,file1=''):
+    filepath = "../../results/04-11/shuffled_"+file1
     with open(filepath,"a+") as f:
         f.write("Run "+str(i)+" :\n")
         for topic_idx, topic in enumerate(model.components_):
@@ -79,8 +79,7 @@ def _test_LDA(file='cs'):
     n_topics = 10
     n_top_words = 10
 
-    fileB = [
-        '101pitsA_1.txt']
+    fileB = ['101pitsA_2.txt', '101pitsB_2.txt', '101pitsC_2.txt','101pitsD_2.txt','101pitsE_2.txt', '101pitsF_2.txt']
 
     filepath = "../../dataset/"
 
@@ -103,7 +102,7 @@ def _test_LDA(file='cs'):
 
             #print("done in %0.3fs." % (time() - t0))
             tf_feature_names = tf_vectorizer.get_feature_names()
-            get_top_words(lda, tf_feature_names, n_top_words,i)
+            get_top_words(lda, tf_feature_names, n_top_words,i,file1)
 
 def get_matrix(sample, vocab):
     final=[]

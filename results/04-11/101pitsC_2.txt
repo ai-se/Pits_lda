@@ -1,0 +1,120 @@
+Run 0 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 1 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 2 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 3 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 4 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 5 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 6 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 7 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 8 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+
+Run 9 :
+Topic 0: document mode accuraci refer roll glori yaw follow pitch projectc 
+Topic 1: trace tim section document matrix traceabl rqt icd mechan glori 
+Topic 2: valid command specifi trace use tim section matrix subsystem packet 
+Topic 3: tim trace document icd command section spacecraft traceabl rqt electr 
+Topic 4: test case document glori plan compon command softwar pip file 
+Topic 5: pip test maximum softwar time list glori document plan contain 
+Topic 6: smrd spec parent glori child artifact referenc matrix verif mode 
+Topic 7: command specifi ground softwar telemetri initi data pip configur band 
+Topic 8: use file channel initi section pip packet valu document second 
+Topic 9: gener includ refer adac capabl rate mode provid valid safehold 
+

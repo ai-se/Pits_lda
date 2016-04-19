@@ -1,0 +1,120 @@
+Run 0 :
+Topic 0: fsw data csc cadenc manag fpa field scienc command process 
+Topic 1: process downward kav ffi scienc engin column default respect softwar 
+Topic 2: point projectd spacecraft set term logic childless fine implic fault 
+Topic 3: array size zero return oper cpp protect appar spacecraft column 
+Topic 4: softwar flight kav implement fulli ffi respect data implic process 
+Topic 5: kav spacecraft downward data capabl projectd fsw spec appropri mode 
+Topic 6: switch ffi default cmd code fsw cpp projectd statement line 
+Topic 7: line cpp function case switch file code manag default projectd 
+Topic 8: wheel use control command data enabl array appar point valu 
+Topic 9: target cadenc apertur pixel fsw data tabl kav downward short 
+
+Run 1 :
+Topic 0: fsw data cadenc csc manag process fpa field long command 
+Topic 1: ffi spacecraft process scienc engin protect command data document design 
+Topic 2: projectd point valu set fault spacecraft protect line use logic 
+Topic 3: softwar point csc column fsw document spacecraft fine projectd enabl 
+Topic 4: flight softwar kav implement fulli ffi respect data implic fsw 
+Topic 5: spacecraft kav downward data projectd mode spec appropri capabl command 
+Topic 6: column code default fsw flight softwar switch mode segment statement 
+Topic 7: line cpp case messag switch function manag file default cmd 
+Topic 8: kav mode field long spacecraft command cadenc downward appropri data 
+Topic 9: target data cadenc fsw kav pixel downward short smear level 
+
+Run 2 :
+Topic 0: fsw csc data command field fpa design manag process statu 
+Topic 1: ffi process scienc engin kav column data downward packet spacecraft 
+Topic 2: projectd spacecraft fault childless implic protect flight segment point ref 
+Topic 3: array zero size point fine return perform case implic projectd 
+Topic 4: flight softwar implement kav fulli ffi respect data implic fsw 
+Topic 5: kav downward spacecraft data mode appropri fsw spec capabl command 
+Topic 6: spacecraft projectd mode implic column safe childless switch ffi manag 
+Topic 7: line cpp case switch function data default projectd code manag 
+Topic 8: spacecraft kav check pixel downward field ref note violat statement 
+Topic 9: cadenc long target data short process scienc pixel initi point 
+
+Run 3 :
+Topic 0: fsw data cadenc csc manag fpa long command field process 
+Topic 1: engin data kav column process packet store downward scienc test 
+Topic 2: projectd spacecraft fault protect point valu childless implic set use 
+Topic 3: array size zero enabl oper protect test softwar autonom return 
+Topic 4: softwar flight kav fulli implement ffi respect implic data process 
+Topic 5: spacecraft kav downward data spec appropri mode projectd fsw capabl 
+Topic 6: switch projectd default cmd mode manag column code statement fsw 
+Topic 7: line cpp case switch projectd function default manag fsw file 
+Topic 8: field command csc long kav cadenc spacecraft momentum fpa downward 
+Topic 9: data target cadenc fsw pixel kav short level use smear 
+
+Run 4 :
+Topic 0: fsw data csc cadenc field fpa manag command design process 
+Topic 1: ffi data engin process spacecraft scienc command kav appropri store 
+Topic 2: set valu line point logic term use data cpp error 
+Topic 3: column softwar case fpa csc data manag autonom short method 
+Topic 4: flight softwar kav implement fulli ffi respect fsw data implic 
+Topic 5: spacecraft kav downward projectd command mode data spec appropri capabl 
+Topic 6: ffi spacecraft use point statement implic long fulli perform momentum 
+Topic 7: line cpp switch case file projectd function default messag fsw 
+Topic 8: downward kav mode spec hardwar statement target pixel long field 
+Topic 9: data cadenc target kav fsw pixel smear short level long 
+
+Run 5 :
+Topic 0: fsw data csc cadenc command manag field fpa long design 
+Topic 1: engin command ffi kav scienc downward spacecraft process test appropri 
+Topic 2: set valu line logic use point term cpp method data 
+Topic 3: point projectd implic fine enabl perform spacecraft case autonom short 
+Topic 4: softwar flight kav fulli implement ffi respect data implic process 
+Topic 5: spacecraft downward kav data projectd mode flight spec appropri capabl 
+Topic 6: code column default mode segment fsw flight projectd statement softwar 
+Topic 7: line cpp case switch projectd manag function cmd default fsw 
+Topic 8: kav downward mode spacecraft field command appropri spec long hardwar 
+Topic 9: target data fsw cadenc kav column pixel downward tabl apertur 
+
+Run 6 :
+Topic 0: fsw cadenc csc data fpa command long field manag process 
+Topic 1: ffi scienc process command column appropri spacecraft fine note kav 
+Topic 2: valu set data point logic term method use line cpp 
+Topic 3: array size zero return oper cpp protect appar column softwar 
+Topic 4: softwar flight kav implement fulli ffi respect data fsw implic 
+Topic 5: spacecraft kav downward projectd data mode command spec appropri fsw 
+Topic 6: ffi mode flight default projectd spacecraft code column switch segment 
+Topic 7: line cpp case switch function file manag default projectd code 
+Topic 8: spacecraft command mode field csc downward data note kav long 
+Topic 9: target cadenc data pixel kav fsw bin short smear long 
+
+Run 7 :
+Topic 0: fsw csc data cadenc fpa field command manag long process 
+Topic 1: ffi statu data packet scienc store valu manag process fine 
+Topic 2: line messag cpp use valu array set data zero manag 
+Topic 3: column code softwar flight case fpa csc manag data method 
+Topic 4: softwar flight kav fulli implement data respect ffi implic process 
+Topic 5: spacecraft downward kav projectd mode spec implic childless flight capabl 
+Topic 6: default switch fsw case statement cmd projectd cpp code line 
+Topic 7: line cpp case switch function file default code projectd fsw 
+Topic 8: command mode field csc spacecraft kav long fsw autonom fpa 
+Topic 9: data kav fsw target downward cadenc note pixel process long 
+
+Run 8 :
+Topic 0: fsw csc data cadenc command field fpa design manag long 
+Topic 1: column code process set flight ffi default fsw initi softwar 
+Topic 2: data valu zero size array line set error use packet 
+Topic 3: point fine perform design implic projectd fsw spacecraft softwar flight 
+Topic 4: softwar flight implement fulli kav ffi implic respect childless point 
+Topic 5: spacecraft downward kav projectd spec mode appropri data command fault 
+Topic 6: ffi spacecraft column command manag code switch default csc cmd 
+Topic 7: line cpp projectd case switch function fsw default file manag 
+Topic 8: ref long spacecraft projectd field csc cadenc spec data check 
+Topic 9: data kav fsw cadenc target downward short pixel note long 
+
+Run 9 :
+Topic 0: fsw csc data cadenc manag field fpa command long design 
+Topic 1: ffi scienc spacecraft note fine process data point kav downward 
+Topic 2: line valu messag cpp data use set array logic method 
+Topic 3: softwar flight process column note document kav downward test point 
+Topic 4: flight softwar kav implement fulli respect data implic ffi fsw 
+Topic 5: kav spacecraft downward data mode projectd command spec capabl appropri 
+Topic 6: code default column statement switch case flight segment fsw command 
+Topic 7: projectd line cpp case spacecraft switch function implic childless default 
+Topic 8: apertur method field spacecraft kav downward zero tabl check command 
+Topic 9: data cadenc target fsw kav downward long pixel short column 
+
