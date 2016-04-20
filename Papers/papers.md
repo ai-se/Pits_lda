@@ -13,7 +13,7 @@ http://dl.acm.org/citation.cfm?id=2486865
 - Toolkit not mentioned, No validation done on the topics generated whether they are stable or not. No mention about Common parameters.
 - Public data set of 3 mobile apps.
 
-## A large scale study of programming languages and code quality in github
+## A large scale study of programming languages and code quality in github - 2014, 36
 http://web.cs.ucdavis.edu/~filkov/papers/lang_github.pdf
 - Data of Github
 - Here they just try to find each project belonging to which different topics with its probabilities. (Kind of soft assignment)
