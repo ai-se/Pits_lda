@@ -1,5 +1,4 @@
 
-### Important
 ## How to effectively use topic models for software engineering tasks? an approach based on genetic algorithms - 2013, 75
 https://github.com/ai-se/Pits_lda/issues/8
 - applying it on software data, using the same parameter values used for natural language text, did not always produce the expected results [18] (http://www.cs.wm.edu/semeru/papers/IR01.pdf)
@@ -24,6 +23,14 @@ http://www.unix.eng.ua.edu/~kw5639/PDFs/wcre.pdf
 - Toolkit - open-source software tool for LDA analysis called GibbsLDA++
 - No validation done on the topics generated whether they are stable or not. Common parameters, k, a, b, no of iterations.
 - K=100, α=0.05(50/K), and β=0.01
+
+
+## The app sampling problem for app store mining - 2015, 12
+http://www0.cs.ucl.ac.uk/staff/F.Sarro/projects/UCLappA/resources/msr15.pdf
+- manually verified the topics.
+- data [here] (http://www0.cs.ucl.ac.uk/staff/W.Martin/projects/app_sampling_problem/)
+- tool mallet (java)
+- No mention about Common parameters.
 
 
 ## How do users like this feature? a fine grained sentiment analysis of app reviews - 2014, 44
