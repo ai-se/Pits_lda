@@ -1,4 +1,13 @@
 
+### Important
+## How to effectively use topic models for software engineering tasks? an approach based on genetic algorithms - 2013, 75
+https://github.com/ai-se/Pits_lda/issues/8
+- applying it on software data, using the same parameter values used for natural language text, did not always produce the expected results [18] (http://www.cs.wm.edu/semeru/papers/IR01.pdf)
+- Common parameters, k, a, b, no of iterations.
+- data and resultes mentioned [here] (http://www.distat.unimol.it/reports/LDA-GA)
+- Validation in similar manner, checking for the overlaps of terms.
+- Toolkit not mentioned
+
 ## Source code retrieval for bug localization using latent dirichlet allocation - 2008, 131
 http://www.unix.eng.ua.edu/~kw5639/PDFs/wcre.pdf
 - analysis of 1,555 Java projects from SourceForge and Apache. Produced functional and easily interpretable topics.
@@ -19,9 +28,11 @@ http://web.cs.ucdavis.edu/~filkov/papers/lang_github.pdf
 - Here they just try to find each project belonging to which different topics with its probabilities. (Kind of soft assignment)
 - Toolkit not mentioned, No validation done on the topics generated whether they are stable or not. No mention about Common parameters.
 
+## Improving trace accuracy through data-driven configuration and composition of tracing features - 2013, 27
+http://re.cs.depaul.edu/papers/2013-ESEC-TraceConfiguration.pdf
+- LDA-GA approach [28] (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.380.7196&rep=rep1&type=pdf) uses a GA to configure the parameters of LDA (Latent Dirichlet Allocation) topic modelling technique, in order to improve the performance of traceability link recovery
+- Toolkit not mentioned, No validation done on the topics generated whether they are stable or not. No mention about Common parameters. No dataset mentioned.
 
 
 
-
-
-## Non determininstic so not many people have bothered about how their results might vary.
+### Non determininstic so not many people have bothered about how their results might vary.
