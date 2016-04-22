@@ -1,4 +1,3 @@
-
 ## How to effectively use topic models for software engineering tasks? an approach based on genetic algorithms - 2013, 75
 https://github.com/ai-se/Pits_lda/issues/8
 - applying it on software data, using the same parameter values used for natural language text, did not always produce the expected results [18] (http://www.cs.wm.edu/semeru/papers/IR01.pdf)
@@ -31,6 +30,13 @@ http://www0.cs.ucl.ac.uk/staff/F.Sarro/projects/UCLappA/resources/msr15.pdf
 - data [here] (http://www0.cs.ucl.ac.uk/staff/W.Martin/projects/app_sampling_problem/)
 - tool mallet (java)
 - No mention about Common parameters.
+
+
+## Automated topic naming to support cross-project analysis of software maintenance activities - 2011, 44
+https://plg.uwaterloo.ca/~migod/papers/2011/msr11-abramNeil.pdf
+- java toolkit may be.
+- No validation done on the topics generated whether they are stable or not. No mention about Common parameters.
+- Not publicly available dataset. 
 
 
 ## How do users like this feature? a fine grained sentiment analysis of app reviews - 2014, 44
