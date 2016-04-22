@@ -26,6 +26,15 @@ http://www.unix.eng.ua.edu/~kw5639/PDFs/wcre.pdf
 - K=100, α=0.05(50/K), and β=0.01
 
 
+## How do users like this feature? a fine grained sentiment analysis of app reviews - 2014, 44
+https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/FeatureSentiments.pdf
+- number of topics (a parameter for LDA) can be manually tuned for each app by the project team to get less duplicate topics and better coherence and precision
+- Manual topic coherence evaluation based on requirements engineering.
+- dataset [here] (https://mobis.informatik.uni-hamburg.de/app-review-analysis/)
+- toolkit can be gibbslda++ or python
+- No mention about Common parameters
+
+
 ## Analysis of user comments: an approach for software requirements evolution - 2013, 61
 http://dl.acm.org/citation.cfm?id=2486865
 - analysis of user comments. Results show that the automatically extracted topics match the manually extracted ones. Very solid statement.
