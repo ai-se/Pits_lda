@@ -24,12 +24,20 @@ http://www.unix.eng.ua.edu/~kw5639/PDFs/wcre.pdf
 - K=100, α=0.05(50/K), and β=0.01
 
 
+### Using Latent Dirichlet Allocation for Automatic Categorization of Software - 2009, 69
+http://flosshub.org/sites/flosshub.org/files/163MSR2009_TianPos.pdf
+- Gibslda++ is used.
+- played with parameter "k"
+- dataset and results available [here] (http://www.cs.wm.edu/~denys/data/msr09/msr09-appendix.htm).
+- No validation done on the topics generated whether they are stable or not. No mention about other Common parameters.
+
+
 ### The app sampling problem for app store mining - 2015, 12
 http://www0.cs.ucl.ac.uk/staff/F.Sarro/projects/UCLappA/resources/msr15.pdf
 - manually verified the topics.
 - data [here] (http://www0.cs.ucl.ac.uk/staff/W.Martin/projects/app_sampling_problem/)
 - tool mallet (java)
-- No mention about Common parameters.
+- No mention about Common parameters. No validation done on the topics generated whether they are stable or not
 
 
 ### Automated topic naming to support cross-project analysis of software maintenance activities - 2011, 44
