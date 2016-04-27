@@ -29,4 +29,4 @@ if __name__ == '__main__':
     plt.ylabel("Stable Measure")
     plt.xlabel("No of terms overlap")
     plt.legend(bbox_to_anchor=(0.95, 0.5), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("Combined" + ".png")
+    plt.savefig("DE_tuned" + ".png")
