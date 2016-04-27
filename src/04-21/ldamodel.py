@@ -13,6 +13,7 @@ from sklearn.decomposition import NMF, LatentDirichletAllocation
 from collections import Counter
 import copy
 import numpy as np
+import random
 import matplotlib.pyplot as plt
 
 def calculate(topics=[], lis=[], count1=0):
@@ -44,8 +45,8 @@ def recursion(topic=[], index=0, count1=0):
 data=[]
 
 def jaccard(a):
-    fileB = ['101pitsA_2.txt']#, '101pitsB_2.txt', '101pitsC_2.txt','101pitsD_2.txt','101pitsE_2.txt','101pitsF_2.txt']
-    labels=[5]#,6,7,8,9]
+    fileB = ['101pitsF_2.txt']#, '101pitsB_2.txt', '101pitsC_2.txt','101pitsD_2.txt','101pitsE_2.txt','101pitsF_2.txt']
+    labels=[9]#,6,7,8,9]
     global data
     l=[]
     data=[]
@@ -137,7 +138,7 @@ def _test_LDA(l):
     n_topics = 10
     n_top_words = 10
 
-    fileB = ['101pitsA_2.txt']#, '101pitsB_2.txt', '101pitsC_2.txt','101pitsD_2.txt','101pitsE_2.txt', '101pitsF_2.txt']
+    fileB = ['101pitsF_2.txt']#, '101pitsB_2.txt', '101pitsC_2.txt','101pitsD_2.txt','101pitsE_2.txt', '101pitsF_2.txt']
 
     filepath = "../../dataset/"
 
@@ -154,10 +155,10 @@ def _test_LDA(l):
             tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
             tf = tf_vectorizer.fit_transform(data_samples)
 
-            lda = LatentDirichletAllocation(n_topics=10, doc_topic_prior=l[0],
-                 topic_word_prior=l[1], learning_method='online',
-                 learning_decay=l[2], learning_offset=50., max_iter=10,
-                 random_state=None)
+            lda = LatentDirichletAllocation(n_topics=int(l[0]), doc_topic_prior=l[1],
+                 topic_word_prior=l[2], learning_method='online',
+                 learning_decay=l[3], learning_offset=50., max_iter=10,
+                 random_state=1)
             t0 = time()
             tf_new = lda.fit_transform(tf)
 
@@ -166,7 +167,8 @@ def _test_LDA(l):
             get_top_words(lda, tf_feature_names, n_top_words,i,file1)
 
 def main(x):
-    # 1st method
+    # 1st r
+    random.seed(1)
     l=np.asarray(x)
     print(l)
 
@@ -174,4 +176,8 @@ def main(x):
 
     # 2nd method
     #another_method()
-    jaccard(10)
+    jaccard(int(l[0]))
+
+'''for i in range(2):
+    l=[ 0.86066173, 0.94831957, 0.61170925]
+    main(l)'''

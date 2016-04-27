@@ -32,6 +32,13 @@ http://flosshub.org/sites/flosshub.org/files/163MSR2009_TianPos.pdf
 - No validation done on the topics generated whether they are stable or not. No mention about other Common parameters.
 
 
+## Mining business topics in source code using latent dirichlet allocation - 2008, 107
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.4104&rep=rep1&type=pdf
+- LDA is able to identify some of the domain topics and is a satisfactory starting point for further manual refinement of topics
+- Common parameters, k, a, b, no of iterations define the quality of topics.
+- Toolkit not mentioned. No publicly available dataset.
+
+
 ### The app sampling problem for app store mining - 2015, 12
 http://www0.cs.ucl.ac.uk/staff/F.Sarro/projects/UCLappA/resources/msr15.pdf
 - manually verified the topics.
