@@ -75,3 +75,6 @@ Datasets/StackExchange
 # Makefile
 Makefile
 makefile
+
+dataset/
+results/
