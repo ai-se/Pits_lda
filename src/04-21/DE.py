@@ -8,5 +8,5 @@ import random
 # no_of_topics, doc_topic_prior (a), topic_word_prior (b), learning_decay, max_iter
 random.seed(1)
 bounds = [(10,30), (0,1), (0, 1), (0, 1)]
-result = differential_evolution(main, bounds, maxiter=10)
+result = differential_evolution(main, bounds, maxiter=10, popsize=10)
 print (result)
