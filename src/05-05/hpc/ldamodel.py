@@ -39,7 +39,7 @@ def recursion(topic=[], index=0, count1=0):
 
 data=[]
 
-def jaccard(a,file='',term=0):
+def jaccard(a,file='',term=0,res=''):
     fileB = []#, '101pitsB_2.txt', '101pitsC_2.txt','101pitsD_2.txt','101pitsE_2.txt','101pitsF_2.txt']
     fileB.append(file)
     labels=[]#,6,7,8,9]
@@ -49,7 +49,7 @@ def jaccard(a,file='',term=0):
     data=[]
     file_data={}
     for file1 in fileB:
-        with open("/share/aagrawa8/Data/shuffled_"+file1, 'r') as f:
+        with open("/home/amrit/GITHUB/Pits_lda/results/05-05/shuffle_"+file1+res, 'r') as f:
             for doc in f.readlines():
                 l.append(doc.split())
             # print(len(l))
@@ -84,8 +84,8 @@ def jaccard(a,file='',term=0):
             return np.median(Y)
 
 
-def get_top_words(model, feature_names, n_top_words, i=0,file1=''):
-    filepath = "/share/aagrawa8/Data/shuffled_"+file1
+def get_top_words(model, feature_names, n_top_words, i=0,file1='',res=''):
+    filepath = "/home/amrit/GITHUB/Pits_lda/results/05-05/shuffle_"+file1+res
     with open(filepath,"a+") as f:
         for topic_idx, topic in enumerate(model.components_):
             for i in topic.argsort()[:-n_top_words - 1:-1]:
@@ -118,17 +118,17 @@ def readfile1(filename=''):
                 pass
     return dict
 
-def _test_LDA(l,file=''):
+def _test_LDA(l,file='',res=''):
     n_topics = 10
     n_top_words = 10
 
     fileB = []
     fileB.append(file)
 
-    filepath = '/share/aagrawa8/Data/'
+    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
 
     for j, file1 in enumerate(fileB):
-        filepath1 = "/share/aagrawa8/Data/shuffled_"+file1
+        filepath1 = "/home/amrit/GITHUB/Pits_lda/results/05-05/shuffle_"+file1+res
         with open(filepath1,"w") as f:
             f.truncate()
         for i in range(10):
@@ -148,15 +148,15 @@ def _test_LDA(l,file=''):
 
             #print("done in %0.3fs." % (time() - t0))
             tf_feature_names = tf_vectorizer.get_feature_names()
-            get_top_words(lda, tf_feature_names, n_top_words,i,file1)
+            get_top_words(lda, tf_feature_names, n_top_words,i,file1,res)
 
 def main(*x,**r):
     # 1st r
     l=np.asarray(x)
 
-    _test_LDA(l,file=r['file'])
+    _test_LDA(l,file=r['file'],res=r['res'])
 
     # 2nd method
     #another_method()
-    return jaccard(int(l[0]),file=r['file'], term=r['term'])
+    return jaccard(int(l[0]),file=r['file'], term=r['term'],res=r['res'])
 
