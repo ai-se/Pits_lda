@@ -1,5 +1,5 @@
 (dp0
-S'F3CR7pop30'
+S'F7CR3pop30'
 p1
 (dp2
 I1
@@ -57,14 +57,14 @@ Rp24
 sI6
 g3
 (g7
-S'\x9a\x99\x99\x99\x99\x99\xe9?'
+S'\xcd\xcc\xcc\xcc\xcc\xcc\xec?'
 p25
 tp26
 Rp27
 sI7
 g3
 (g7
-S'\x00\x00\x00\x00\x00\x00\xe0?'
+S'ffffff\xe6?'
 p28
 tp29
 Rp30
@@ -78,7 +78,7 @@ Rp33
 sI9
 g3
 (g7
-S'\x9a\x99\x99\x99\x99\x99\xd9?'
+S'\x00\x00\x00\x00\x00\x00\xe0?'
 p34
 tp35
 Rp36
