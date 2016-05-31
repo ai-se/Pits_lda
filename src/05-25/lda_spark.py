@@ -6,13 +6,17 @@ import os
 import sys
 from pyspark import SparkContext
 from pyspark import SparkConf
+import numpy as np
+from random import shuffle
 from pyspark.rdd import RDD
 from pyspark.mllib.linalg import Vector, Vectors
 from pyspark.mllib.clustering import LDAModel, LDA
 from pyspark.ml import Pipeline
 from pyspark.sql import Row, SQLContext
 from pyspark.sql.types import *
-from pyspark.ml.feature import CountVectorizer, CountVectorizerModel, RegexTokenizer
+from pyspark.ml.feature import CountVectorizer, RegexTokenizer
+import time
+import copy
 
 
 # Path for spark source folder
@@ -30,40 +34,131 @@ from pyspark.ml.feature import CountVectorizer, CountVectorizerModel, RegexToken
 # except ImportError as e:
 #     print ("Can not import Spark Modules", e)
 #     sys.exit(1)
+def calculate(topics=[], lis=[], count1=0):
+    count = 0
+    for i in topics:
+        if i in lis:
+            count += 1
+    if count >= count1:
+        return count
+    else:
+        return 0
+
+
+def recursion(topic=[], index=0, count1=0):
+    count = 0
+    global data
+    # print(data)
+    # print(topics)
+    d = copy.deepcopy(data)
+    d.pop(index)
+    for l, m in enumerate(d):
+        # print(m)
+        for x, y in enumerate(m):
+            if calculate(topics=topic, lis=y, count1=count1) != 0:
+                count += 1
+                break
+                # data[index+l+1].pop(x)
+    return count
+
+
+data = []
+
+
+def jaccard(a, tops=[], term=0):
+    labels = []  # ,6,7,8,9]
+    labels.append(term)
+    global data
+    l = []
+    data = []
+    file_data = {}
+    for doc in tops:
+        l.append(doc.split())
+    for i in range(0, len(l), int(a)):
+        l1 = []
+        for j in range(int(a)):
+            l1.append(l[i + j])
+        data.append(l1)
+    dic = {}
+    for x in labels:
+        j_score = []
+        for i, j in enumerate(data):
+            for l, m in enumerate(j):
+                sum = recursion(topic=m, index=i, count1=x)
+                if sum != 0:
+                    j_score.append(sum / float(10))
+                '''for m,n in enumerate(l):
+                    if n in j[]'''
+        dic[x] = j_score
+        if len(dic[x]) == 0:
+            dic[x] = [0]
+    file_data['abc'] = dic
+
+
+# print(file_data)
+    X = range(len(labels))
+    Y_median = []
+    Y_iqr = []
+    for feature in labels:
+        Y = file_data['abc'][feature]
+        Y=sorted(Y)
+        return Y[int(len(Y)/2)]
+
 
 def preprocess(sc, path='', vocabsize=5000, stopwordfile=''):
     sqlContext = SQLContext.getOrCreate(sc)
-    #import sqlContext.implicits._
-    row=Row("docs")
-
+    row = Row("docs")
+    #shuffle(row)
     df = sc.textFile(path).map(row).toDF()
     tokenizer = RegexTokenizer(inputCol="docs", outputCol="rawTokens")
     countVectorizer = CountVectorizer(inputCol="rawTokens", outputCol="features")
 
-    pipeline = Pipeline(stages=[tokenizer,countVectorizer])
+    pipeline = Pipeline(stages=[tokenizer, countVectorizer])
     model = pipeline.fit(df)
-    documents = model.transform(df).select("features").rdd.map(lambda x: x.features).zipWithIndex().map(lambda x: [x[1], x[0]])
-    return documents, model.stages[1].vocabulary #, documents.map(lambda x:x[2].numActives).sum().toLong
+    documents = model.transform(df).select("features").rdd.map(lambda x: x.features).zipWithIndex().map(
+        lambda x: [x[1], x[0]])
+    return documents, model.stages[1].vocabulary  # , documents.map(lambda x:x[2].numActives).sum().toLong
 
-if __name__ == '__main__':
 
-
-    '''conf = SparkConf().setAppName("lda")
-    conf.setMaster(sys.argv(1))
-    conf.set("spark.executor.memory", "6g")
-    conf.set("spark.driver.memory", "6g")
-    conf.set("spark.driver.maxResultSize", "6g")
-    conf.set("spark.yarn.executor.memoryOverhead", "2g")
-    conf.set("spark.yarn.driver.memoryOverhead", "2g")
-
-    conf.set("spark.eventLog.enabled", "true")
-    conf.set("spark.eventLog.dir", "hdfs://" + sys.argv(3) + "/user/" + sys.argv(4) + "/Logs/")
-    dataset = "hdfs://" + sys.argv(3) + "/user/" + sys.argv(4) + "/In/" + sys.argv(2)'''
-    dataset='/home/amrit/GITHUB/Pits_lda/dataset/test'
-    sc = SparkContext("local")
-    #corpus, vocabArray, actualNumTokens = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
+def main(*x, **r):
+    l = x
+    dataset = "hdfs://" + r['ip'] + "/user/" + r['user'] + "/In/" + r['file']
+    sc=r['sprkcontext']
     corpus, vocabArray = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
     corpus.cache()
     actualCorpusSize = corpus.count()
     actualVocabSize = len(vocabArray)
-    ##preprocessElapsed = (System.nanoTime() - preprocessStart) / 1e9
+    base = os.path.abspath(os.path.dirname(__file__))
+    path = os.path.join(base, 'result', str(r['label']))
+    start_time = time.time()
+    if not os.path.exists(path):
+        os.makedirs(path)
+    b = int(l[0])
+    path1 = path + "/K_" + str(b) + "_a_" + str(l[1]) + "_b_" + str(l[2]) + ".txt"
+    with open(path1,"w") as f:
+            f.truncate()
+    fo = file(path1, 'w+')
+    score_topic = []
+    for i in range(10):
+        fo.write("Run : " + str(i) + "\n")
+        ldaModel = LDA.train(corpus, k=int(l[0]), maxIterations=20, docConcentration=l[1], topicConcentration=l[1],
+                             checkpointInterval=10, optimizer='online')
+        # println(s"\t $distLDAModel.topicsMatrix().toArray()")
+        topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)
+        topics = []
+        for x in topicIndices:
+            topics.append(zip(list(map(lambda a: str(vocabArray[int(a)]), x[0])), x[1]))
+        for a in range(len(topics)):
+            fo.write("Topic " + str(a) + ": ")
+            str1 = ''
+            for b in topics[a]:
+                str1 += b[0] + " "
+                fo.write(b[0] + " ")
+            score_topic.append(str1)
+            fo.write("\n")
+        fo.write("\n")
+    b = jaccard(int(l[0]), tops=score_topic, term=r['label'])
+    fo.write("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time))
+    fo.write("\nScore: "+str(b))
+    fo.close()
+    return b
