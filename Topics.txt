@@ -1,16 +1,16 @@
 PitsA :
-Topic 0: command engcntrl section spacecraft unit icd tabl point referenc indic 
-Topic 1: softwar command test flight srobc srup memori script telemetri link 
-Topic 2: file variabl line defin messag code macro initi use redund 
-Topic 3: file includ section obc issu fsw code number matrix src 
-Topic 4: mode safe control state error power attitud obc reset boot 
-Topic 5: function eeprom send non uplink srup control load chang support 
-Topic 6: valu function cmd return list ptr curr tss line code 
-Topic 7: tabl command valu data tlm load rang line count type 
-Topic 8: flight sequenc link capabl spacecraft softwar provid time srvml trace 
+Topic 0: command engcntrl section spacecraft unit icd tabl point referenc indic
+Topic 1: softwar command test flight srobc srup memori script telemetri link
+Topic 2: file variabl line defin messag code macro initi use redund
+Topic 3: file includ section obc issu fsw code number matrix src
+Topic 4: mode safe control state error power attitud obc reset boot
+Topic 5: function eeprom send non uplink srup control load chang support
+Topic 6: valu function cmd return list ptr curr tss line code
+Topic 7: tabl command valu data tlm load rang line count type
+Topic 8: flight sequenc link capabl spacecraft softwar provid time srvml trace
 Topic 9: line messag locat column access symbol file referenc code bld
 
- PitsB :
+PitsB :
 Topic 0: pse defin restart fsw bit pbbl variabl cold doubl warm 
 Topic 1: hga bxb procedur tlm review req extern sbc gce line 
 Topic 2: variabl algorithm ace page section document declar thruster use correct 
