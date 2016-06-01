@@ -1,4 +1,5 @@
 from __future__ import print_function, division
+import pickle
 
 __author__ = 'amrit'
 
@@ -178,6 +179,7 @@ if __name__ == '__main__':
     bounds = [(10, 100), (0, 1), (0, 1)]
     result = {}
     file_result = {}
+    lab_parameter={}
     for lab in labels:
         max_fitness = 0
         de = DE(F=0.7, CR=0.3, x='rand')
@@ -185,14 +187,20 @@ if __name__ == '__main__':
                 random.uniform(bounds[2][0], bounds[2][1])]
                for _ in range(10)]  # 20 * dimension of the problem
         max = 0
-        for i in [3]:
-            v, score = de.solve(main, pop, iterations=i, master=args[1], ip=args[3], user=args[4],
+        v, score = de.solve(main, pop, iterations=3, master=args[1], ip=args[3], user=args[4],
                                 file=args[2], label=lab, sprkcontext=sc)
-            print(v, '->', score)
-            if max < score:
-                max = score
+        print(v, '->', score)
+        if max < score:
+            max = score
+            lab_parameter[lab]=v
         file_result[lab] = max
+
     result['wiki'] = file_result
-    print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
+    with open('dump/wiki.pickle', 'wb') as handle:
+        pickle.dump(result, handle)
+        pickle.dump(lab_parameter,handle)
     print(result)
+    print(lab_parameter)
+    print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
+
     sc.stop()

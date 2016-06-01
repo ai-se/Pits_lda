@@ -73,7 +73,7 @@ def jaccard(a,file='',term=0,res=''):
             dic[x]=j_score
             if len(dic[x])==0:
                 dic[x]=[0]
-        file_data[file1]=dic
+        file_data['citemap']=dic
     #print(file_data)
     X=range(len(labels))
     for file1 in fileB:

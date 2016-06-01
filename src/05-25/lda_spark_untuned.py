@@ -4,6 +4,7 @@ __author__ = 'amrit'
 
 import os
 import sys
+import pickle
 from pyspark import SparkContext
 from pyspark import SparkConf
 import numpy as np
@@ -120,45 +121,64 @@ def preprocess(sc, path='', vocabsize=5000, stopwordfile=''):
     return documents, model.stages[1].vocabulary  # , documents.map(lambda x:x[2].numActives).sum().toLong
 
 
-def main(*x, **r):
-    l = x
-    dataset = "hdfs://" + r['ip'] + "/user/" + r['user'] + "/In/" + r['file']
-    sc=r['sprkcontext']
+if __name__ == '__main__':
+    start_time1 = time.time()
+    args = sys.argv
+    sconf = SparkConf()
+    sconf.setAppName("lda")
+    sconf.setMaster(args[1])
+    sconf.set("spark.executor.memory", "6g")
+    sconf.set("spark.driver.memory", "6g")
+    sconf.set("spark.driver.maxResultSize", "6g")
+    sconf.set("spark.yarn.executor.memoryOverhead", "2g")
+    sconf.set("spark.yarn.driver.memoryOverhead", "2g")
+
+    sconf.set("spark.eventLog.enabled", "true")
+    sconf.set("spark.eventLog.dir", "hdfs://" + args[3] + "/user/" + args[4] + "/Logs/")
+    sc = SparkContext(conf=sconf)
+    dataset = "hdfs://" + args[3] + "/user/" + args[4] + "/In/" + args[2]
+
     corpus, vocabArray = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
     corpus.cache()
     actualCorpusSize = corpus.count()
     actualVocabSize = len(vocabArray)
     base = os.path.abspath(os.path.dirname(__file__))
-    path = os.path.join(base, 'result', str(r['label']))
-    start_time = time.time()
-    if not os.path.exists(path):
-        os.makedirs(path)
-    b = int(l[0])
-    path1 = path + "/K_" + str(b) + "_a_" + str(l[1]) + "_b_" + str(l[2]) + ".txt"
-    with open(path1,"w") as f:
-            f.truncate()
-    fo = file(path1, 'w+')
-    score_topic = []
-    for i in range(10):
-        fo.write("Run : " + str(i) + "\n")
-        ldaModel = LDA.train(corpus, k=int(l[0]), maxIterations=20, docConcentration=l[1], topicConcentration=l[1],
-                             checkpointInterval=10, optimizer='online')
-        # println(s"\t $distLDAModel.topicsMatrix().toArray()")
-        topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)
-        topics = []
-        for x in topicIndices:
-            topics.append(zip(list(map(lambda a: str(vocabArray[int(a)]), x[0])), x[1]))
-        for a in range(len(topics)):
-            fo.write("Topic " + str(a) + ": ")
-            str1 = ''
-            for b in topics[a]:
-                str1 += b[0] + " "
-                fo.write(b[0] + " ")
-            score_topic.append(str1)
+    result={}
+    for lab in range(1,10):
+        path = os.path.join(base,'Wikipedia', 'untunedresult', str(lab))
+        start_time = time.time()
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        path1 = path + "/K_" + str(10) + "_a_" + str(-1) + "_b_" + str(-1) + ".txt"
+        with open(path1,"w") as f:
+                f.truncate()
+        fo = open(path1, 'w+')
+        score_topic = []
+        for i in range(10):
+            fo.write("Run : " + str(i) + "\n")
+            ldaModel = LDA.train(corpus, k=10, maxIterations=20, docConcentration=-1, topicConcentration=-1,
+                                 checkpointInterval=10, optimizer='online')
+            # println(s"\t $distLDAModel.topicsMatrix().toArray()")
+            topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)
+            topics = []
+            for x in topicIndices:
+                topics.append(zip(list(map(lambda a: str(vocabArray[int(a)]), x[0])), x[1]))
+            for a in range(len(topics)):
+                fo.write("Topic " + str(a) + ": ")
+                str1 = ''
+                for b in topics[a]:
+                    str1 += b[0] + " "
+                    fo.write(b[0] + " ")
+                score_topic.append(str1)
+                fo.write("\n")
             fo.write("\n")
-        fo.write("\n")
-    b = jaccard(int(l[0]), tops=score_topic, term=r['label'])
-    fo.write("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time))
-    fo.write("\nScore: "+str(b))
-    fo.close()
-    return b
+        b = jaccard(10, tops=score_topic, term=lab)
+        fo.write("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time))
+        fo.write("\nScore: "+str(b))
+        fo.close()
+        result[lab]=b
+    print(result)
+    print("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time1))
+    with open('dump/untuned_wiki.pickle', 'wb') as handle:
+        pickle.dump(result, handle)
