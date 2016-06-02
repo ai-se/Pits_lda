@@ -101,8 +101,7 @@ def jaccard(a, tops=[], term=0):
     Y_iqr = []
     for feature in labels:
         Y = file_data['abc'][feature]
-        Y=sorted(Y)
-        return Y[int(len(Y)/2)]
+        return np.median(Y)
 
 
 def preprocess(sc, path='', vocabsize=5000, stopwordfile=''):
