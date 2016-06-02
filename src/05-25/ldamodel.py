@@ -84,8 +84,9 @@ def jaccard(a, score_topics=[], term=0):
         return Y[int(len(Y)/2)]
 
 
-def get_top_words(model, fo, feature_names, n_top_words, i=0, file1=''):
+def get_top_words(model, path1, feature_names, n_top_words, i=0, file1=''):
     topics = []
+    fo = open(path1,'a+')
     fo.write("Run: " + str(i) + "\n")
     for topic_idx, topic in enumerate(model.components_):
         str1 = ''
@@ -95,6 +96,7 @@ def get_top_words(model, fo, feature_names, n_top_words, i=0, file1=''):
             fo.write(feature_names[j] + " ")
         topics.append(str1)
         fo.write("\n")
+    fo.close()
     return topics
 
 
@@ -126,15 +128,15 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA(l, fo, file=''):
+def _test_LDA(l, path1, file=''):
     n_topics = 10
     n_top_words = 10
 
     fileB = []
     fileB.append(file)
 
-    filepath = '/share/aagrawa8/Data/'
-
+    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
+    topics=[]
     for j, file1 in enumerate(fileB):
         for i in range(10):
             data_samples = readfile1(filepath + str(file1))
@@ -152,13 +154,14 @@ def _test_LDA(l, fo, file=''):
 
             # print("done in %0.3fs." % (time() - t0))
             tf_feature_names = tf_vectorizer.get_feature_names()
-            return get_top_words(lda, fo, tf_feature_names, n_top_words, i=i, file1=file1)
+            topics.extend(get_top_words(lda, path1, tf_feature_names, n_top_words, i=i, file1=file1))
+    return topics
 
 
 def main(*x, **r):
     # 1st r
     start_time = time.time()
-    base = '/share/aagrawa8/Data/results/'
+    base = '/home/amrit/GITHUB/Pits_lda/results/05-25/results/'
     path = os.path.join(base, 'Citemap', r['res'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
@@ -167,12 +170,13 @@ def main(*x, **r):
     path1 = path + "/K_" + str(b) + "_a_" + str(l[1]) + "_b_" + str(l[2]) + ".txt"
     with open(path1, "w") as f:
         f.truncate()
-    fo = open(path1, 'w+')
 
-    topics = _test_LDA(l, fo, file=r['file'])
+
+    topics = _test_LDA(l, path1, file=r['file'])
     # 2nd method
     # another_method()
     a = jaccard(int(l[0]), score_topics=topics, term=r['term'])
+    fo = open(path1, 'a+')
     fo.write("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time))
     fo.write("\nScore: " + str(a))
     fo.close()

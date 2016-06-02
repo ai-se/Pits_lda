@@ -173,6 +173,7 @@ if __name__ == '__main__':
     sconf.set("spark.eventLog.enabled", "true")
     sconf.set("spark.eventLog.dir", "hdfs://" + args[3] + "/user/" + args[4] + "/Logs/")
     sc = SparkContext(conf=sconf)
+    #labels=[int(args[5])]
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
     random.seed(1)

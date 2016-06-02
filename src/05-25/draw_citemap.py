@@ -21,6 +21,7 @@ if __name__ == '__main__':
                 # print(F_final)
                 result1 = dict(result1.items() + result.items())
 
+    print(result1)
     untuned={'processed_citemap.txt': {1: 0.90000000000000002, 2: 0.90000000000000002, 3: 0.90000000000000002, 4: 0.80000000000000004, 5: 0.64999999999999991, 6: 0.5, 7: 0.29999999999999999, 8: 0.20000000000000001, 9: 0.10000000000000001}}
 
     result=['F3CR7pop10','F7CR3pop10', 'F7CR3pop30','F3CR7pop30']

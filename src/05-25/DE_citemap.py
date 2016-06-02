@@ -204,7 +204,7 @@ def _test(res=''):
             pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                     random.uniform(bounds[2][0], bounds[2][1])]
                    for _ in range(30)]
-        v, score = de.solve(main, pop, iterations=3, file='processed_citemap.txt', term=lab, res=res)
+        v, score = de.solve(main, pop, iterations=1, file='processed_citemap.txt', term=lab, res=res)
         print(v, '->', score)
         file_result[lab] = score
         parameter_result[lab]=v
@@ -214,7 +214,7 @@ def _test(res=''):
     print(result)
     print(x)
 
-    with open('dump/citemap.pickle', 'wb') as handle:
+    with open('dump/citemap_'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
         pickle.dump(x, handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
