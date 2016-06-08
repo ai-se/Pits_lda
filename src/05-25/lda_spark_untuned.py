@@ -145,7 +145,7 @@ if __name__ == '__main__':
     base = os.path.abspath(os.path.dirname(__file__))
     result={}
     for lab in range(1,10):
-        path = os.path.join(base,'Wikipedia', 'untunedresult', str(lab))
+        path = os.path.join(base,'Stack', 'untunedresult', str(lab))
         start_time = time.time()
         if not os.path.exists(path):
             os.makedirs(path)
@@ -157,7 +157,7 @@ if __name__ == '__main__':
         score_topic = []
         for i in range(10):
             fo.write("Run : " + str(i) + "\n")
-            ldaModel = LDA.train(corpus, k=10, maxIterations=20, docConcentration=-1, topicConcentration=-1,
+            ldaModel = LDA.train(corpus, k=10, maxIterations=20, docConcentration=-1.0, topicConcentration=-1.0,
                                  checkpointInterval=10, optimizer='online')
             # println(s"\t $distLDAModel.topicsMatrix().toArray()")
             topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)

@@ -17,7 +17,7 @@ Clustering - LDA
 - ensemble learning (EL).
 - stochastic (statistical) learning.
 
-Source - http://www.worldscientific.com/doi/suppl/10.1142/5700/suppl_file/5700_chap1.pdf
+Source - http://www.worldscientific.com/doi/suppl/10.1142/5700/suppl_file/5700_chap1.pdf [Link] (http://www.worldscientific.com/worldscibooks/10.1142/5700)
 
 ### Major Learning Approaches:
 ![file](https://github.com/ai-se/Pits_lda/raw/master/Papers/learning%20methods.png)
@@ -46,3 +46,5 @@ belief network⁄
 OR ‘‘support vector machine⁄
 ’’ OR ‘‘support vector regression’’
 ```
+
+http://www.sciencedirect.com/science/article/pii/S1574013715300654 - For LDA,
