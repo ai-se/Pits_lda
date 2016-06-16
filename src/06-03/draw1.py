@@ -18,10 +18,10 @@ if __name__ == '__main__':
     labels = [1,2,3,4, 5, 6, 7, 8, 9]
     font = {'family' : 'normal',
             'weight' : 'bold',
-            'size'   : 20}
+            'size'   : 40}
 
     plt.rc('font', **font)
-    paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    paras={'lines.linewidth': 5,'legend.fontsize': 30, 'axes.labelsize': 50, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
     plt.rcParams.update(paras)
     X = range(len(labels))
     plt.figure(num=0, figsize=(25, 15))
@@ -33,12 +33,11 @@ if __name__ == '__main__':
         for lab in labels:
             Y_tuned.append(tuned_F7CR3pop10[file1][lab])
             Y_untuned.append(untuned[file1][lab])
-        for i,x in enumerate(Y_untuned):
-            Y_final.append(Y_tuned[i]-x)
-        line, = plt.plot(X, Y_final, marker='o', markersize=16, label="tuned-untuned" + file1)
+        line, = plt.plot(X, Y_tuned, marker='o', markersize=16, label="tuned_" + file1)
+        plt.plot(X, Y_untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="untuned_" + file1)
         #plt.plot(X, Y_untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="untuned_" + file1)
     plt.xticks(X, labels)
     plt.ylabel("Delta Improvement")
     plt.xlabel("No of terms overlap")
-    plt.legend(bbox_to_anchor=(0.95, 0.5), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("tuned_improvement" + ".png")
+    plt.legend(bbox_to_anchor=(0.25, 0.8), loc=1, ncol = 1, borderaxespad=0.)
+    plt.savefig("tunedresults" + ".png")
