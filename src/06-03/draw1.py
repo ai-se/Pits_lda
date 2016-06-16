@@ -31,13 +31,14 @@ if __name__ == '__main__':
         Y_untuned=[]
         Y_final=[]
         for lab in labels:
-            Y_tuned.append(tuned_F7CR3pop30[file1][lab])
+            Y_tuned.append(tuned_F7CR3pop10[file1][lab])
             Y_untuned.append(untuned[file1][lab])
         for i,x in enumerate(Y_untuned):
             Y_final.append(Y_tuned[i]-x)
         line, = plt.plot(X, Y_final, marker='o', markersize=16, label="tuned-untuned" + file1)
+        #plt.plot(X, Y_untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="untuned_" + file1)
     plt.xticks(X, labels)
-    plt.ylabel("% of performance improvement")
+    plt.ylabel("Delta Improvement")
     plt.xlabel("No of terms overlap")
     plt.legend(bbox_to_anchor=(0.95, 0.5), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("tuned_F7CR3pop30" + ".png")
+    plt.savefig("tuned_improvement" + ".png")
