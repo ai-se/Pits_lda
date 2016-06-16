@@ -224,10 +224,10 @@ def _test(res=''):
     labels=[1,2,3,4]
     font = {'family' : 'normal',
             'weight' : 'bold',
-            'size'   : 20}
+            'size'   : 40}
 
     plt.rc('font', **font)
-    paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    paras={'lines.linewidth': 5,'legend.fontsize': 40, 'axes.labelsize': 50, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
     plt.rcParams.update(paras)
     X = range(1,5,1)
     plt.figure(num=0, figsize=(25, 15))
