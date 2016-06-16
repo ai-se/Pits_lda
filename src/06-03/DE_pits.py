@@ -166,7 +166,7 @@ def cmd(com="demo('-h')"):
 
 
 def _test(res=''):
-    start_time = time.time()
+    '''start_time = time.time()
     labels = [8,9]
     random.seed(1)
     global bounds
@@ -211,8 +211,17 @@ def _test(res=''):
     result[res] = temp2
     print(result)
     print(a)
-    print(score1)
-
+    print(score1)'''
+    a={}
+    a['pitsA']= {1: 0.8, 2: 0.8, 3: 0.9, 4: 0.9}
+    a['pitsB']= {1: 0.8, 2: 0.9, 3: 0.9, 4: 0.8}
+    a['pitsC']= {1: 0.7, 2: 0.8, 3: 0.9, 4: 0.9}
+    a['pitsD']= {1: 0.7, 2: 0.8, 3: 0.9, 4: 0.8}
+    a['pitsE']= {1: 0.7, 2: 0.8, 3: 0.9, 4: 0.9}
+    a['pitsF']= {1: 0.8, 2: 0.8, 3: 0.9, 4: 0.8}
+    a['citemap']= {1: 0.7, 2: 0.8, 3: 0.9, 4: 0.9}
+    file=['pitsA','pitsB','pitsC','pitsD','pitsE','pitsF','citemap' ]
+    labels=[1,2,3,4]
     font = {'family' : 'normal',
             'weight' : 'bold',
             'size'   : 20}
@@ -220,7 +229,6 @@ def _test(res=''):
     plt.rc('font', **font)
     paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
     plt.rcParams.update(paras)
-    labels=[8,9,5,6]
     X = range(1,5,1)
     plt.figure(num=0, figsize=(25, 15))
 
@@ -228,18 +236,17 @@ def _test(res=''):
     plt.axis((y1,y2,0,1))
     #plt.axis((x1,x2,100,400))
     #plt.subplot(121)
-    print(a)
-    for lab in labels:
+    for fil in file:
         Y_tuned=[]
         Y={}
         for l in range(1,5):
-            Y_tuned.append(a[lab][l])
-        line, = plt.plot(X, Y_tuned, marker='o', markersize=16, label='term_overlap='+str(lab))
+            Y_tuned.append(a[fil][l])
+        line, = plt.plot(X, Y_tuned, marker='o', markersize=16, label=str(fil))
     plt.xticks(X,range(100,500,100))
     plt.ylabel("Stability score")
     plt.xlabel("No of evaluations")
     plt.legend(bbox_to_anchor=(0.95, 0.5), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("tuned_pitsA" + ".png")
+    plt.savefig("evaluation" + ".png")
     '''
     plt.figure(num=1, figsize=(25, 15))
     labels=[5,6,8,9]
@@ -258,13 +265,13 @@ def _test(res=''):
     plt.ylabel("Stability score")
     plt.xlabel("No of evaluations")
     plt.legend(bbox_to_anchor=(0.95, 0.5), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("tuned_pitsA" + ".png")'''
+    plt.savefig("tuned_pitsA" + ".png")
 
     with open('dump/pitsA_'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
         pickle.dump(score1, handle)
         pickle.dump(a, handle)
-    print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
+    print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))'''
 '''    result= {'F7CR3pop10': {8: 0.4, 9: 0.3}}
     a={}
     a[5]={1: 0.8, 2: 0.8, 3: 0.9, 4: 0.9}

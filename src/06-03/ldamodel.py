@@ -65,7 +65,7 @@ def jaccard(a, score_topics=[], term=0):
             for l, m in enumerate(j):
                 sum = recursion(topic=m, index=i, count1=x)
                 if sum != 0:
-                    j_score.append(sum / float(10))
+                    j_score.append(sum / float(9))
                 '''for m,n in enumerate(l):
                     if n in j[]'''
         dic[x] = j_score

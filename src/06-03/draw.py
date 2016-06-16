@@ -65,7 +65,7 @@ if __name__ == '__main__':
     paras = {'lines.linewidth': 5, 'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,
              'figure.autolayout': True, 'figure.figsize': (16, 8)}
     plt.rcParams.update(paras)
-    fig, ax = plt.subplots()
+    f=plt.figure(num=0, figsize=(25, 15))
     colors1 = "bgrcmykw"
     z=[]
     for i,x in enumerate(iterations):
@@ -73,8 +73,6 @@ if __name__ == '__main__':
         for y in labels:
             z = max(score1[y][x].iteritems(), key=operator.itemgetter(0))[0]
             frequency.append(len(score1[y][x][z]))
-            for j in score1[y][x][z]:
-                par1.append(j[0])
         plt.bar(ind+i*width , frequency, width=width, color=colors1[i], label='iterations='+str(x*100))
 
 
@@ -82,11 +80,30 @@ if __name__ == '__main__':
     plt.ylabel('Frequency of parameters')
     plt.xticks(ind + width,labels)
     plt.legend( bbox_to_anchor=(1.0, 0.9), loc=1, ncol=1, borderaxespad=0.)
-    plt.savefig("frequ_pitsA" + ".png")
+    f.savefig("frequ_pitsA" + ".png")
 
-    for i,x in enumerate(iterations):
-        frequency = []
+    f1=plt.figure(num=1, figsize=(25, 15))
+    for i,x in enumerate([1]):
+        par_k=[]
+        par_a=[]
+        par_b=[]
+        temp=[]
         for y in labels:
-    fig, ax = plt.subplots()
-    b = ax.boxplot([4, 5, 6, 7, 8])
-    plt.show()
+            z = max(score1[y][x].iteritems(), key=operator.itemgetter(0))[0]
+            for j in score1[y][x][z]:
+                par_k.append(int(j[0]))
+                par_a.append(j[1])
+                par_b.append(j[2])
+            par_k=sorted(par_k)
+            par_a=sorted(par_a)
+            par_b=sorted(par_b)
+            temp.append(par_k)
+        x=plt.boxplot(temp,notch=0, sym='+', vert=1, whis=1.5)
+
+    plt.ylim(0,40)
+    plt.xlabel("Term Overlaps")
+    plt.ylabel('Parameter = cluster_size')
+    #plt.xlim(7,9)
+    plt.xticks(range(len(labels)) ,labels,horizontalalignment='center')
+    plt.legend( bbox_to_anchor=(1.0, 0.9), loc=1, ncol=1, borderaxespad=0.)
+    f1.savefig("para_k_range" + ".png")
