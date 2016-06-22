@@ -1,0 +1,38 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-13>
+Subject: Job 553415: </share/aagrawa8/miniconda/bin/python2.7 untuned_gibbs.py _test pitsB> Exited
+
+Job </share/aagrawa8/miniconda/bin/python2.7 untuned_gibbs.py _test pitsB> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n2c1-13>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Wed Jun 22 18:59:54 2016
+Results reported at Wed Jun 22 18:59:57 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/aagrawa8/miniconda/bin/python2.7 untuned_gibbs.py _test pitsB
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.07 sec.
+    Max Memory :         3 MB
+    Max Swap   :        35 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsB.err.553415> for stderr output of this job.
+
