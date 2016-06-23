@@ -1,0 +1,39 @@
+pitsD	1
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-7>
+Subject: Job 554338: </share/aagrawa8/miniconda1/bin/python2.7 DE_gibbs.py _test pitsD> Exited
+
+Job </share/aagrawa8/miniconda1/bin/python2.7 DE_gibbs.py _test pitsD> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n2c1-7>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Thu Jun 23 11:00:30 2016
+Results reported at Thu Jun 23 11:02:07 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/aagrawa8/miniconda1/bin/python2.7 DE_gibbs.py _test pitsD
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :     33.73 sec.
+    Max Memory :        82 MB
+    Max Swap   :       669 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsD.err.554338> for stderr output of this job.
+

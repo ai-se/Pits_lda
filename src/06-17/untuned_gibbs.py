@@ -136,7 +136,7 @@ def _test_LDA(l, path1, file=''):
     fileB = []
     fileB.append(file)
 
-    filepath = '/share/aagrawa8/Data/'
+    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
     topics=[]
     for j, file1 in enumerate(fileB):
         for i in range(10):
@@ -184,7 +184,7 @@ def _test(res=''):
         file_result = {}
         for terms in labels:
             median1=[]
-            base = '/share/aagrawa8/Data/results/'
+            base = '/home/amrit/GITHUB/Pits_lda/results/06-17/'
             path = os.path.join(base,'untuned_gibbs', res, str(terms))
             if not os.path.exists(path):
                 os.makedirs(path)
@@ -194,7 +194,6 @@ def _test(res=''):
                 path1 = path + "/run_" + str(i) + ".txt"
                 with open(path1, "w") as f:
                     f.truncate()
-                print(file1, '\t', terms)
                 topics = _test_LDA(l, path1, file=file1)
                 top=[]
                 for i in topics:
@@ -213,7 +212,6 @@ def _test(res=''):
     print(result)
     with open('dump/gibbs_untuned_'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
-    print(result)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time1))
 
 if __name__ == '__main__':

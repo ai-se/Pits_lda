@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "untuned_gibbs.py", line 8, in <module>
-    import lda
-ImportError: No module named lda

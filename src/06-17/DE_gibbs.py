@@ -206,7 +206,7 @@ def _test(res=''):
         pickle.dump(final_para_dic, handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
-bounds = [(10, 30), (0, 1), (0, 1)]
+bounds = [(10, 30), (0.1, 1), (0.1, 1)]
 max_fitness = 0
 if __name__ == '__main__':
     eval(cmd())

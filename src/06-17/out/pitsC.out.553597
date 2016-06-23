@@ -1,0 +1,134 @@
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 1
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 2
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 3
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 4
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 5
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 6
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 7
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 8
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+pitsC 	 9
+{'pitsC': {1: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 2: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 3: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 4: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 5: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 6: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 7: [0.7777777777777778, 1.0, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 1.0, 1.0, 0.8888888888888888], 8: [0.8888888888888888, 0.7777777777777778, 0.7777777777777778, 0.8888888888888888, 0.7777777777777778, 1.0, 1.0, 0.8888888888888888, 0.8888888888888888, 0.6666666666666666], 9: [0.7777777777777778, 0.5555555555555556, 0.2222222222222222, 0.5555555555555556, 0.7777777777777778, 0.7777777777777778, 0.4444444444444444, 0.6666666666666666, 0.5555555555555556, 0.5555555555555556]}}
+{'pitsC': {1: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 2: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 3: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 4: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 5: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 6: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 7: [0.7777777777777778, 1.0, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 1.0, 1.0, 0.8888888888888888], 8: [0.8888888888888888, 0.7777777777777778, 0.7777777777777778, 0.8888888888888888, 0.7777777777777778, 1.0, 1.0, 0.8888888888888888, 0.8888888888888888, 0.6666666666666666], 9: [0.7777777777777778, 0.5555555555555556, 0.2222222222222222, 0.5555555555555556, 0.7777777777777778, 0.7777777777777778, 0.4444444444444444, 0.6666666666666666, 0.5555555555555556, 0.5555555555555556]}}
+
+Total Runtime: --- 194.074487925 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-6>
+Subject: Job 553597: </share/aagrawa8/miniconda1/bin/python2.7 untuned_gibbs.py _test pitsC> Done
+
+Job </share/aagrawa8/miniconda1/bin/python2.7 untuned_gibbs.py _test pitsC> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <4*n2c1-6>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+                            <4*n2c1-9>
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Thu Jun 23 00:26:20 2016
+Results reported at Thu Jun 23 00:30:46 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/aagrawa8/miniconda1/bin/python2.7 untuned_gibbs.py _test pitsC
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :    185.51 sec.
+    Max Memory :        52 MB
+    Max Swap   :       551 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsC.err.553597> for stderr output of this job.
+
