@@ -52,13 +52,13 @@ if __name__ == '__main__':
 
     font = {'family' : 'normal',
             'weight' : 'bold',
-            'size'   : 40}
+            'size'   : 70}
 
     plt.rc('font', **font)
-    paras={'lines.linewidth': 10,'legend.fontsize': 60, 'axes.labelsize': 70, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    paras={'lines.linewidth': 10,'legend.fontsize': 35, 'axes.labelsize': 70, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
     plt.rcParams.update(paras)
     X = range(len(labels))
-    plt.figure(num=0, figsize=(25, 30))
+    plt.figure(num=0, figsize=(25, 15))
     #plt.subplot(121)
 
     for file in fileB:
@@ -73,5 +73,5 @@ if __name__ == '__main__':
     plt.xticks(X, labels)
     plt.ylabel("Delta Improvement")
     plt.xlabel("No of terms overlap")
-    plt.legend(bbox_to_anchor=(0.4, 0.9), loc=1, ncol = 1, borderaxespad=0.)
+    plt.legend(bbox_to_anchor=(0.3, 0.9), loc=1, ncol = 1, borderaxespad=0.)
     plt.savefig("gibbs_vem" + ".png")
