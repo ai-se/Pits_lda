@@ -52,26 +52,37 @@ if __name__ == '__main__':
 
     font = {'family' : 'normal',
             'weight' : 'bold',
-            'size'   : 70}
+            'size'   : 45}
 
     plt.rc('font', **font)
-    paras={'lines.linewidth': 10,'legend.fontsize': 35, 'axes.labelsize': 70, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    paras={'lines.linewidth': 10,'legend.fontsize': 40, 'axes.labelsize': 45, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
     plt.rcParams.update(paras)
     X = range(len(labels))
     plt.figure(num=0, figsize=(25, 15))
     #plt.subplot(121)
 
-    for file in fileB:
+    '''for file in fileB:
         del_vem=[]
         del_gibbs=[]
         for lab in labels:
             del_vem.append(delta_vem[file][lab])
             del_gibbs.append(delta_gibbs[file][lab])
-        line, = plt.plot(X, del_vem, marker='o', markersize=16, label='vem_'+file)
-        plt.plot(X, del_gibbs, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="gibbs_" + file)
+        line, = plt.plot(X, del_vem, marker='o', markersize=16, label=file)
+        #plt.plot(X, del_gibbs, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="gibbs-" + file)'''
+
+    for file in fileB:
+        tuned=[]
+        untuned=[]
+        for lab in labels:
+            tuned.append(tuned_vem[file][lab])
+            untuned.append(np.median(untuned_vem[file][lab]))
+        line, = plt.plot(X, tuned, marker='o', markersize=16, label='tuned-'+file)
+        plt.plot(X, untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="untuned-" + file)
+
+    plt.ylim(-0.1,1.1)
 
     plt.xticks(X, labels)
-    plt.ylabel("Delta Improvement")
+    plt.ylabel("Raw Stability Scores")
     plt.xlabel("No of terms overlap")
     plt.legend(bbox_to_anchor=(0.3, 0.9), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("gibbs_vem" + ".png")
+    plt.savefig("raw_graph" + ".png")
