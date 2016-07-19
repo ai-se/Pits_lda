@@ -167,14 +167,16 @@ def cmd(com="demo('-h')"):
 
 def _test(res=''):
     #fileB = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF', 'processed_citemap.txt']
-    fileB=[]
-    fileB.append(res)
+
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     start_time = time.time()
     random.seed(1)
     global bounds
+    # stability score format dict, file,lab=score
     result={}
+    # parameter variations (k,a,b), format, dict, file,lab,each score=k,a,b
     final_para_dic={}
+    # final generation, format dict, file,lab=parameter, score
     final_current_dic={}
     de = DE(F=0.7, CR=0.3, x='rand')
     temp1={}
@@ -199,11 +201,15 @@ def _test(res=''):
     print(result)
     print(final_current_dic)
     print(final_para_dic)
+    time1={}
+    # runtime,format dict, file,=runtime in secs
+    time1[res]=time.time() - start_time
 
     with open('dump/tuned_gibbs'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
         pickle.dump(final_current_dic, handle)
         pickle.dump(final_para_dic, handle)
+        pickle.dump(time1,handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
 bounds = [(10, 30), (0.1, 1), (0.1, 1)]

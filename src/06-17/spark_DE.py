@@ -1,19 +1,14 @@
 from __future__ import print_function, division
+import pickle
 
 __author__ = 'amrit'
 
-import sys
-import pickle
-from demos import atom
-from demos import cmd
 import collections
-from ldaVEM import *
+from lda_spark import *
 import random
+from pyspark import SparkContext
+from pyspark import SparkConf
 import time
-import copy
-import operator
-import matplotlib.pyplot as plt
-import os, pickle
 
 __all__ = ['DE']
 Individual = collections.namedtuple('Individual', 'ind fit')
@@ -152,26 +147,29 @@ class DE(object):
                                                       'bin crossover.')
 
 
-def cmd(com="demo('-h')"):
-    "Convert command line to a function call."
-    if len(sys.argv) < 2: return com
-
-    def strp(x): return isinstance(x, basestring)
-
-    def wrap(x): return "'%s'" % x if strp(x) else str(x)
-
-    words = map(wrap, map(atom, sys.argv[2:]))
-    return sys.argv[1] + '(' + ','.join(words) + ')'
 
 
-
-def _test(res=''):
-    #fileB = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF', 'processed_citemap.txt']
-
-    labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+if __name__ == '__main__':
     start_time = time.time()
+
+    args = sys.argv
+    sconf = SparkConf()
+    sconf.setAppName("lda")
+    sconf.setMaster(args[1])
+    sconf.set("spark.executor.memory", "6g")
+    sconf.set("spark.driver.memory", "6g")
+    sconf.set("spark.driver.maxResultSize", "6g")
+    sconf.set("spark.yarn.executor.memoryOverhead", "2g")
+    sconf.set("spark.yarn.driver.memoryOverhead", "2g")
+
+    sconf.set("spark.eventLog.enabled", "true")
+    sconf.set("spark.eventLog.dir", "hdfs://" + args[3] + "/user/" + args[4] + "/Logs/")
+    sc = SparkContext(conf=sconf)
+    #labels=[int(args[5])]
+    labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
     random.seed(1)
-    global bounds
+    bounds = [(10, 30), (0, 1), (0, 1)]
     # stability score format dict, file,lab=score
     result={}
     # parameter variations (k,a,b), format, dict, file,lab,each score=k,a,b
@@ -182,14 +180,16 @@ def _test(res=''):
     temp1={}
     temp2={}
     temp3={}
+    res=args[2]
     for lab in labels:
-        global max_fitness
-        max_fitness = 0
         print(res+'\t'+str(lab))
+        max_fitness = 0
         pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
-                    random.uniform(bounds[2][0], bounds[2][1])]
-                   for _ in range(10)]
-        v, score,para_dict,gen = de.solve(main, pop, iterations=3, file=res, term=lab)
+                random.uniform(bounds[2][0], bounds[2][1])]
+               for _ in range(10)]  # 20 * dimension of the problem
+        max = 0
+        v, score,para_dict,gen = de.solve(main, pop, iterations=3, master=args[1], ip=args[3], user=args[4],
+                                file=args[2], label=lab, sprkcontext=sc)
         temp1[lab]=para_dict
         temp2[lab]=gen
         print(v, '->', score)
@@ -205,14 +205,11 @@ def _test(res=''):
     # runtime,format dict, file,=runtime in secs
     time1[res]=time.time() - start_time
 
-    with open('dump/tuned_'+res+'.pickle', 'wb') as handle:
+    with open('dump/spark_tuned_VEM'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
         pickle.dump(final_current_dic, handle)
         pickle.dump(final_para_dic, handle)
         pickle.dump(time1,handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
-bounds = [(10, 30), (0, 1), (0, 1)]
-max_fitness = 0
-if __name__ == '__main__':
-    eval(cmd())
+    sc.stop()

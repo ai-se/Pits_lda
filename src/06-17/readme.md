@@ -1,3 +1,6 @@
-- All the logs
-- VEM
-- Gibbs sampling
+- All the logs (runtime, parameter variation, stabiity score, final generation in the pareto frontier)
+- VEM (Untuned, tuned)
+- Gibbs sampling (Untuned, tuned)
+- different figures.
+- pickle files are in src/06-17/dump, runtime src/06-17/out
+- log files are in results/06-17/

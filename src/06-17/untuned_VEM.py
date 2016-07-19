@@ -179,7 +179,7 @@ def _test(res=''):
     fileB.append(res)
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     l = [10]
-
+    # stability score format dict, file,lab=list of score (need median)
     result = {}
     for file1 in fileB:
         file_result = {}
@@ -209,9 +209,12 @@ def _test(res=''):
             file_result[terms] = median1
         result[file1] = file_result
     print(result)
+    time1={}
+    # runtime,format dict, file,=runtime in secs
+    time1[res]=time.time() - start_time1
     with open('dump/untuned_'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
-    print(result)
+        pickle.dump(time1,handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time1))
 
 if __name__ == '__main__':
