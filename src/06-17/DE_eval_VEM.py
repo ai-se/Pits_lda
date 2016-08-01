@@ -163,27 +163,34 @@ def cmd(com="demo('-h')"):
     words = map(wrap, map(atom, sys.argv[2:]))
     return sys.argv[1] + '(' + ','.join(words) + ')'
 
+def readfile1(filename=''):
+    dict = []
+    with open(filename, 'r') as f:
+        for doc in f.readlines():
+            try:
+                row = doc.lower().split('>>>')[0].strip()
+                dict.append(row)
+            except:
+                pass
+    return dict
 
 
 def _test(res=''):
     #fileB = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF', 'processed_citemap.txt']
+    #fileB = ['SE0.txt', 'SE6.txt', 'SE1.txt', 'SE8.txt', 'SE3.txt']
+    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
 
-    labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    data_samples = readfile1(filepath + str(res))
+    labels = [5]#[1, 2, 3, 4, 5, 6, 7, 8, 9]
     start_time = time.time()
     random.seed(1)
-    filepath = '/share/aagrawa8/Data/'
-    data_samples = readfile1(filepath + str(res))
     global bounds
-    # stability score format dict, file,lab=score
+    # stability score format dict, file,lab, eval=score
     result={}
-    # parameter variations (k,a,b), format, dict, file,lab,each score=k,a,b
-    final_para_dic={}
-    # final generation, format dict, file,lab=parameter, score
-    final_current_dic={}
+
     de = DE(F=0.7, CR=0.3, x='rand')
     temp1={}
-    temp2={}
-    temp3={}
     for lab in labels:
         global max_fitness
         max_fitness = 0
@@ -191,30 +198,26 @@ def _test(res=''):
         pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                     random.uniform(bounds[2][0], bounds[2][1])]
                    for _ in range(10)]
-        v, score,para_dict,gen = de.solve(main, pop, iterations=3, file=res, term=lab,data_samples=data_samples)
-        temp1[lab]=para_dict
-        temp2[lab]=gen
-        print(v, '->', score)
+        temp={}
+        for i in range(1,5):
+            v, score,para_dict,gen = de.solve(main, pop, iterations=i, file=res, term=lab, data_samples=data_samples)
+            temp[i]= score
+        temp1[lab]= temp
+    result[res] = temp1
 
-        temp3[lab]= score
-    result[res] = temp3
-    final_para_dic[res]=temp1
-    final_current_dic[res]=temp2
     print(result)
-    print(final_current_dic)
-    print(final_para_dic)
+
     time1={}
     # runtime,format dict, file,=runtime in secs
     time1[res]=time.time() - start_time
 
-    with open('dump/tuned_vem_'+res+'.pickle', 'wb') as handle:
+
+    with open('dump/tuned_eval_gibbs'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
-        pickle.dump(final_current_dic, handle)
-        pickle.dump(final_para_dic, handle)
-        pickle.dump(time1,handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
-bounds = [(10, 30), (0, 1), (0, 1)]
+
+bounds = [(10, 30), (0.1, 1), (0.1, 1)]
 max_fitness = 0
 if __name__ == '__main__':
     eval(cmd())

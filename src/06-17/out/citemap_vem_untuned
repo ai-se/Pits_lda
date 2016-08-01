@@ -1,0 +1,134 @@
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 1
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 2
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 3
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 4
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 5
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 6
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 7
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 8
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+processed_citemap 	 9
+{'processed_citemap': {1: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 2: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 3: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 4: [0.8888888888888888, 1.0, 0.8888888888888888, 0.8888888888888888, 0.7777777777777778, 0.7777777777777778, 0.8888888888888888, 0.8888888888888888, 0.8888888888888888, 0.7777777777777778], 5: [0.5555555555555556, 0.7777777777777778, 0.7777777777777778, 0.7777777777777778, 0.6666666666666666, 0.8888888888888888, 0.5555555555555556, 0.6666666666666666, 0.7777777777777778, 0.8888888888888888], 6: [0.5555555555555556, 0.4444444444444444, 0.3333333333333333, 0.6666666666666666, 0.5555555555555556, 0.6666666666666666, 0.4444444444444444, 0.4444444444444444, 0.5555555555555556, 0.4444444444444444], 7: [0.3333333333333333, 0.4444444444444444, 0.4444444444444444, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.4444444444444444, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333], 8: [0.1111111111111111, 0.1111111111111111, 0.2222222222222222, 0.1111111111111111, 0.2222222222222222, 0.2222222222222222, 0.1111111111111111, 0.1111111111111111, 0.2222222222222222, 0.2222222222222222], 9: [0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111, 0.1111111111111111]}}
+
+Total Runtime: --- 52608.1203861 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c3-13>
+Subject: Job 679898: </share2/aagrawa8/miniconda/bin/python2.7 untuned_VEM.py _test processed_citemap> Done
+
+Job </share2/aagrawa8/miniconda/bin/python2.7 untuned_VEM.py _test processed_citemap> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <2*n2c3-13>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+                            <3*n2c3-1>
+                            <3*n2c3-14>
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Thu Jul 28 21:09:17 2016
+Results reported at Fri Jul 29 11:46:23 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share2/aagrawa8/miniconda/bin/python2.7 untuned_VEM.py _test processed_citemap
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  52338.59 sec.
+    Max Memory :        82 MB
+    Max Swap   :       655 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/processed_citemap.err.679898> for stderr output of this job.
+

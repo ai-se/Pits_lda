@@ -1,0 +1,51 @@
+pitsB	1
+pitsB	2
+pitsB	3
+pitsB	4
+pitsB	5
+pitsB	6
+pitsB	7
+pitsB	8
+pitsB	9
+{'pitsB': {1: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 2: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 3: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 4: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 5: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 6: {'F7CR3P10': 0.6666666666666666, 'F3CR7P10': 0.6666666666666666, 'F3CR7P30': 0.5555555555555556, 'F7CR3P30': 1.0}, 7: {'F7CR3P10': 0.6666666666666666, 'F3CR7P10': 0.5555555555555556, 'F3CR7P30': 0.5555555555555556, 'F7CR3P30': 0.7777777777777778}, 8: {'F7CR3P10': 0.3333333333333333, 'F3CR7P10': 0.2222222222222222, 'F3CR7P30': 0.3333333333333333, 'F7CR3P30': 0.5555555555555556}, 9: {'F7CR3P10': 0.6666666666666666, 'F3CR7P10': 0.3333333333333333, 'F3CR7P30': 0.2222222222222222, 'F7CR3P30': 0.3333333333333333}}}
+
+Total Runtime: --- 63279.5501668 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-2>
+Subject: Job 678952: </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsB> Done
+
+Job </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsB> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n2c1-2>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Wed Jul 27 22:19:41 2016
+Results reported at Thu Jul 28 15:55:16 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsB
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  62900.47 sec.
+    Max Memory :        90 MB
+    Max Swap   :       755 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsB.err.678952> for stderr output of this job.
+

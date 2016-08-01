@@ -1,0 +1,51 @@
+pitsD	1
+pitsD	2
+pitsD	3
+pitsD	4
+pitsD	5
+pitsD	6
+pitsD	7
+pitsD	8
+pitsD	9
+{'pitsD': {1: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 2: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 3: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 4: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 5: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 6: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 7: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 8: {'F7CR3P10': 1.0, 'F3CR7P10': 0.4444444444444444, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 9: {'F7CR3P10': 0.6666666666666666, 'F3CR7P10': 0.2222222222222222, 'F3CR7P30': 0.5555555555555556, 'F7CR3P30': 0.6666666666666666}}}
+
+Total Runtime: --- 15357.11886 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-13>
+Subject: Job 678954: </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsD> Done
+
+Job </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsD> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n2c1-13>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Wed Jul 27 22:19:41 2016
+Results reported at Thu Jul 28 02:36:09 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsD
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  13976.51 sec.
+    Max Memory :        86 MB
+    Max Swap   :       751 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsD.err.678954> for stderr output of this job.
+

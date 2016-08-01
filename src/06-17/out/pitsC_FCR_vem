@@ -1,0 +1,51 @@
+pitsC	1
+pitsC	2
+pitsC	3
+pitsC	4
+pitsC	5
+pitsC	6
+pitsC	7
+pitsC	8
+pitsC	9
+{'pitsC': {1: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 2: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 3: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 4: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 5: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 6: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 7: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 8: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 9: {'F7CR3P10': 1.0, 'F3CR7P10': 0.7777777777777778, 'F3CR7P30': 1.0, 'F7CR3P30': 0.6666666666666666}}}
+
+Total Runtime: --- 20990.6529031 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-5>
+Subject: Job 678953: </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsC> Done
+
+Job </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsC> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n2c1-5>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Wed Jul 27 22:19:41 2016
+Results reported at Thu Jul 28 04:10:27 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsC
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  19336.02 sec.
+    Max Memory :        85 MB
+    Max Swap   :       749 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsC.err.678953> for stderr output of this job.
+

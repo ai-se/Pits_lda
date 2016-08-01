@@ -86,7 +86,7 @@ def jaccard(a, tops=[], term=0):
             for l, m in enumerate(j):
                 sum = recursion(topic=m, index=i, count1=x)
                 if sum != 0:
-                    j_score.append(sum / float(10))
+                    j_score.append(sum / float(9))
                 '''for m,n in enumerate(l):
                     if n in j[]'''
         dic[x] = j_score
@@ -103,7 +103,6 @@ def jaccard(a, tops=[], term=0):
 def preprocess(sc, path='', vocabsize=5000, stopwordfile=''):
     sqlContext = SQLContext.getOrCreate(sc)
     row = Row("docs")
-    #shuffle(row)
     df = sc.textFile(path).map(row).toDF()
     tokenizer = RegexTokenizer(inputCol="docs", outputCol="rawTokens")
     countVectorizer = CountVectorizer(inputCol="rawTokens", outputCol="features")
@@ -112,17 +111,14 @@ def preprocess(sc, path='', vocabsize=5000, stopwordfile=''):
     model = pipeline.fit(df)
     documents = model.transform(df).select("features").rdd.map(lambda x: x.features).zipWithIndex().map(
         lambda x: [x[1], x[0]])
-    return documents, model.stages[1].vocabulary  # , documents.map(lambda x:x[2].numActives).sum().toLong
+    return documents, model.stages[1].vocabulary
 
 
 def main(*x, **r):
     l = x
     dataset = "hdfs://" + r['ip'] + "/user/" + r['user'] + "/In/" + r['file']
     sc=r['sprkcontext']
-    corpus, vocabArray = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
-    corpus.cache()
-    actualCorpusSize = corpus.count()
-    actualVocabSize = len(vocabArray)
+
     base = os.path.abspath(os.path.dirname(__file__))
     path = os.path.join(base,'tuned',r['file'], str(r['label']))
     start_time = time.time()
@@ -136,7 +132,7 @@ def main(*x, **r):
     score_topic = []
     for i in range(10):
         fo.write("Run : " + str(i) + "\n")
-        shuffle(corpus)
+        corpus, vocabArray = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
         ldaModel = LDA.train(corpus, k=int(l[0]), maxIterations=20, docConcentration=l[1], topicConcentration=l[1],
                              checkpointInterval=10, optimizer='online')
         # println(s"\t $distLDAModel.topicsMatrix().toArray()")

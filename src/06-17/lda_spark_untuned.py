@@ -87,7 +87,7 @@ def jaccard(a, tops=[], term=0):
             for l, m in enumerate(j):
                 sum = recursion(topic=m, index=i, count1=x)
                 if sum != 0:
-                    j_score.append(sum / float(10))
+                    j_score.append(sum / float(9))
                 '''for m,n in enumerate(l):
                     if n in j[]'''
         dic[x] = j_score
@@ -118,7 +118,7 @@ def preprocess(sc, path='', vocabsize=5000, stopwordfile=''):
     model = pipeline.fit(df)
     documents = model.transform(df).select("features").rdd.map(lambda x: x.features).zipWithIndex().map(
         lambda x: [x[1], x[0]])
-    return documents, model.stages[1].vocabulary  # , documents.map(lambda x:x[2].numActives).sum().toLong
+    return documents, model.stages[1].vocabulary
 
 
 if __name__ == '__main__':
@@ -137,21 +137,18 @@ if __name__ == '__main__':
     sconf.set("spark.eventLog.dir", "hdfs://" + args[3] + "/user/" + args[4] + "/Logs/")
     sc = SparkContext(conf=sconf)
     dataset = "hdfs://" + args[3] + "/user/" + args[4] + "/In/" + args[2]
-
     corpus, vocabArray = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
-    corpus.cache()
-    actualCorpusSize = corpus.count()
-    actualVocabSize = len(vocabArray)
+
     base = os.path.abspath(os.path.dirname(__file__))
     result={}
     temp={}
-    for lab in range(1,10):
+    for lab in range(7,8):
         median1=[]
         path = os.path.join(base,'untuned',args[2] , str(lab))
         start_time = time.time()
         if not os.path.exists(path):
             os.makedirs(path)
-        for j in range(10):
+        for j in range(1):
                 start_time = time.time()
                 path1 = path + "/run_" + str(j) + ".txt"
                 with open(path1, "w") as f:
@@ -161,11 +158,12 @@ if __name__ == '__main__':
                         f.truncate()
                 fo = open(path1, 'w+')
                 score_topic = []
-                for i in range(10):
+                for i in range(1):
                     fo.write("Run : " + str(i) + "\n")
-                    shuffle(corpus)
+
+
+                    #print(corpus.collect())
                     ldaModel = LDA.train(corpus, k=10, maxIterations=20, docConcentration=-1.0, topicConcentration=-1.0, checkpointInterval=10, optimizer='online')
-                    # println(s"\t $distLDAModel.topicsMatrix().toArray()")
                     topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)
                     topics = []
                     for x in topicIndices:

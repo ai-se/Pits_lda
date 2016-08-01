@@ -98,23 +98,6 @@ def get_top_words(model, path1, feature_names, n_top_words, i=0, file1=''):
     fo.close()
     return topics
 
-
-def token_freqs(doc):
-    return Counter(doc)
-
-
-def tf(corpus):
-    mat = [token_freqs(doc) for doc in corpus]
-    return mat
-
-
-def make_feature(corpus, n_features=1000):
-    label = list(zip(*corpus)[0])
-    mat = tf(corpus)
-    # matt = hash(mat)
-    return mat
-
-
 def readfile1(filename=''):
     dict = []
     with open(filename, 'r') as f:
@@ -127,18 +110,17 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA(l, path1, file=''):
+def _test_LDA(l, path1, file='',data_samples=[]):
     n_topics = 10
     n_top_words = 10
 
     fileB = []
     fileB.append(file)
-
-    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
+    #filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
     topics=[]
     for j, file1 in enumerate(fileB):
         for i in range(10):
-            data_samples = readfile1(filepath + str(file1))
+            #data_samples = readfile1(filepath + str(file1))
 
             # shuffling the list
             shuffle(data_samples)
@@ -159,7 +141,7 @@ def _test_LDA(l, path1, file=''):
 def main(*x, **r):
     # 1st r
     start_time = time.time()
-    base = '/home/amrit/GITHUB/Pits_lda/results/06-17/'
+    base = '/share/aagrawa8/Data/results/'
     path = os.path.join(base, 'tuned_gibbs', r['file'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
@@ -170,7 +152,7 @@ def main(*x, **r):
         f.truncate()
 
 
-    topics = _test_LDA(l, path1, file=r['file'])
+    topics = _test_LDA(l, path1, file=r['file'],data_samples=r['data_samples'])
     top=[]
     for i in topics:
         temp=str(i.encode('ascii','ignore'))

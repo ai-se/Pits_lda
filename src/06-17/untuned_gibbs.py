@@ -129,18 +129,17 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA(l, path1, file=''):
+def _test_LDA(l, path1, file='',data_samples=[]):
     n_topics = 10
     n_top_words = 10
 
     fileB = []
     fileB.append(file)
 
-    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
+
     topics=[]
     for j, file1 in enumerate(fileB):
         for i in range(10):
-            data_samples = readfile1(filepath + str(file1))
 
             # shuffling the list
             shuffle(data_samples)
@@ -178,6 +177,8 @@ def _test(res=''):
     fileB.append(res)
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     l = [10.0]
+    filepath = '/share/aagrawa8/Data/'
+    data_samples = readfile1(filepath + str(res))
 
     # stability score format dict, file,lab=list of score (need median)
     result = {}
@@ -185,7 +186,7 @@ def _test(res=''):
         file_result = {}
         for terms in labels:
             median1=[]
-            base = '/home/amrit/GITHUB/Pits_lda/results/06-17/'
+            base = '/share/aagrawa8/Data/results/'
             path = os.path.join(base,'untuned_gibbs', res, str(terms))
             if not os.path.exists(path):
                 os.makedirs(path)
@@ -195,7 +196,7 @@ def _test(res=''):
                 path1 = path + "/run_" + str(i) + ".txt"
                 with open(path1, "w") as f:
                     f.truncate()
-                topics = _test_LDA(l, path1, file=file1)
+                topics = _test_LDA(l, path1, file=file1,data_samples=data_samples)
                 top=[]
                 for i in topics:
                     temp=str(i.encode('ascii','ignore'))

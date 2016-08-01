@@ -1,0 +1,51 @@
+pitsA	1
+pitsA	2
+pitsA	3
+pitsA	4
+pitsA	5
+pitsA	6
+pitsA	7
+pitsA	8
+pitsA	9
+{'pitsA': {1: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 2: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 3: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 4: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 5: {'F7CR3P10': 1.0, 'F3CR7P10': 1.0, 'F3CR7P30': 1.0, 'F7CR3P30': 1.0}, 6: {'F7CR3P10': 0.7777777777777778, 'F3CR7P10': 0.7777777777777778, 'F3CR7P30': 0.7777777777777778, 'F7CR3P30': 0.7777777777777778}, 7: {'F7CR3P10': 0.5555555555555556, 'F3CR7P10': 0.4444444444444444, 'F3CR7P30': 0.4444444444444444, 'F7CR3P30': 0.6666666666666666}, 8: {'F7CR3P10': 0.4444444444444444, 'F3CR7P10': 0.2222222222222222, 'F3CR7P30': 0.4444444444444444, 'F7CR3P30': 0.4444444444444444}, 9: {'F7CR3P10': 0.2222222222222222, 'F3CR7P10': 0.2222222222222222, 'F3CR7P30': 0.4444444444444444, 'F7CR3P30': 0.2222222222222222}}}
+
+Total Runtime: --- 60529.9917998 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c1-14>
+Subject: Job 678951: </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsA> Done
+
+Job </share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsA> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n2c1-14>, in queue <long>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Wed Jul 27 22:19:41 2016
+Results reported at Thu Jul 28 15:09:27 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share2/aagrawa8/miniconda/bin/python2.7 DE_FCR_VEM.py _test pitsA
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  59871.95 sec.
+    Max Memory :        92 MB
+    Max Swap   :       757 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsA.err.678951> for stderr output of this job.
+

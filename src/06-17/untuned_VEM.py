@@ -129,19 +129,16 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA(l, path1, file=''):
+def _test_LDA(l, path1, file='',data_samples=[]):
     n_topics = 10
     n_top_words = 10
 
     fileB = []
     fileB.append(file)
 
-    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
     topics=[]
     for j, file1 in enumerate(fileB):
         for i in range(10):
-            data_samples = readfile1(filepath + str(file1))
-
             # shuffling the list
             shuffle(data_samples)
 
@@ -151,7 +148,7 @@ def _test_LDA(l, path1, file=''):
             lda = LatentDirichletAllocation(n_topics=int(l[0]), doc_topic_prior=None,
                                             topic_word_prior=None, learning_method='online',
                                             learning_decay=0.7, learning_offset=50., max_iter=10)
-            tf_new = lda.fit_transform(tf)
+            lda.fit_transform(tf)
 
             # print("done in %0.3fs." % (time() - t0))
             tf_feature_names = tf_vectorizer.get_feature_names()
@@ -179,14 +176,16 @@ def _test(res=''):
     fileB.append(res)
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     l = [10]
+    filepath = '/share/aagrawa8/Data/'
+    data_samples = readfile1(filepath + str(res))
     # stability score format dict, file,lab=list of score (need median)
     result = {}
     for file1 in fileB:
         file_result = {}
         for terms in labels:
             median1=[]
-            base = '/home/amrit/GITHUB/Pits_lda/results/06-17/'
-            path = os.path.join(base,'untuned', res, str(terms))
+            base = '/share/aagrawa8/Data/results/'
+            path = os.path.join(base,'untuned_vem', res, str(terms))
             if not os.path.exists(path):
                 os.makedirs(path)
 
@@ -196,7 +195,7 @@ def _test(res=''):
                 with open(path1, "w") as f:
                     f.truncate()
                 print(file1, '\t', terms)
-                topics = _test_LDA(l, path1, file=file1)
+                topics = _test_LDA(l, path1, file=file1,data_samples=data_samples)
 
                 # 2nd method
                 # another_method()
@@ -212,7 +211,7 @@ def _test(res=''):
     time1={}
     # runtime,format dict, file,=runtime in secs
     time1[res]=time.time() - start_time1
-    with open('dump/untuned_'+res+'.pickle', 'wb') as handle:
+    with open('dump/untuned_vem_'+res+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
         pickle.dump(time1,handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time1))
