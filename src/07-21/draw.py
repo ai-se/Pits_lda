@@ -73,4 +73,4 @@ if __name__ == '__main__':
     plt.ylabel("F_score")
     plt.xlabel("Datasets")
     plt.legend(bbox_to_anchor=(0.3, 0.8), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("graph" + ".eps")
+    plt.savefig("graph" + ".png")
