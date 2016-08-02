@@ -28,5 +28,17 @@ For data synthesis, people uses machine learning classifiers for document classi
 uses lda to infer the latent topics in the sample documents and then used logistic regression to compute the probability that a given candidate criterion belongs to a particular topic.
 
 http://carver.cs.ua.edu/Papers/TechnicalReports/2014/SERG-2014-03.pdf
- Studies Selection stage - ( PEx-Graph) The VTM tool can cluster related documents and label them with terms considered more significant to represent each cluster
+http://www.academia.edu/6257906/Tools_to_Support_Systematic_Literature_Reviews_in_Software_Engineering_A_Mapping_Study
+ Studies Selection stage - ( PEx-Graph) The VTM (Visual text mining) tool can cluster related documents and label them with terms considered more significant to represent each cluster. PEx is used by these papers:
+- Systematic literature reviews in software engineering – a systematic literature review
+- Procedures for performing systematic reviews
+- A visual text mining approach for systematic reviews
+
  Studies Selection stage - ( ReVis) clusters and topics it applies clustering algorithms in order to create clusters and their respective topics;
+- Guidelines for performing systematic literature reviews in software engineering.
+- Using mapping studies in software engineering
+- A Visual Analysis Approach to Update Systematic Reviews
+
+Exploring Topic Models in Software Engineering Data Analysis: A Survey
+LDA is the most widely used topic model, followed by the relational topic model. Topic Modelling kept increasing during these years. See the survey graph. This shows how important it is becoming.
+
