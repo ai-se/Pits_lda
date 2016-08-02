@@ -63,14 +63,14 @@ if __name__ == '__main__':
     #plt.subplot(121)
     results=['baseline','untuned','tuned']
     for res in results:
-        line, = plt.plot(X, median[res], marker='o', markersize=16, label=res+'_median')
-        plt.plot(X, iqr[res], linestyle="-.", color=line.get_color(), marker='*', markersize=16, label=res + '_iqr')
+        line, = plt.plot(X, median[res], marker='o', markersize=16, label=res+' median')
+        plt.plot(X, iqr[res], linestyle="-.", color=line.get_color(), marker='*', markersize=16, label=res + ' iqr')
 
 
     #plt.ylim(-0.1,1.1)
 
     plt.xticks(X, fileB)
-    plt.ylabel("F_score")
+    plt.ylabel("F score")
     plt.xlabel("Datasets")
-    plt.legend(bbox_to_anchor=(0.3, 0.8), loc=1, ncol = 1, borderaxespad=0.)
+    plt.legend(bbox_to_anchor=(0.3, 0.5), loc=1, ncol = 1, borderaxespad=0.2)
     plt.savefig("graph" + ".png")
