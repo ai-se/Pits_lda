@@ -179,7 +179,7 @@ def readfile1(filename=''):
 def _test(res=''):
     #fileB = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF', 'processed_citemap.txt']
     #fileB = ['SE0.txt', 'SE6.txt', 'SE1.txt', 'SE8.txt', 'SE3.txt']
-    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/SE/'
+    filepath = '/share/aagrawa8/Data/SE/'
 
 
     data_samples = readfile1(filepath + str(res))
@@ -231,6 +231,7 @@ def _test(res=''):
     ## Running the lda again with max score
     l=final_para_dic[res][5][result[res][5]]
     final_gibbs.main(k=l[0][0],alpha=l[0][1],beta=l[0][2],file=res,data_samples=data_samples)
+    #final_gibbs.main(k=10,alpha=0.1,beta=0.01,file=res,data_samples=data_samples)
 
 
 bounds = [(10, 50), (0.1, 1), (0.1, 1)]

@@ -85,4 +85,4 @@ if __name__ == '__main__':
     plt.ylabel("Raw Stability Scores")
     plt.xlabel("No of terms overlap")
     plt.legend(bbox_to_anchor=(0.3, 0.8), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("raw_graph" + ".png")
+    plt.savefig("raw_graph" + ".eps")

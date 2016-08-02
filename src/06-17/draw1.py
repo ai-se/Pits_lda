@@ -40,4 +40,4 @@ if __name__ == '__main__':
     plt.ylabel("Delta Improvement")
     plt.xlabel("No of terms overlap")
     plt.legend(bbox_to_anchor=(0.25, 0.8), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("tunedresults" + ".png")
+    plt.savefig("tunedresults" + ".eps")
