@@ -141,14 +141,16 @@ if __name__ == '__main__':
 
     base = os.path.abspath(os.path.dirname(__file__))
     result={}
+    #l=list(range(corpus.count()))
+
     temp={}
-    for lab in range(7,8):
+    for lab in range(1,10):
         median1=[]
         path = os.path.join(base,'untuned',args[2] , str(lab))
         start_time = time.time()
         if not os.path.exists(path):
             os.makedirs(path)
-        for j in range(1):
+        for j in range(10):
                 start_time = time.time()
                 path1 = path + "/run_" + str(j) + ".txt"
                 with open(path1, "w") as f:
@@ -158,11 +160,18 @@ if __name__ == '__main__':
                         f.truncate()
                 fo = open(path1, 'w+')
                 score_topic = []
-                for i in range(1):
+                for i in range(10):
                     fo.write("Run : " + str(i) + "\n")
 
+                    ''''shuffle(l)
+                    x=sc.parallelize(l).map(lambda d:(d,0))
+                    corpus = corpus.map(lambda e: (e[0],e[1]))
+                    print(x.collect())
+                    corpus=corpus.join(x).map(lambda e: [e[0],e[1][0]] )'''
 
-                    #print(corpus.collect())
+                    x=corpus.collect()
+                    shuffle(x)
+                    corpus=sc.parallelize(x)
                     ldaModel = LDA.train(corpus, k=10, maxIterations=20, docConcentration=-1.0, topicConcentration=-1.0, checkpointInterval=10, optimizer='online')
                     topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)
                     topics = []
