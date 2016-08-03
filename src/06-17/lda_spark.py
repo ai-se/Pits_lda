@@ -131,14 +131,16 @@ def main(*x, **r):
     fo = open(path1, 'w+')
     score_topic = []
     corpus, vocabArray = preprocess(sc, path=dataset, vocabsize=50000, stopwordfile='')
+    #corpus.cache()
     for i in range(10):
         fo.write("Run : " + str(i) + "\n")
 
         x=corpus.collect()
         shuffle(x)
         corpus=sc.parallelize(x)
-        ldaModel = LDA.train(corpus, k=int(l[0]), maxIterations=20, docConcentration=l[1], topicConcentration=l[1],
-                             checkpointInterval=10, optimizer='online')
+        #corpus.cache()
+        ldaModel = LDA.train(corpus, k=int(l[0]), maxIterations=20, docConcentration=float(l[1]), topicConcentration=float(l[1]), checkpointInterval=10,
+                              optimizer='online')
         # println(s"\t $distLDAModel.topicsMatrix().toArray()")
         topicIndices = ldaModel.describeTopics(maxTermsPerTopic=10)
         topics = []

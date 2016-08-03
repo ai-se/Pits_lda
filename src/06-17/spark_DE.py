@@ -68,7 +68,6 @@ class DE(object):
         return x1.ind,y1.ind,z1.ind
 
     def _extrapolate(self, ind, population):
-        global bounds
         if (random.random() < self.CR):
             x,y,z=self.select3others(population)
             #print(x,y,z)
@@ -150,8 +149,7 @@ class DE(object):
                                                       'bin crossover.')
 
 
-max_fitness = 0
-bounds = [(10, 30), (0, 1), (0, 1)]
+
 if __name__ == '__main__':
     start_time = time.time()
 
@@ -172,7 +170,8 @@ if __name__ == '__main__':
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
     random.seed(1)
-    global bounds
+    max_fitness = 0
+    bounds = [(10, 30), (0, 1), (0, 1)]
     # stability score format dict, file,lab=score
     result={}
     # parameter variations (k,a,b), format, dict, file,lab,each score=k,a,b
@@ -185,9 +184,7 @@ if __name__ == '__main__':
     temp3={}
     res=args[2]
     for lab in labels:
-        global max_fitness
         print(res+'\t'+str(lab))
-        max_fitness = 0
         pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                 random.uniform(bounds[2][0], bounds[2][1])]
                for _ in range(10)]  # 20 * dimension of the problem
