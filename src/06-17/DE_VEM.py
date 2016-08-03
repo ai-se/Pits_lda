@@ -3,7 +3,6 @@ from __future__ import print_function, division
 __author__ = 'amrit'
 
 import sys
-import pickle
 from demos import atom
 from demos import cmd
 import collections
@@ -11,8 +10,6 @@ from ldaVEM import *
 import random
 import time
 import copy
-import operator
-import matplotlib.pyplot as plt
 import os, pickle
 
 __all__ = ['DE']
