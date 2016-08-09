@@ -203,12 +203,10 @@ def _test(res=''):
     time1={}
     # runtime,format dict, file,=runtime in secs
     time1[res]=time.time() - start_time
+    l=[result,final_current_dic,final_para_dic,time1]
 
     with open('dump/tuned_vem_'+res+'.pickle', 'wb') as handle:
-        pickle.dump(result, handle)
-        pickle.dump(final_current_dic, handle)
-        pickle.dump(final_para_dic, handle)
-        pickle.dump(time1,handle)
+        pickle.dump(l, handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
 bounds = [(10, 30), (0, 1), (0, 1)]

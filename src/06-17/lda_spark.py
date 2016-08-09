@@ -159,4 +159,5 @@ def main(*x, **r):
     fo.write("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time))
     fo.write("\nScore: "+str(b))
     fo.close()
+    corpus.unpersist()
     return b

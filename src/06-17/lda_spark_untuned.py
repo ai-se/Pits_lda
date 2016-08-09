@@ -197,8 +197,9 @@ if __name__ == '__main__':
     time1={}
     # runtime,format dict, file,=runtime in secs
     time1[args[2]]=time.time() - start_time1
-    print("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time1))
+    l=[result,time1]
+    corpus.unpersist()
     with open('dump/untuned'+args[2]+'.pickle', 'wb') as handle:
-        pickle.dump(result, handle)
-        pickle.dump(time1,handle)
+        pickle.dump(l, handle)
+    print("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time1))
     sc.stop()

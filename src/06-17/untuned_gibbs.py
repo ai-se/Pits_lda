@@ -215,9 +215,9 @@ def _test(res=''):
     time1={}
     # runtime,format dict, file,=runtime in secs
     time1[res]=time.time() - start_time1
+    l=[result,time1]
     with open('dump/gibbs_untuned_'+res+'.pickle', 'wb') as handle:
-        pickle.dump(result, handle)
-        pickle.dump(time1,handle)
+        pickle.dump(l, handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time1))
 
 if __name__ == '__main__':

@@ -178,10 +178,10 @@ def readfile1(filename=''):
 def _test(res=''):
     #fileB = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF', 'processed_citemap.txt']
     #fileB = ['SE0.txt', 'SE6.txt', 'SE1.txt', 'SE8.txt', 'SE3.txt']
-    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/SE/'
+    filepath = '/share/aagrawa8/Data/'
 
 
-    data_samples = readfile1(filepath + str(res))
+    data_samples = readfile1(filepath + 'processed_citemap')
     labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     start_time = time.time()
     random.seed(1)
@@ -196,29 +196,28 @@ def _test(res=''):
         max_fitness = 0
         print(res+'\t'+str(lab))
         temp={}
-        for i in range(4):
-            if i==0:
+        if res=='F7CR3P10':
                 de = DE(F=0.7, CR=0.3, x='rand')
                 pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                         random.uniform(bounds[2][0], bounds[2][1])]
                        for _ in range(10)]
                 v, score,para_dict,gen = de.solve(main, pop, iterations=1, file=res, term=lab, data_samples=data_samples)
                 temp['F7CR3P10']= score
-            elif i==1:
+        elif res=='F7CR3P30':
                 de = DE(F=0.7, CR=0.3, x='rand')
                 pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                         random.uniform(bounds[2][0], bounds[2][1])]
                        for _ in range(30)]
                 v, score,para_dict,gen = de.solve(main, pop, iterations=1, file=res, term=lab, data_samples=data_samples)
                 temp['F7CR3P30']= score
-            elif i==2:
+        elif res=='F3CR7P10':
                 de = DE(F=0.3, CR=0.7, x='rand')
                 pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                         random.uniform(bounds[2][0], bounds[2][1])]
                        for _ in range(10)]
                 v, score,para_dict,gen = de.solve(main, pop, iterations=1, file=res, term=lab, data_samples=data_samples)
                 temp['F3CR7P10']= score
-            elif i==3:
+        elif res=='F3CR7P30':
                 de = DE(F=0.3, CR=0.7, x='rand')
                 pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                         random.uniform(bounds[2][0], bounds[2][1])]
@@ -226,13 +225,13 @@ def _test(res=''):
                 v, score,para_dict,gen = de.solve(main, pop, iterations=1, file=res, term=lab, data_samples=data_samples)
                 temp['F3CR7P30']= score
         temp1[lab]= temp
-    result[res] = temp1
+    result['citemap'] = temp1
 
     print(result)
 
     time1={}
     # runtime,format dict, file,=runtime in secs
-    time1[res]=time.time() - start_time
+    time1['citemap']=time.time() - start_time
 
 
     with open('dump/tuned_FCR_gibbs'+res+'.pickle', 'wb') as handle:

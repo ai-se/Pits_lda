@@ -342,7 +342,7 @@ class Logger(object):
         self.log.write(message)
 
 def _test(file='cs'):
-    filepath = '/home/amrit/GITHUB/Pits_lda/dataset/SE/'
+    filepath = '/share/aagrawa8/Data/SE/'
     thres = [0.02, 0.05]
     issel = ["tf"]
     isshingle=["no_shingle"]
@@ -355,7 +355,7 @@ def _test(file='cs'):
         for is_shingle in isshingle:
             temp_feature[is_shingle] = cross_val(filename=file, filepath=filepath, filetype='.txt', thres=thres,
                                                     folds=5, feature=feature, is_shingle=is_shingle,
-                                                   n_feature=1000)
+                                                   n_feature=10000)
             #temp_file=temp_feature
         temp_file[feature]=temp_feature
     F_final[file] = temp_file
@@ -366,10 +366,6 @@ def _test(file='cs'):
 
     with open('dump/'+file+'_baseline.pickle', 'wb') as handle:
         pickle.dump(F_final, handle)
-
-    '''with open('result.pickle', 'rb') as handle:
-        F_final = pickle.load(handle)
-    print (F_final)'''
 
 if __name__ == '__main__':
     
