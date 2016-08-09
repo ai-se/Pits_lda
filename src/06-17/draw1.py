@@ -24,7 +24,7 @@ import matplotlib.colors as colors
 
 if __name__ == '__main__':
 
-    fileB = ['pitsC', 'pitsD', 'pitsE','pitsF']
+    fileB = ['pitsA', 'pitsB', 'citemap']
     '''result1={}
     current_dic1={}
     para_dict1={}
@@ -69,10 +69,10 @@ if __name__ == '__main__':
                 Y_untuned.append(tuned_gibbs_py[file1][lab]-np.median(untuned_gibbs_py[file1][lab]))
             #print(Y_untuned)
             line, = plt.plot(X, Y_tuned, marker='o', markersize=20, label='VEM '+file1)
-            plt.plot(X, Y_untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="gibbs " + file1)
+            plt.plot(X, Y_untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=16, label="Gibbs " + file1)
     plt.ylim(-0.1,1.1)
     plt.xticks(X, labels)
     plt.ylabel("Delta Improvement")
     plt.xlabel("No. of terms overlap")
     plt.legend(bbox_to_anchor=(0.30, 0.9), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("gibbs_vem2" + ".png")
+    plt.savefig("gibbs_vem1" + ".png")
