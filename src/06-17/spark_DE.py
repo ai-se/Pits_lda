@@ -204,10 +204,12 @@ if __name__ == '__main__':
     time1={}
     # runtime,format dict, file,=runtime in secs
     time1[res]=time.time() - start_time
-    l=[result,final_current_dic,final_para_dic,time1]
 
     with open('dump/spark_tuned_VEM'+res+'.pickle', 'wb') as handle:
-        pickle.dump(l, handle)
+        pickle.dump(result, handle)
+        pickle.dump(final_current_dic, handle)
+        pickle.dump(final_para_dic, handle)
+        pickle.dump(time1,handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
     sc.stop()
