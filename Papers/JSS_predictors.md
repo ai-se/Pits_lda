@@ -42,3 +42,5 @@ http://www.academia.edu/6257906/Tools_to_Support_Systematic_Literature_Reviews_i
 Exploring Topic Models in Software Engineering Data Analysis: A Survey
 LDA is the most widely used topic model, followed by the relational topic model. Topic Modelling kept increasing during these years. See the survey graph. This shows how important it is becoming.
 
+
+http://research.cs.queensu.ca/TechReports/Reports/2012-586.pdf
