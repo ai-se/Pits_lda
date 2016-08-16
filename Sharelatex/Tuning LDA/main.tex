@@ -142,17 +142,36 @@ Those results were found by exploring six research questions:
     \item \textbf{RQ6}: \textit{Should data miners be used “off-the-shelf” with their default tunings?} Wei et al.~\cite{fu2016tuning} showed that for defect prediction from static code measures, their answer is an emphatic “no”. And we also say that for LDA, it is a “no”. 
 \end{itemize}
 
-Topic Modeling have been used in various spheres of SE. Sun et al. reported a survey of LDA's usage to support various SE tasks between 2003 and 2015~\cite{sun2016exploring}. The number of papers published across top major conferences and journals are listed in figure \ref{fig: venues}. The survey in figure \ref{fig: survey} show that there is an increasing concern in this area.
+Topic Modeling have been used in various spheres of SE. Sun et al. reported a survey of LDA's usage to support various SE tasks between 2003 and 2015~\cite{sun2016exploring}. The number of papers published across top major conferences and journals are listed in Table \ref{tab:venues}. The survey in figure \ref{fig: survey} show that there is an increasing concern in this area.
 
 \begin{itemize}
     \item Topic modeling is applied in various SE tasks, including source code comprehension, feature location, software defects prediction, developer recommendation, traceability link recovery, re-factoring, software history comprehension, software testing and social software engineering.
 
-\begin{figure}[!htpb]
-  \captionsetup{justification=centering}
-  \includegraphics[width=\linewidth]{./fig/venues.png}
-  \caption{Survey Venue and Statistics}
-  \label{fig: venues}
-\end{figure}
+\renewcommand\arraystretch{1.2}
+\begin{table}[!htb]
+\begin{center}
+\scriptsize
+\begin{tabular}{|c|l|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}\textbf{Venue}\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Full Name}\end{tabular}     & \multicolumn{1}{l|}{\textbf{Count}} \\ \hline
+ICSE & International Conference on Software Engineering  & 4  \\ \hline
+\begin{tabular}[c]{@{}c@{}}CSMR-\\WCRE\\ / SANER \end{tabular}   & \begin{tabular}[c]{@{}l@{}}International Conference on Software Maintenance,\\ Reengineering, and Reverse Engineering / International \\Conference on Software Analysis,Evolution, and \\Reengineering\end{tabular} & 3  \\ \hline
+\begin{tabular}[c]{@{}c@{}}ICSM\\ / ICSME\end{tabular}   & \begin{tabular}[c]{@{}l@{}}International Conference on Software Maintenance / \\International Conference on Software Maintenance and \\Evolution \end{tabular}  & 3\\ \hline
+ICPC & International Conference on Program Comprehension  & 3  \\ \hline
+ASE      & \begin{tabular}[c]{@{}l@{}}International Conference on Automated Software\\ Engineering  \end{tabular} & 3  \\ \hline
+ISSRE      & \begin{tabular}[c]{@{}l@{}}International Symposium on Software Reliability\\ Engineering \end{tabular} & 2  \\ \hline
+MSR      & \begin{tabular}[c]{@{}l@{}}International Working Conference on Mining \\Software Repositories \end{tabular} & 8  \\ \hline
+OOPSLA  & \begin{tabular}[c]{@{}l@{}}International Conference on Object-Oriented \\Programming, Systems, Languages, and Applications \end{tabular}  & 1 \\ \hline
+FSE/ESEC  &  \begin{tabular}[c]{@{}l@{}}International Symposium on the Foundations of Software \\Engineering / European Software Engineering Conference \end{tabular}  & 1                                    \\ \hline
+TSE                                 & IEEE Transaction on Software Engineering   & 1                                     \\ \hline
+IST                                 & Information and Software Technology                                 & 3                                       \\ \hline
+SCP                                 & Science of Computer Programming                               & 2                                       \\ \hline
+ESE                                 & Empirical Software Engineering                         & 4                                       \\ \hline
+\end{tabular}
+\end{center}
+\caption{Survey Venue and Statistics}
+\label{tab:venues}
+\end{table}
 
 \begin{figure}[!htpb]
   \captionsetup{justification=centering}
@@ -171,69 +190,66 @@ Since topic modeling has been widely used in various spheres of SE, and it is re
 \section{Previous Work}
 
 Are the impacts of instability in LDA addressed in the text analytics? To answer that question, in April 2016, we searched scholar.google.com for the conjunction of “lda” and “topics” or “stable” or “unstable” or “coherence”. At the time of writing this paper, we got 475 results. We selected for papers since 2012, we got to 189 results. After discarding the non-SE papers, we read over this sample of 57 highly-cited SE text analytics papers. 28 papers talk about instability in LDA (more details can be found at \href{https://goo.gl/Bpc6Vb}{\textit{https://goo.gl/Bpc6Vb}}). Also, we found in that sample was that only two authors acknowledged the impact of tunings. About 35\% papers in our sample did not adjust the “off-the-shelf” configuration of the LDA. Among the other 65\%, 83\% papers, explored the configurations space with brute force. Their was not an effective and faster way of choosing the right set of parameters. Those papers, which accepted the problem of instability in LDA, came to some conclusions which can be found in Table \ref{tb:survey}. The literature review for rest of the papers are categorized in the following subsections.
-\begin{center}
-\begin{table*}[!htb]
-{\small
-\hfill{} 
-\begin{tabular}{|c|c|c|c|c|c|}
+
+\renewcommand\arraystretch{1.2}
+\begin{table*}[t!]
+\scriptsize
+  \centering
+    \begin{tabular}{|c|c|c|c|c|l|}
         \hline 
-        \multicolumn{1}{|p{1.3cm}|}{\centering \textbf{Reference} \\\textbf{ID}} & \textbf{Citations} & \multicolumn{1}{|p{1.3cm}|}{\centering \textbf{Mentions} \\\textbf{instability} \\\textbf{in LDA?}} & \multicolumn{1}{|p{2cm}|}{\centering \textbf{Talks} \\\textbf{about} \\\textbf{using} \\\textbf{off the} \\\textbf{shell} \\\textbf{parameters}?} & \multicolumn{1}{|p{1cm}|}{\centering \textbf{Does} \\\textbf{tuning?}} & \textbf{\textbf{Conclusion}}\\ [0.5ex]
+        \begin{tabular}[c]{@{}c@{}}\textbf{Reference} \\\textbf{ID}\end{tabular} & \textbf{Citations} & \begin{tabular}[c]{@{}c@{}}\textbf{Mentions} \\\textbf{instability} \\\textbf{in LDA?} \end{tabular} &\begin{tabular}[c]{@{}c@{}} \textbf{Talks about} \\\textbf{using-off-the} \\\textbf{shell parameters?}\end{tabular}&\begin{tabular}[c]{@{}c@{}} \textbf{Does} \\\textbf{tuning?}\end{tabular} & \multicolumn{1}{c|}{Conclusion} \\
         \hline
-        ~\cite{rao2011retrieval} & 112 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{oliveto2010equivalence} & 108 & Y & Y & N & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation. Reported their results using multiple experiments.\end{tabular}\\ [0.5ex]\hline
+        ~\cite{barua2014developers} & 96 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation. Choosing right set of parameters is a difficult task.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{oliveto2010equivalence} & 108 & Y & Y & N & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\\ Reported their results using multiple experiments\end{tabular} \\ [0.5ex]\hline
-        ~\cite{barua2014developers} & 96 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation \\Choosing right set of parameters is a difficult task\end{tabular} \\ [0.5ex]
+        ~\cite{panichella2013effectively} & 75 & Y & Y & Y  & \begin{tabular}[c]{@{}l@{}}Uses GA to tune parameters. They determine the near-optimal configuration for LDA in the context \\of only some important SE tasks.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{panichella2013effectively} & 75 & Y & Y & Y  & \begin{tabular}[c]{@{}l@{}}Uses GA to tune parameters. They determine the \\near-optimal configuration for LDA in the context \\of only some important SE tasks\end{tabular} \\ [0.5ex]
+        ~\cite{galvis2013analysis} & 61 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{galvis2013analysis} & 61 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{hindle2011automated} & 45 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}They validated the topic labelling techniques using multiple experiments.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{hindle2011automated} & 45 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}They validated the topic labelling techniques using \\multiple experiments.\end{tabular} \\ [0.5ex]
+        ~\cite{guzman2014users} & 44 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{guzman2014users} & 44 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{thomas2011mining} & 44 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Open issue to choose optimal parameters.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{thomas2011mining} & 44 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Open issue to choose optimal parameters\end{tabular} \\ [0.5ex]
+        ~\cite{chen2012explaining} & 35 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Choosing the optimal number of topics is difficult.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{chen2012explaining} & 35 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Choosing the optimal number of topics is difficult\end{tabular} \\ [0.5ex]
+        ~\cite{thomas2014studying} & 35 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{thomas2014studying} & 35 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{thomas2014static} & 31 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Choosing right set of parameters is a difficult task.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{thomas2014static} & 31 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Choosing right set of parameters is a difficult task\end{tabular} \\ [0.5ex]
+        ~\cite{bajracharya2009mining} & 29 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation and accepted to the fact their results were better\\because of the corpus they used.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{bajracharya2009mining} & 29 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation \\and accepted to the fact their results were better \\because of the corpus they used\end{tabular} \\ [0.5ex]
+        ~\cite{lohar2013improving} & 27 & Y & Y & Y  & \begin{tabular}[c]{@{}l@{}}Explored Configurations using LDA-GA.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{lohar2013improving} & 27 & Y & Y & Y  & \begin{tabular}[c]{@{}l@{}}Explored Configurations using LDA-GA\end{tabular} \\ [0.5ex]
+        ~\cite{linares2013exploratory} & 20 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}In Future, they planned to use LDA-GA.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{linares2013exploratory} & 20 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}In Future, they planned to use LDA-GA\end{tabular} \\ [0.5ex]
+        ~\cite{koltcov2014latent} & 15 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{koltcov2014latent} & 15 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{hindle2012relating} & 13 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation (Just with no. of topics).\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{hindle2012relating} & 13 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation \\(Just with no. of topics)\end{tabular} \\ [0.5ex]
+        ~\cite{grant2013using} & 13 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Their work focused on optimizing LDA’s topic count parameter.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{grant2013using} & 13 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Their work focused on optimizing LDA’s topic \\count parameter\end{tabular} \\ [0.5ex]
+        ~\cite{fu2015automated} & 6 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation. Choosing right set of parameters is a difficult task.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{fu2015automated} & 6 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\\ Choosing right set of parameters is a difficult task\end{tabular} \\ [0.5ex]
+        ~\cite{garousi2016citations} & 5 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{garousi2016citations} & 5 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{le2014predicting} & 5 & N & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{le2014predicting} & 5 & N & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation\end{tabular} \\ [0.5ex]
+        ~\cite{nikolenko2015topic} & 3 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}They improvised LDA into ISLDA which gave stability across different runs.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{nikolenko2015topic} & 3 & Y & Y & N  & \begin{tabular}[c]{@{}l@{}}They improvised LDA into ISLDA which gave \\stability across different runs\end{tabular} \\ [0.5ex]
+        ~\cite{sun2015msr4sm} & 2 & Y & Y & Y  & \begin{tabular}[c]{@{}l@{}}Explored Configurations using LDA-GA.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{sun2015msr4sm} & 2 & Y & Y & Y  & \begin{tabular}[c]{@{}l@{}}Explored Configurations using LDA-GA\end{tabular} \\ [0.5ex]
+        ~\cite{chen2016topic} & 0 & N & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation. Choosing right set of parameters is a difficult task.\end{tabular}\\ [0.5ex]
         \hline
-        ~\cite{chen2016topic} & 0 & N & Y & N  & \begin{tabular}[c]{@{}l@{}}Explored Configurations without any explanation. \\Choosing right set of parameters is a difficult task\end{tabular} \\ [0.5ex]
-        \hline
-        ~\cite{yang2015improving} & 2 & Y & N & N  & \begin{tabular}[c]{@{}l@{}}Uses modified frameworks of LDA. This is for \\classified datasets.\end{tabular} \\ [0.5ex]
+        ~\cite{yang2015improving} & 2 & Y & N & N  & \begin{tabular}[c]{@{}l@{}}Uses modified frameworks of LDA. This is for classified datasets.\end{tabular}\\ [0.5ex]
         \hline
 \end{tabular}
-}
-\hfill{}
-\newline
+
 \caption{Literature Survey}
 \label{tb:survey}
 \end{table*}
-\end{center}
+
 \subsection{Problems with LDA}
 \label{sect: problems}
 
