@@ -71,9 +71,6 @@ def jaccard(a, score_topics=[], term=0):
         if len(dic[x]) == 0:
             dic[x] = [0]
     file_data['citemap'] = dic
-
-
-# print(file_data)
     X = range(len(labels))
     Y_median = []
     Y_iqr = []
