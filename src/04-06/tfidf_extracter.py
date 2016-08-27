@@ -3,6 +3,8 @@ __author__ = 'amrit'
 import numpy as np
 from collections import Counter
 import os
+from demos import atom
+from demos import cmd
 
 def tf(corpus):
     mat = [token_freqs(doc) for doc in corpus]
@@ -39,7 +41,7 @@ def make_feature(corpus, method="tfidf", n_features=1000, file=''):
     if method == "tfidf":
         tfidf = tf_idf(mat)
         ## TOP 10%
-        index=len(tfidf)*0.1
+        index=int(len(tfidf)*0.05)
         #print(sorted(tfidf.iteritems(), key=lambda (k,v): (v,k), reverse=True))
         keys = np.array(tfidf.keys())[np.argsort(tfidf.values())][-index:]
         #print(keys)
@@ -62,15 +64,18 @@ def readfile(filename=''):
 
     return corpus
 
-if __name__ == '__main__':
-    path = '/home/amrit/GITHUB/Pits_lda/dataset/'
+def _test(res=''):
+    path = '/share/aagrawa8/Data/SO/'+str(res)+'/'
+    path1 = '/share/aagrawa8/Data/process/'+str(res)
+    l=[]
     for root, dirs, files in os.walk(path, topdown=False):
         for name in files:
             a = os.path.join(root, name)
             ##manual change needed
             reg = a.split('/')[6]
-            print a
             if (reg):
-                x=path + "10"+reg
-                data=readfile(a)
-                make_feature(data, method="tfidf",file=x)
+                l+=readfile(a)
+    make_feature(l, method="tfidf",file=path1)
+
+if __name__ == '__main__':
+    eval(cmd())

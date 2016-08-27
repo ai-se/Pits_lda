@@ -17,13 +17,15 @@ def cmd(com="demo('-h')"):
   return sys.argv[1] + '(' + ','.join(words) + ')'
 
 def _test(res=''):
-    path = 'share/aagrawa8/Data/SO/'
-    path1 = 'share/aagrawa8/Data/process/'
-    for root, dirs, files in os.walk(path+str(res)+'/', topdown=False):
+    #print res
+    path = '/share/aagrawa8/Data/SO/'+str(res)+'/'
+    path1 = '/share/aagrawa8/Data/process/'
+    #print path
+    for root, dirs, files in os.walk(path, topdown=False):
         for name in files:
             a = os.path.join(root, name)
-        ##manual change needed
-            reg = a.split('/')[5]
+            ##manual change needed
+            reg = a.split('/')[6]
             print a
             # pdb.set_trace()
             fo=open(path1+reg,'a+')

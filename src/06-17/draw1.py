@@ -50,7 +50,7 @@ if __name__ == '__main__':
             'size'   : 60}
 
     plt.rc('font', **font)
-    paras={'lines.linewidth': 10,'legend.fontsize': 35, 'axes.labelsize': 60, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    paras={'lines.linewidth': 10,'legend.fontsize': 35, 'axes.labelsize': 60, 'legend.frameon': False,'figure.autolayout': True}
     plt.rcParams.update(paras)
     X = range(len(labels))
     plt.figure(num=0, figsize=(25, 15))
@@ -81,9 +81,11 @@ if __name__ == '__main__':
             #print(Y_tuned)
         line, = plt.plot(X, Y_tuned,marker='o', markersize=20, label='Tuned '+file1)
         plt.plot(X, Y_untuned, linestyle="-.", color=line.get_color(), marker='*', markersize=20, label='Untuned '+file1)
-    plt.ylim(-0.1,1.1)
+        #plt.ytext(0.04, 0.5, va='center', rotation='vertical', fontsize=11)
+        #plt.text(0.04, 0.5,"Rn (Raw Score)", labelpad=100)
+    plt.ylim(-0.1,1.1, )
     plt.xticks(X, labels)
-    plt.ylabel("Rn (Raw Score)")
-    plt.xlabel("n (No. of terms overlap)")
+    plt.ylabel("Rn (Raw Score)", labelpad=30)
+    plt.xlabel("n (No. of terms overlap)",labelpad=30)
     plt.legend(bbox_to_anchor=(0.35, 0.8), loc=1, ncol = 1, borderaxespad=0.)
     plt.savefig("spark1" + ".png")
