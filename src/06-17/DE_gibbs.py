@@ -182,7 +182,8 @@ def _test(res=''):
 
 
     data_samples = readfile1(filepath + str(res))
-    labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    #labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    labels = [7,70,700,7000]
     start_time = time.time()
     random.seed(1)
     global bounds
@@ -220,7 +221,7 @@ def _test(res=''):
     time1[res]=time.time() - start_time
     l=[result,final_current_dic,final_para_dic,time1]
 
-    with open('dump/tuned_gibbs_'+res+'.pickle', 'wb') as handle:
+    with open('dump/tuned_gibbs_words'+res+'.pickle', 'wb') as handle:
         pickle.dump(l, handle)
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 

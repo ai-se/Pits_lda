@@ -12,7 +12,7 @@ import random
 import time
 import copy
 import operator
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os, pickle
 import final_gibbs
 
@@ -183,14 +183,15 @@ def readfile1(filename=''):
 def _test(res=''):
     #fileB = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF', 'processed_citemap.txt']
     #fileB = ['SE0.txt', 'SE6.txt', 'SE1.txt', 'SE8.txt', 'SE3.txt']
-    filepath = '/share/aagrawa8/Data/SE/'
+    #filepath = '/share/aagrawa8/Data/SE/'
+    filepath='/home/amrit/GITHUB/Pits_lda/dataset/SE/'
 
 
     data_samples, labellist = readfile1(filepath + str(res))
     labels = [5]#[1, 2, 3, 4, 5, 6, 7, 8, 9]
     start_time = time.time()
     random.seed(1)
-    global bounds
+    '''global bounds
     # stability score format dict, file,lab=score
     result={}
     # parameter variations (k,a,b), format, dict, file,lab,each score=k,a,b
@@ -230,12 +231,12 @@ def _test(res=''):
         pickle.dump(final_current_dic, handle)
         pickle.dump(final_para_dic, handle)
         pickle.dump(time1,handle)
-    print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
+    print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))'''
 
     ## Running the lda again with max score
-    l=final_para_dic[res][5][result[res][5]]
-    final_gibbs.main(k=l[0][0],alpha=l[0][1],beta=l[0][2],file=res,data_samples=data_samples, target=labellist)
-    #final_gibbs.main(k=10,alpha=0.1,beta=0.01,file=res,data_samples=data_samples, target=labellist)
+    #l=final_para_dic[res][5][result[res][5]]
+    #final_gibbs.main(k=l[0][0],alpha=l[0][1],beta=l[0][2],file=res,data_samples=data_samples, target=labellist)
+    final_gibbs.main(k=10,alpha=0.1,beta=0.01,file=res,data_samples=data_samples, target=labellist)
 
 
 bounds = [(10, 50), (0.1, 1), (0.1, 1)]

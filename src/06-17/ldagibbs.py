@@ -107,9 +107,17 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA(l, path1, file='',data_samples=[]):
+def _test_LDA(l, path1, file='',data_samples=[],term=0):
     n_topics = 10
     n_top_words = 10
+    if term==7:
+        n_top_words = 10
+    elif term==70:
+        n_top_words = 100
+    elif term==700:
+        n_top_words = 1000
+    elif term==7000:
+        n_top_words = 10000
 
     fileB = []
     fileB.append(file)
@@ -139,7 +147,7 @@ def main(*x, **r):
     # 1st r
     start_time = time.time()
     base = '/share/aagrawa8/Data/results/'
-    path = os.path.join(base, 'tuned_gibbs', r['file'], str(r['term']))
+    path = os.path.join(base, 'tuned_gibbs_words', r['file'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
     l = np.asarray(x)
@@ -149,12 +157,12 @@ def main(*x, **r):
         f.truncate()
 
 
-    topics = _test_LDA(l, path1, file=r['file'],data_samples=r['data_samples'])
+    topics = _test_LDA(l, path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']))
     top=[]
     for i in topics:
         temp=str(i.encode('ascii','ignore'))
         top.append(temp)
-    a = jaccard(b, score_topics=top, term=r['term'])
+    a = jaccard(b, score_topics=top, term=int(r['term']))
     fo = open(path1, 'a+')
     fo.write("\nRuntime: --- %s seconds ---\n" % (time.time() - start_time))
     fo.write("\nScore: " + str(a))

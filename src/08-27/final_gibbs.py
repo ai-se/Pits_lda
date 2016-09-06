@@ -13,6 +13,7 @@ from sklearn.feature_extraction import FeatureHasher
 from time import time
 import pickle
 import sys
+import operator
 
 from ABCD import ABCD
 
@@ -29,8 +30,8 @@ def main(**r):
     lda1.fit_transform(tf)
     docs = []
     tops = lda1.doc_topic_
-    print(tops[0])
-    print(tops[0].argmax())
+    #print(tops[0])
+    # print(tops[0].argmax())
     divider = randint(0, int(r['k']) - 1)
 
     '''for i in range(len(data_samples)):
@@ -109,11 +110,11 @@ def split_two(corpus, label, target_label):
             pos.append(i)
         else:
             neg.append(i)
-    print(pos)
+    #print(pos)
     ## corpus is of dictionary type.
     positive = corpus[pos]
     negative = corpus[neg]
-    print(positive)
+    #print(positive)
     return {'pos': positive, 'neg': negative}
 
 
@@ -179,10 +180,9 @@ def cross_val(data=[], thres=[0.02, 0.05], folds=5,
     def train_test(pos, neg, folds, index, issmote="no_smote", neighbors=5):
         pos_train, pos_test = cross_split(pos, folds=folds, index=index)
         neg_train, neg_test = cross_split(neg, folds=folds, index=index)
-        if issmote == "smote":
-            num = int((len(pos_train) + len(neg_train)) / 2)
-            pos_train = smote(pos_train, num, k=neighbors)
-            neg_train = neg_train[np.random.choice(len(neg_train), num, replace=False)]
+        num = int((len(pos_train) + len(neg_train)) / 2)
+        pos_train = smote(pos_train, num, k=neighbors)
+        neg_train = neg_train[np.random.choice(len(neg_train), num, replace=False)]
         data_train = np.vstack((pos_train, neg_train))
         data_test = np.vstack((pos_test, neg_test))
         label_train = ['pos'] * len(pos_train) + ['neg'] * len(neg_train)
@@ -204,8 +204,9 @@ def cross_val(data=[], thres=[0.02, 0.05], folds=5,
     #load = readfile(data=data, is_shingle=is_shingle, thres=thres)
     # = load['corpus']
     #targetlist = load['targetlist']
-    target_label = 'yes'
-
+    target_label = min(Counter(target).iteritems(), key=operator.itemgetter(1))[0]
+    #print(Counter(target))
+    #print(target_label)
     #data, label = make_feature(corpus, method=feature, n_features=n_feature)
     #print(data, label)
     split = split_two(corpus=data, label=target, target_label=target_label)
@@ -273,5 +274,12 @@ def _test(data=[],file='', targetlist=[]):
     print("\n")
     tmp = []
 
-    with open('dump/' + file + '_SE_DE.pickle', 'wb') as handle:
+    with open('dump/' + file + '_SE.pickle', 'wb') as handle:
         pickle.dump(F_final, handle)
+
+#SE0: Counter({'no': 6008, 'yes': 309})
+#SE1  Counter({'no': 47201, 'yes': 1441})
+#SE3  Counter({'no': 83583, 'yes': 654})
+#SE6  Counter({'no': 15865, 'yes': 439})
+#SE8  Counter({'no': 58076, 'yes': 195})
+
