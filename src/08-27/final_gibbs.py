@@ -181,6 +181,7 @@ def cross_val(data=[], thres=[0.02, 0.05], folds=5,
         pos_train, pos_test = cross_split(pos, folds=folds, index=index)
         neg_train, neg_test = cross_split(neg, folds=folds, index=index)
         num = int((len(pos_train) + len(neg_train)) / 2)
+        ##smoting
         pos_train = smote(pos_train, num, k=neighbors)
         neg_train = neg_train[np.random.choice(len(neg_train), num, replace=False)]
         data_train = np.vstack((pos_train, neg_train))

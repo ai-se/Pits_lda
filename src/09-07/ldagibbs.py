@@ -113,11 +113,13 @@ def _test_LDA(l, path1, file='',data_samples=[],term=0):
     if term==7:
         n_top_words = 10
     elif term==50:
-        n_top_words = 70
+        n_top_words = 100
     elif term==100:
-        n_top_words = 130
+        n_top_words = 1000
     elif term==200:
-        n_top_words = 240
+        n_top_words = 10000
+    elif term==400:
+        n_top_words = 10000
 
     fileB = []
     fileB.append(file)
@@ -146,11 +148,12 @@ def _test_LDA(l, path1, file='',data_samples=[],term=0):
 def main(*x, **r):
     # 1st r
     start_time = time.time()
-    base = '/share/aagrawa8/Data/results/'
-    path = os.path.join(base, 'tuned_gibbs_words', r['file'], str(r['term']))
+    base = '/home/amrit/GITHUB/Pits_lda/results/09-07/'
+    path = os.path.join(base, 'random_gibbs', r['file'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
-    l = np.asarray(x)
+    l = list(x)[0]
+    print(l)
     b = int(l[0])
     path1 = path + "/K_" + str(b) + "_a_" + str(l[1]) + "_b_" + str(l[2]) + ".txt"
     with open(path1, "w") as f:

@@ -183,7 +183,7 @@ def _test(res=''):
 
     data_samples = readfile1(filepath + str(res))
     #labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    labels = [7,70,700,7000]
+    labels = [7,50,100,200]
     start_time = time.time()
     random.seed(1)
     global bounds
@@ -204,7 +204,7 @@ def _test(res=''):
         pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                     random.uniform(bounds[2][0], bounds[2][1])]
                    for _ in range(10)]
-        v, score,para_dict,gen = de.solve(main, pop, iterations=1, file=res, term=lab, data_samples=data_samples)
+        v, score,para_dict,gen = de.solve(main, pop, iterations=3, file=res, term=lab, data_samples=data_samples)
         temp1[lab]=para_dict
         temp2[lab]=gen
         print(v, '->', score)

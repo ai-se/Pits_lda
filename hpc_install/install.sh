@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #cd /share2/aagrawa8/
 
 #wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
