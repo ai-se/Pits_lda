@@ -23,6 +23,6 @@ model.fit_transform(X)  # model.fit_transform(X) is also available
 doc_topic = model.doc_topic_
 topic_word = model.topic_word_  # model.components_ also works
 n_top_words = 8
-print(topic_word[0])
-for i in range(10):
-    print("{} (top topic: {})".format(titles[i], doc_topic[i].argmax()))
+print(topic_word)
+'''for i in range(10):
+    print("{} (top topic: {})".format(titles[i], doc_topic[i].argmax()))'''
