@@ -1,1 +1,2 @@
 # Pits_lda
+- Jaccard
