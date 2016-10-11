@@ -12,7 +12,6 @@ import random
 import time
 import copy
 import operator
-import matplotlib.pyplot as plt
 import os, pickle
 
 __all__ = ['DE']
@@ -38,7 +37,7 @@ class DE(object):
                 dic[i.fit].append(i.ind)
             else:
                 dic[i.fit]=[i.ind]
-        for _ in range(iterations):
+        for _ in xrange(iterations):
             trial_generation = []
 
             for ind in current_generation:
@@ -93,7 +92,7 @@ class DE(object):
         return generation
 
     def _get_indices(self, n, upto, but=None):
-        candidates = list(range(upto))
+        candidates = list(xrange(upto))
 
         if but is not None:
             # yeah O(n) but random.sample cannot use a set
@@ -151,18 +150,6 @@ class DE(object):
     CR = property(lambda self: self._CR, _set_CR, doc='Weight used during '
                                                       'bin crossover.')
 
-
-def cmd(com="demo('-h')"):
-    "Convert command line to a function call."
-    if len(sys.argv) < 2: return com
-
-    def strp(x): return isinstance(x, basestring)
-
-    def wrap(x): return "'%s'" % x if strp(x) else str(x)
-
-    words = map(wrap, map(atom, sys.argv[2:]))
-    return sys.argv[1] + '(' + ','.join(words) + ')'
-
 def readfile1(filename=''):
     dict = []
     with open(filename, 'r') as f:
@@ -176,28 +163,33 @@ def readfile1(filename=''):
 
 def call_lda(l,data_samples,res):
     tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
-
-    lda1 = lda.LDA(n_topics=int(l[0][0]), alpha=l[0][1], eta=l[0][2], n_iter=100)
-    base = '/share/aagrawa8/Data/results/'
-    path = os.path.join(base, 'topics_gibbs_stability', res)
-    if not os.path.exists(path):
-        os.makedirs(path)
-
-    path1 = path + "/K_" + str(int(l[0][0])) + "_a_" + str(l[0][1]) + "_b_" + str(l[0][2]) + ".txt"
-
+    tf = tf_vectorizer.fit_transform(data_samples)
     tf_feature_names = tf_vectorizer.get_feature_names()
-    #[str,str]
-    topics=get_top_words(lda1, path1, tf_feature_names, 7)
-    tops = lda1.doc_topic_
-    ##from doc_top_distribution
-    actual=[]
-    for i in data_samples:
-        actual.append(tops[i].argmax())
-    predicted=overlap(topics,data_samples)
-    actual=np.array(actual)
-    predicted=np.array(predicted)
-    value=float(np.sum(actual == predicted))/len(actual)
-    return value
+    max=0
+    for i in l:
+        lda1 = lda.LDA(n_topics=int(i[0]), alpha=i[1], eta=i[2], n_iter=200)
+        lda1.fit_transform(tf)
+        base = '/share/aagrawa8/Data/results/'
+        path = os.path.join(base, 'topics_gibbs_stability', res)
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        path1 = path + "/K_" + str(int(i[0])) + "_a_" + str(i[1]) + "_b_" + str(i[2]) + ".txt"
+
+        #[str,str]
+        topics=get_top_words(lda1, path1, tf_feature_names, 7)
+        tops = lda1.doc_topic_
+        ##from doc_top_distribution
+        actual=[]
+        for j in xrange(len(data_samples)):
+            actual.append(tops[j].argmax())
+        predicted=overlap(topics,data_samples)
+        actual=np.array(actual)
+        predicted=np.array(predicted)
+        value=float(np.sum(actual == predicted))/len(actual)
+        if value >=max:
+            max=value
+    return max
 
 def overlap(topics, data_samples):
     predicted = []
@@ -243,7 +235,7 @@ def _test(res=''):
         print(res+'\t'+str(lab))
         pop = [[random.randint(bounds[0][0], bounds[0][1]), random.uniform(bounds[1][0], bounds[1][1]),
                     random.uniform(bounds[2][0], bounds[2][1])]
-                   for _ in range(10)]
+                   for _ in xrange(10)]
         v, score,para_dict,gen = de.solve(main, pop, iterations=3, file=res, term=lab, data_samples=data_samples)
         temp1[lab]=para_dict
         temp2[lab]=gen
@@ -270,7 +262,7 @@ def _test(res=''):
 
     with open('dump/topics_gibbs_stability_'+res+'.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
-    print("\nTotal Score: --- %s %% ---\n" % (value[res]))
+    print("\nTotal Score: --- %s ---\n" % (value[res]))
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
 

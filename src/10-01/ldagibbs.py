@@ -52,9 +52,9 @@ def jaccard(a, score_topics=[], term=0):
     file_data = {}
     for doc in score_topics:
         l.append(doc.split())
-    for i in range(0, len(l), int(a)):
+    for i in xrange(0, len(l), int(a)):
         l1 = []
-        for j in range(int(a)):
+        for j in xrange(int(a)):
             l1.append(l[i + j])
         data.append(l1)
     dic = {}
@@ -71,7 +71,7 @@ def jaccard(a, score_topics=[], term=0):
         if len(dic[x]) == 0:
             dic[x] = [0]
     file_data['citemap'] = dic
-    X = range(len(labels))
+    X = xrange(len(labels))
     Y_median = []
     Y_iqr = []
     for feature in labels:
@@ -104,7 +104,7 @@ def _test_LDA(l, path1, file='',data_samples=[],term=0):
     #filepath = '/home/amrit/GITHUB/Pits_lda/dataset/'
     topics=[]
     for j, file1 in enumerate(fileB):
-        for i in range(10):
+        for i in xrange(10):
             #data_samples = readfile1(filepath + str(file1))
 
             # shuffling the list
@@ -113,7 +113,7 @@ def _test_LDA(l, path1, file='',data_samples=[],term=0):
             tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
             tf = tf_vectorizer.fit_transform(data_samples)
 
-            lda1 = lda.LDA(n_topics=int(l[0]), alpha=l[1], eta=l[2],n_iter=10)
+            lda1 = lda.LDA(n_topics=int(l[0]), alpha=l[1], eta=l[2],n_iter=200)
 
             lda1.fit_transform(tf)
 
@@ -130,8 +130,7 @@ def main(*x, **r):
     path = os.path.join(base, 'topics_gibbs_stability', r['file'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
-    l = list(x)[0]
-    print(l)
+    l = np.asarray(x)
     b = int(l[0])
     path1 = path + "/K_" + str(b) + "_a_" + str(l[1]) + "_b_" + str(l[2]) + ".txt"
     with open(path1, "w") as f:

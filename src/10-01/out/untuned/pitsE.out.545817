@@ -1,0 +1,44 @@
+
+Total Score: --- 0.615480649189 % ---
+
+
+Total Runtime: --- 2.97293519974 seconds ---
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n3i1-4>
+Subject: Job 545817: </share2/aagrawa8/miniconda2/bin/python2.7 untuned_10words.py _test pitsE> Done
+
+Job </share2/aagrawa8/miniconda2/bin/python2.7 untuned_10words.py _test pitsE> was submitted from host <login01.hpc.ncsu.edu> by user <aagrawa8> in cluster <henry2>.
+Job was executed on host(s) <8*n3i1-4>, in queue <shared_memory>, as user <aagrawa8> in cluster <henry2>.
+</home/aagrawa8> was used as the home directory.
+</home/aagrawa8/de> was used as the working directory.
+Started at Mon Oct 10 13:59:55 2016
+Results reported at Mon Oct 10 13:59:59 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share2/aagrawa8/miniconda2/bin/python2.7 untuned_10words.py _test pitsE
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      5.45 sec.
+    Max Memory :         3 MB
+    Max Swap   :        35 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/pitsE.err.545817> for stderr output of this job.
+
