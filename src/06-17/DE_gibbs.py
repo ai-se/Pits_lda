@@ -182,8 +182,7 @@ def _test(res=''):
 
 
     data_samples = readfile1(filepath + str(res))
-    #labels = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    labels = [7,50,100,200]
+    labels = [5, 6, 7, 8, 9]
     start_time = time.time()
     random.seed(1)
     global bounds
@@ -226,7 +225,7 @@ def _test(res=''):
     print("\nTotal Runtime: --- %s seconds ---\n" % (time.time() - start_time))
 
 
-bounds = [(10, 30), (0.1, 1), (0.1, 1)]
+bounds = [(10, 50), (0.1, 1), (0.1, 1)]
 max_fitness = 0
 if __name__ == '__main__':
     eval(cmd())

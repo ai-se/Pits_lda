@@ -147,7 +147,7 @@ def main(*x, **r):
     # 1st r
     start_time = time.time()
     base = '/share/aagrawa8/Data/results/'
-    path = os.path.join(base, 'tuned_gibbs_words', r['file'], str(r['term']))
+    path = os.path.join(base, '50_tuned_gibbs_words', r['file'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
     l = np.asarray(x)
