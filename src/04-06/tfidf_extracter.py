@@ -2,8 +2,6 @@ __author__ = 'amrit'
 
 import numpy as np
 from collections import Counter
-import os
-from demos import atom
 from demos import cmd
 
 def tf(corpus):
@@ -40,7 +38,7 @@ def make_feature(corpus, method="tfidf", n_features=1000, file=''):
     f1=open(file,'w')
     if method == "tfidf":
         tfidf = tf_idf(mat)
-        ## TOP 10%
+        ## TOP 5%
         index=int(len(tfidf)*0.05)
         #print(sorted(tfidf.iteritems(), key=lambda (k,v): (v,k), reverse=True))
         keys = np.array(tfidf.keys())[np.argsort(tfidf.values())][-index:]
@@ -65,16 +63,9 @@ def readfile(filename=''):
     return corpus
 
 def _test(res=''):
-    path = '/share/aagrawa8/Data/SO/'+str(res)+'/'
-    path1 = '/share/aagrawa8/Data/process/'+str(res)
-    l=[]
-    for root, dirs, files in os.walk(path, topdown=False):
-        for name in files:
-            a = os.path.join(root, name)
-            ##manual change needed
-            reg = a.split('/')[6]
-            if (reg):
-                l+=readfile(a)
+    path = '/share/aagrawa8/Data/Pits/'+str(res)
+    path1 = '/share/aagrawa8/Data/process/10'+str(res)
+    l=readfile(path)
     make_feature(l, method="tfidf",file=path1)
 
 if __name__ == '__main__':
