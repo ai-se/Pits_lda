@@ -50,7 +50,7 @@ if __name__ == '__main__':
             'size'   : 60}
 
     plt.rc('font', **font)
-    paras={'lines.linewidth': 10,'legend.fontsize': 35, 'axes.labelsize': 60, 'legend.frameon': False,'figure.autolayout': True}
+    paras={'lines.linewidth': 10,'legend.fontsize': 45, 'axes.labelsize': 60, 'legend.frameon': False,'figure.autolayout': True}
     plt.rcParams.update(paras)
     X = range(len(labels))
     plt.figure(num=0, figsize=(25, 15))
@@ -73,7 +73,7 @@ if __name__ == '__main__':
         #plt.text(0.04, 0.5,"Rn (Raw Score)", labelpad=100)
     #plt.ylim(-0.2,1.1, )
     plt.xticks(X, labels)
-    plt.ylabel("(Delta Score)", labelpad=30)
+    plt.ylabel("Delta (LDADE - Random)", labelpad=30)
     plt.xlabel("n (No. of terms overlap)",labelpad=30)
     plt.legend(bbox_to_anchor=(0.35, 0.9), loc=1, ncol = 1, borderaxespad=0.)
     plt.savefig("delta_randomness" + ".png")

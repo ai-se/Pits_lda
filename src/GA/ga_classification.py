@@ -18,12 +18,15 @@ f2_untuned={'SE6': {40: [0.78715056400196182, 0.80312185297079564, 0.79183266932
 f1_tuned_alpha_beta_k={'SE6': {7: 0.82}, 'SE3': {7: 0.56}, 'SE1': {7: 0.69}, 'SE0': {7: 0.71}, 'photo': {7: 0.81}, 'SE8': {7: 0.69}, 'scifi': {7: 0.81}, 'rpg': {7: 0.71}, 'cs': {7: 0.70}, 'diy': {7: 0.80}}
 f1_tuned_alpha_beta_10={'SE6': {7: 0.59}, 'SE3': {7: 0.42}, 'SE1': {7: 0.62}, 'SE0': {7: 0.44}, 'photo': {7: 0.41},'SE8': {7: 0.49}, 'scifi': {7: 0.56}, 'rpg': {7: 0.41}, 'cs': {7: 0.49}, 'diy': {7: 0.46}}
 
+f1_tunedga_alpha_beta_k={'SE6': {7: 0.79}, 'SE3': {7: 0.59}, 'SE1': {7: 0.75}, 'SE0': {7: 0.65}, 'photo': {7: 0.72}, 'SE8': {7: 0.64}, 'scifi': {7: 0.83}, 'rpg': {7: 0.66}, 'cs': {7: 0.68}, 'diy': {7: 0.74}}
+
 tuned_alpha_beta_k={'SE6': {7: 0.89}, 'SE3': {7: 0.56}, 'SE1': {7: 0.67}, 'SE0': {7: 0.78}, 'photo': {7: 0.89}, 'SE8': {7: 0.67}, 'scifi': {7: 0.89}, 'rpg': {7: 0.78}, 'cs': {7: 0.67}, 'diy': {7: 0.89}}
 tuned_alpha_beta_10={'SE6': {7: 0.56}, 'SE3': {7: 0.56}, 'SE1': {7: 0.67}, 'SE0': {7: 0.33}, 'photo': {7: 0.44},'SE8': {7: 0.44}, 'scifi': {7: 0.56}, 'rpg': {7: 0.44}, 'cs': {7: 0.44}, 'diy': {7: 0.44}}
 
 
 files = ['SE0', 'SE1', 'SE3', 'SE6', 'SE8', 'cs', 'diy', 'photo', 'rpg', 'scifi']
-topic=[74, 67, 87, 82,63,52,44,38,39,45]
+topic=   [74, 67, 87, 82,63,52,44,38,39,45]
+topic_ga=[66, 74, 89, 82,59,57,49,46,37,53]
 
 de_iqr={40: [0.0096767833902912104, 0.0053650727601135539, 0.049876554478127777, 0.0088398430743588108, 0.038822607915051155, 0.014841647465797414, 0.020089769132564439, 0.018999987525313122, 0.013373853474084818, 0.0068486896173866052], 80: [0.013818318699001964, 0.0049916418924949024, 0.032485674588791813, 0.010139905675560557, 0.026842875910991937, 0.013365395317341711, 0.017643091713148595, 0.017525279024725227, 0.015578494133034249, 0.010282707758319076], 20: [0.010711466907204925, 0.0032916291574041079, 0.026450842898855131, 0.0074681395198899492, 0.014246384932080913, 0.020950757153465283, 0.02554378182639, 0.015628828839760633, 0.0067810210701675366, 0.0060699041108205343], 200: [0.02567040746419591, 0.0054841473677104124, 0.046843632639126054, 0.013967611336032193, 0.094459943334897711, 0.026090248430638563, 0.015094636434490938, 0.017188310995224942, 0.015941749936372041, 0.013333039492242627]}
 de_med={40: [0.91787439613526578, 0.91876842450049134, 0.5236634531113058, 0.79126213592232997, 0.31040268456375836, 0.59449636552440288, 0.59701492537313439, 0.41404438555813183, 0.51072066706372832, 0.80042527339003644], 80: [0.91350040420371859, 0.91269841269841268, 0.63281250000000011, 0.83021890016017086, 0.28691813804173355, 0.58043117744610284, 0.60474669100867184, 0.40238918579063193, 0.51317401960784315, 0.88364249578414844], 20: [0.9105180533751962, 0.90689432989690733, 0.37973667308927428, 0.4878880928010918, 0.25453277545327752, 0.53420805998125587, 0.46875, 0.39053591790193837, 0.50778158797151141, 0.73294829482948298], 200: [0.88455149501661134, 0.90704272363150884, 0.69111852076386771, 0.76436478650500794, 0.48928571428571427, 0.5869957856712823, 0.66740823136818694, 0.42264150943396228, 0.48524404086265605, 0.86365241963970329]}
@@ -33,16 +36,20 @@ untuned_med = []
 untuned_iqr=[]
 tuned_med = {}
 tuned_iqr = {}
+
 for x in f1_untuned['SE6'].keys():
     if x!=10:
         tuned_med[x]=[]
         tuned_iqr[x] = []
 
+
 tuned_k=[]
 tuned_10=[]
+tunedga_k=[]
 for i in files:
     tuned_k.append(f1_tuned_alpha_beta_k[i][7])
     tuned_10.append(f1_tuned_alpha_beta_10[i][7])
+    tunedga_k.append(f1_tunedga_alpha_beta_k[i][7])
     for k, v in f1_untuned[i].iteritems():
         if k==10:
             untuned_med.append(np.median(f1_untuned[i][k]))
@@ -51,10 +58,6 @@ for i in files:
             tuned_med[k].append(np.median(f1_untuned[i][k]))
             tuned_iqr[k].append(np.percentile(f1_untuned[i][k], 75) - np.percentile(f1_untuned[i][k], 25))
 
-print(tuned_iqr)
-print(tuned_med)
-print(tuned_k)
-print(tuned_10)
 
 font = {'family': 'normal',
         'weight': 'bold',
@@ -72,20 +75,26 @@ plt.figure(figsize=(40, 25))
 #     line, = plt.plot(X, tuned_med[i], marker='o', markersize=16, label='tuned '+str(i))
 #     plt.plot(X, tuned_iqr[i], linestyle="-.", color=line.get_color(), marker='*', markersize=16)
 
-line, = plt.plot(X, untuned_med, marker='o', markersize=16, label='untuned_10')
-plt.plot(X, untuned_iqr, linestyle="-.",color=line.get_color(), marker='*', markersize=16, label='untuned_10 iqr')
+# line, = plt.plot(X, untuned_med, marker='o', markersize=16, label='untuned_10')
+# plt.plot(X, untuned_iqr, linestyle="-.",color=line.get_color(), marker='*', markersize=16, label='untuned_10 iqr')
 
-line, =plt.plot(X, tuned_k, marker='o', markersize=16, label='tuned_k')
-plt.plot(X, tuned_iqr[40], linestyle="-.",color=line.get_color(), marker='*', markersize=16, label='tuned_k iqr')
+line, =plt.plot(X, tuned_k, marker='o', markersize=16, label='LDADE med')
+plt.plot(X, tuned_iqr[40], linestyle="-.",color=line.get_color(), marker='*', markersize=16, label='LDADE iqr')
 for i,text in enumerate(topic):
     plt.annotate(text,(X[i],tuned_k[i]))
-line, = plt.plot(X, tuned_10, marker='o', markersize=16, label='tuned 10')
-plt.plot(X, tuned_iqr[80], linestyle="-.",color=line.get_color(), marker='*', markersize=16, label='tuned 10 iqr')
+
+line, = plt.plot(X, tunedga_k, marker='o', markersize=16, label='LDA-GA med')
+plt.plot(X, tuned_iqr[20], linestyle="-.", color=line.get_color(), marker='*', markersize=16, label='LDA-GA iqr')
+for i, text in enumerate(topic_ga):
+    plt.annotate(text, (X[i], tunedga_k[i]))
+
+# line, = plt.plot(X, tuned_10, marker='o', markersize=16, label='tuned 10')
+# plt.plot(X, tuned_iqr[80], linestyle="-.",color=line.get_color(), marker='*', markersize=16, label='tuned 10 iqr')
 
 plt.ylim(0.0,1.0)
 #plt.axhline(0, color='black')
 plt.xticks(X, files)
 plt.ylabel("F1 scores")
 plt.xlabel("Datasets")
-plt.legend(bbox_to_anchor=(0.95, 1.05), loc=1, ncol=3, borderaxespad=0.)
-plt.savefig("F1_temp" + ".png")
+plt.legend(bbox_to_anchor=(0.75, 1.00), loc=1, ncol=2, borderaxespad=0.)
+plt.savefig("F1_ga" + ".png")
